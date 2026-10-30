@@ -1,3 +1,16 @@
+Package: agate
+Architecture: aarch64
+Installed-Size: 2116
+Maintainer: @termux
+Version: 3.3.25-1
+Homepage: https://github.com/mbrubeck/agate
+Description: Very simple server for the Gemini hypertext protocol
+Filename: ./agate_3.3.25-1_aarch64.deb
+Size: 796760
+MD5sum: e55e9e282f1f82c22e8751bd54cf0321
+SHA1: bedddc9921455264fd4d7a236b0c861562166242
+SHA256: 16dfaa69346ca7e8c8054a9d0793699541b55dcab68b6ed70edf99ab19b744e8
+
 Package: cec-client
 Architecture: aarch64
 Installed-Size: 184
@@ -25,6 +38,48 @@ Size: 93412
 MD5sum: c9c202b12747f9166a426ebb20e32f5c
 SHA1: f5067f4c4daaf25e2516a4d995999afe6aa059b9
 SHA256: 10c1030de4a8812c00fe1bfcf8d722383adb06c2f322b2ce8aee867920f5a5ce
+
+Package: dvdauthor
+Architecture: aarch64
+Installed-Size: 612
+Maintainer: @termux
+Version: 0.7.2-5
+Homepage: https://dvdauthor.sourceforge.net/
+Depends: fontconfig, freetype, fribidi, graphicsmagick, libdvdread, libpng, libxml2
+Description: Generates a DVD-Video movie from a valid MPEG-2 stream
+Filename: ./dvdauthor_0.7.2-5_aarch64.deb
+Size: 151204
+MD5sum: efe9c59b986f1d20ea1a4c24b5b31beb
+SHA1: be8b7d9f008c7b683650426c1ba5bd0d9ad9b099
+SHA256: 2b2c95c572d8e67df74ec514f23355e3006063a76f8fdc136f91b974d25926f2
+
+Package: enchant-static
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 2.8.21-1
+Homepage: https://rrthomas.github.io/enchant/
+Depends: enchant (= 2.8.21-1)
+Description: Static libraries for enchant
+Filename: ./enchant-static_2.8.21-1_aarch64.deb
+Size: 27564
+MD5sum: 0c5fbdddd24244182aca0ff4f165b002
+SHA1: c3b6f7a3aaaee06e4a862cd54bb2360d1e3b3651
+SHA256: b5893ca41efb1f82a23fad4374271d7fbc92c2ebf8aa6c22181bb95a5bcaa766
+
+Package: enchant
+Architecture: aarch64
+Installed-Size: 324
+Maintainer: @termux
+Version: 2.8.21-1
+Homepage: https://rrthomas.github.io/enchant/
+Depends: aspell, glib, hunspell, libc++
+Description: Wraps a number of different spelling libraries and programs with a consistent interface
+Filename: ./enchant_2.8.21-1_aarch64.deb
+Size: 62268
+MD5sum: cb0651be5275b58c43f9e2108aad233b
+SHA1: 65dda203c043036522c70415efa41defdf6db74c
+SHA256: 8cd6b6b718550541ed0eb410e93f546bd5325655fb6a54d80ae2ea2194300467
 
 Package: faust-static
 Architecture: aarch64
@@ -68,6 +123,19 @@ MD5sum: cc0b933dbd1a72edb8cac7901328cc17
 SHA1: e35cb64c9a917fb5c784581a6bf57e835e1393ba
 SHA256: 30c2718c5a275aa56d8dd1601edb2587d658124fd11dac9735a97d1a1974ec35
 
+Package: glab-cli
+Architecture: aarch64
+Installed-Size: 50448
+Maintainer: @termux
+Version: 1.126.0-1
+Homepage: https://gitlab.com/gitlab-org/cli
+Description: A GitLab CLI tool bringing GitLab to your command line
+Filename: ./glab-cli_1.126.0-1_aarch64.deb
+Size: 12086184
+MD5sum: f379a0847f430103612fb81b831359f2
+SHA1: 18ade8e816bcf6550ef81e7632d523e120e3456e
+SHA256: c968460ee7c5f4f579e1d135c0f15472634745b0459d369e4db85569290fa436
+
 Package: glib-networking
 Architecture: aarch64
 Installed-Size: 188
@@ -95,6 +163,49 @@ Size: 30012
 MD5sum: 9cbac3fad5663f4dfe9bbffa0ffcdf53
 SHA1: dd78714aaf265466145f40dc4e685a14cbbdc101
 SHA256: 7713451359382e08755455d4b7011c035f739cf63ab7d8f53d38db14d6a5ab04
+
+Package: hunspell-en-us
+Architecture: all
+Installed-Size: 584
+Maintainer: @termux
+Version: 20240129-1
+Homepage: https://hunspell.github.io
+Description: American english dictionary for hunspell
+Filename: ./hunspell-en-us_20240129-1_all.deb
+Size: 162128
+MD5sum: dd4ec254a685475e25c8b9e2e4492c84
+SHA1: 0d83fafdf63649850865faab00e209d5fda82c19
+SHA256: 23c8d841ad0bff22081f57b5dd02c7628a0d5bd54206f37b88c6cf19b2645c35
+
+Package: hunspell-static
+Architecture: aarch64
+Installed-Size: 1828
+Maintainer: @termux
+Version: 1.7.6-1
+Homepage: https://hunspell.github.io
+Depends: hunspell (= 1.7.6-1)
+Description: Static libraries for hunspell
+Filename: ./hunspell-static_1.7.6-1_aarch64.deb
+Size: 217724
+MD5sum: 5f07dffd6da64d324af66d2512276f7a
+SHA1: 13bd13808eca4d40768bad2ddab763e41010eb7b
+SHA256: 5a534e98179c277281b1e16a031d880ae669c8728b15c201b09e6f821e299d1a
+
+Package: hunspell
+Architecture: aarch64
+Installed-Size: 1012
+Maintainer: @termux
+Version: 1.7.6-1
+Homepage: https://hunspell.github.io
+Breaks: hunspell-dev
+Depends: libc++, libiconv, ncurses, readline, hunspell-en-us
+Replaces: hunspell-dev
+Description: Spell checker
+Filename: ./hunspell_1.7.6-1_aarch64.deb
+Size: 223540
+MD5sum: 2b5b15988056a861a3d7654398cc773d
+SHA1: 831677939538d81808bba00c2571308f4a66b3e2
+SHA256: eba4de7cfc1e1ee0f837fc81784cb712a397afd97a79be2c71c71245a1022348
 
 Package: hurl
 Architecture: aarch64
