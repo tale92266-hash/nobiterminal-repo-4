@@ -39,6 +39,20 @@ MD5sum: e55e9e282f1f82c22e8751bd54cf0321
 SHA1: bedddc9921455264fd4d7a236b0c861562166242
 SHA256: 16dfaa69346ca7e8c8054a9d0793699541b55dcab68b6ed70edf99ab19b744e8
 
+Package: apache-orc
+Architecture: aarch64
+Installed-Size: 2016
+Maintainer: @termux
+Version: 2.3.1-3
+Homepage: https://orc.apache.org/
+Depends: libc++, liblz4, libprotobuf, libsnappy, zlib, zstd
+Description: Columnar storage for Hadoop workloads
+Filename: ./apache-orc_2.3.1-3_aarch64.deb
+Size: 407612
+MD5sum: ef321c8b54e657729578967d8411610b
+SHA1: f32772b3c55a51cbc2968de27438f7fa98ac85c7
+SHA256: 15570203e01355a691b975c70493774d196a406b3bb6ae373883b8f2f31e4ea4
+
 Package: cec-client
 Architecture: aarch64
 Installed-Size: 184
@@ -289,6 +303,20 @@ MD5sum: ee63cae25d2e5dd5cdb098cf8aa73c83
 SHA1: 63103d394783e6efff48d52a12fb8b3d0e4f3275
 SHA256: f440c157b38f6b4b94a81a5eed99cc7dc61b57ed4a597a8243e0874d4ee1ffdc
 
+Package: gomuks
+Architecture: aarch64
+Installed-Size: 24156
+Maintainer: @termux
+Version: 26.10-2
+Homepage: https://go.mau.fi/gomuks
+Depends: libolm, resolv-conf
+Description: A terminal Matrix client written in Go
+Filename: ./gomuks_26.10-2_aarch64.deb
+Size: 6051124
+MD5sum: 8e377a00439cd187a42903aab8f533f6
+SHA1: 7b1f060c13e4edc813bbe4417a5758df686b5c78
+SHA256: 83834a524f834763547c3aa2f82fbf5c681150f7de60e52783748c369c580283
+
 Package: gpsbabel
 Architecture: aarch64
 Installed-Size: 2444
@@ -302,6 +330,61 @@ Size: 718148
 MD5sum: 894b0a291016d09d7c9e9fcd8751c60d
 SHA1: 316cb0b07bf2f042e46977bb954d292587d4fb9d
 SHA256: 88618742b0dad45b2dfd223c2491e84f78461f84dc01d43be238eac980fb5be4
+
+Package: greed
+Architecture: aarch64
+Installed-Size: 552
+Maintainer: @termux
+Version: 5.2-1
+Homepage: http://www.catb.org/~esr/greed/
+Depends: ncurses
+Description: Game where you try to eat as much as possible of the board before munching yourself into a corner
+Filename: ./greed_5.2-1_aarch64.deb
+Size: 198112
+MD5sum: 439ce1b87f6cbc3ee3b787732493164f
+SHA1: 013124c6e54246649506d48b5845286c32fcb4d1
+SHA256: 9bbfa49716dae2b4b1043e9dda757ff46ab093a18f4147ad20f706d06ce98816
+
+Package: grex
+Architecture: aarch64
+Installed-Size: 2620
+Maintainer: @termux
+Version: 1.4.6-2
+Homepage: https://github.com/pemistahl/grex
+Description: Simplifies the task of creating regular expressions
+Filename: ./grex_1.4.6-2_aarch64.deb
+Size: 682592
+MD5sum: 826e02f395cc88a72debd70ad4868532
+SHA1: 09e9edec21ebb970ac4f7eec68ae48b70c04ab3d
+SHA256: a42df198b21d42fd6f42da3341c8691e788ec6a3d2c9bb222ede69a6ae7a2570
+
+Package: groff
+Architecture: aarch64
+Installed-Size: 33408
+Maintainer: @termux
+Version: 1.24.2-1
+Homepage: https://www.gnu.org/software/groff/
+Depends: libc++, mandoc, perl, uchardet
+Suggests: ghostscript
+Description: typesetting system that reads plain text mixed with formatting commands and produces formatted output
+Filename: ./groff_1.24.2-1_aarch64.deb
+Size: 5820564
+MD5sum: 1d1d4ba4ff80c82eb8e558bc59043139
+SHA1: 500a2ea4aff16a440d184ed398eee64347156e50
+SHA256: aad3e57181968f7824655bb59633465fb27e32d7a08af018989610bd23cfeb2a
+
+Package: gron
+Architecture: aarch64
+Installed-Size: 7128
+Maintainer: @termux
+Version: 0.7.1-6
+Homepage: https://github.com/tomnomnom/gron
+Description: Transforms JSON into discrete assignments
+Filename: ./gron_0.7.1-6_aarch64.deb
+Size: 2081892
+MD5sum: 68935e8c3bee37325c9868bb9dfe632a
+SHA1: 3c140394b7832aba7a78dc7205a63cdef88acbc6
+SHA256: 9b4405555ebd89188307e987152840072326a7845c8e085e2f1db943465c8330
 
 Package: gsasl
 Architecture: aarch64
@@ -1573,6 +1656,19 @@ MD5sum: a1d25dddbd1f429349ea1eb7834384b8
 SHA1: 0ba735ab033a3d3c5f7b4197662e1ba99244326a
 SHA256: d2b44fcec0dbe60412f152fd782c87b17f69c7b39bb1a464c42cf3145e62f7c5
 
+Package: libolm
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: @termux
+Version: 3.2.16-3
+Homepage: https://matrix.org/docs/projects/other/olm/
+Description: An implementation of the Double Ratchet cryptographic ratchet
+Filename: ./libolm_3.2.16-3_aarch64.deb
+Size: 93488
+MD5sum: a22b7fd8348465053412a80c1eb623c8
+SHA1: 8b60029a74be664f4e1b0970055e15364f2ba85e
+SHA256: c279079727475e132a486c5ec4558bfd03c4aa08e17b8755fd6e09ccbe149cb7
+
 Package: libp8-platform
 Architecture: aarch64
 Installed-Size: 400
@@ -1715,6 +1811,34 @@ Size: 69540
 MD5sum: db2e584188f2e8463669caa2ff9b8ca2
 SHA1: c811e220faf289446d4ffc5f45e92de51b6eeba1
 SHA256: 43dc814952cd6c5967d40f42cb05189836dcb8f2c7e0cae1d90930c5b35fa7cf
+
+Package: libuchardet-static
+Architecture: aarch64
+Installed-Size: 380
+Maintainer: @termux
+Version: 0.0.8-3
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Depends: libuchardet (= 0.0.8-3)
+Description: Static libraries for libuchardet
+Filename: ./libuchardet-static_0.0.8-3_aarch64.deb
+Size: 75044
+MD5sum: ecb54d13fef0af5b9613368f17295a0b
+SHA1: a68927bfd6dc8742ab27c6f0fc84a35d4c539304
+SHA256: d489b73f6f39caae3714fde5c03b1fa5d6a5d35c2b09e4d30e1cebc0b6baae79
+
+Package: libuchardet
+Architecture: aarch64
+Installed-Size: 404
+Maintainer: @termux
+Version: 0.0.8-3
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Depends: libc++
+Description: An encoding detector library
+Filename: ./libuchardet_0.0.8-3_aarch64.deb
+Size: 100232
+MD5sum: 48c424f5e41977a78714b4e196255ea0
+SHA1: 51f26eb1dc4439a8e2cbfd59eba643af68a0fd01
+SHA256: 392e19aaa2a6293379a386c192c8de63ccf727c70b2d42408f717add3443469c
 
 Package: libunistring-static
 Architecture: aarch64
@@ -2088,6 +2212,20 @@ Size: 10576
 MD5sum: 515b91760748f803babbbef336b5ed11
 SHA1: 95d3b57eea05cf6b2bbec025c2d4a8e91527d8d0
 SHA256: 086e0ad54b96dca8f5551f21ff45d7586b09050bade958ff85e2323ab82e9388
+
+Package: uchardet
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 0.0.8-3
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Depends: libuchardet (= 0.0.8-3)
+Description: An encoding detector utility
+Filename: ./uchardet_0.0.8-3_aarch64.deb
+Size: 3636
+MD5sum: 21df201a681f4d9dfe3ca736d11257dc
+SHA1: 706d32f021dfe0d312274238b0dea6d7785efc47
+SHA256: 94bd944a4c7b1ae7ad36e7d77a37d5bdb4917a1156a72d99bb9b7aaa9ab0eedc
 
 Package: vim
 Architecture: aarch64
