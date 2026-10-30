@@ -1406,6 +1406,34 @@ MD5sum: ab3a8a613713a097342ac6a45c94a9fb
 SHA1: 895e7cc4708c20d96dee82f75cc5f6d3c3703578
 SHA256: 0c1931879a236df9899a24e151293c7ad8f9de89844d77926884985a8f8d8d65
 
+Package: libmodplug-static
+Architecture: aarch64
+Installed-Size: 948
+Maintainer: @termux
+Version: 0.8.9.1.r461-2
+Homepage: https://modplug-xmms.sourceforge.net/
+Depends: libmodplug (= 0.8.9.1.r461-2)
+Description: Static libraries for libmodplug
+Filename: ./libmodplug-static_0.8.9.1.r461-2_aarch64.deb
+Size: 172208
+MD5sum: b6dee51b246f9997f4bb1acdfc7222eb
+SHA1: 0f76f170a6899995290a4f7758bbd5c34e5f62bc
+SHA256: 4858ac30fdf12298aa7c9569c920f59ea06441484da588630fde1c40c53505d0
+
+Package: libmodplug
+Architecture: aarch64
+Installed-Size: 364
+Maintainer: @termux
+Version: 0.8.9.1.r461-2
+Homepage: https://modplug-xmms.sourceforge.net/
+Depends: libc++
+Description: The ModPlug mod file playing library
+Filename: ./libmodplug_0.8.9.1.r461-2_aarch64.deb
+Size: 130040
+MD5sum: 0b5436353dc69e46d248a8570b19a075
+SHA1: 9b96540bf84a0f4c1c3c98eaf94a774c2ccaa9b9
+SHA256: 67956f146b20bbccca9f0d681238ad24aeb6ff28ec199cc29b51e9ec0d188e6d
+
 Package: libmpfr-static
 Architecture: aarch64
 Installed-Size: 1120
@@ -1503,6 +1531,20 @@ Size: 4208872
 MD5sum: 4dd032ed1c6b1c0918fb41a29c995945
 SHA1: 3df97f13f3c8f21176d27692c2fb2a6323980fe7
 SHA256: 1893f5e30fcbe85e570e5e6964019b4f1169c06b5992afe918dd2c172981f7b4
+
+Package: libplacebo
+Architecture: aarch64
+Installed-Size: 1656
+Maintainer: @termux
+Version: 7.387.0-1
+Homepage: http://libplacebo.org/
+Depends: littlecms, glslang, python, vulkan-icd
+Description: Reusable library for GPU-accelerated video/image rendering
+Filename: ./libplacebo_7.387.0-1_aarch64.deb
+Size: 451176
+MD5sum: 3b04a0c2f275af29b402e9155361e6ed
+SHA1: 9a1ac3d26b1a60b153562b5afd4346d14fc77929
+SHA256: 1b858632b92fc0933f801d4f6ae3746cb57662b1e81953592c49170ad04aa610
 
 Package: libsixel
 Architecture: aarch64
