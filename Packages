@@ -513,6 +513,32 @@ MD5sum: bde0ee3d97f3ca4fa0091c7683297338
 SHA1: 03d2a806ddc4598c5120a577403595c0bfc3b555
 SHA256: ec96944fe805a33ce21557325a8d50def2ddc9081efb243d38ca92baeb05e4e5
 
+Package: gurk
+Architecture: aarch64
+Installed-Size: 25128
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.10.2-1
+Homepage: https://github.com/boxdot/gurk-rs
+Description: Signal messenger client for terminal
+Filename: ./gurk_0.10.2-1_aarch64.deb
+Size: 5886148
+MD5sum: 472d568ade873c5a1fab18ec748bdebe
+SHA1: ef31551007d18b5acd3f325b530d71765b2303a2
+SHA256: c51ed1200be5f012661177cca48ee41ec03f51fcfc6abefa958fe0e37569ff67
+
+Package: gweather-locations
+Architecture: aarch64
+Installed-Size: 2344
+Maintainer: @termux
+Version: 2026.2-1
+Homepage: https://gitlab.gnome.org/GNOME/gweather-locations
+Description: The GWeather locations database
+Filename: ./gweather-locations_2026.2-1_aarch64.deb
+Size: 394780
+MD5sum: 36f1919be7cffe669ddfb997bbaaba1d
+SHA1: 11d5bd81a25c7c068b0aba35e14efe6a0a5695b3
+SHA256: 2906dd3307d1cc3484572b1e1c9447413fafca16504510216a9ec31f212bad2d
+
 Package: hicolor-icon-theme
 Architecture: all
 Installed-Size: 108
