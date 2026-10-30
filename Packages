@@ -82,6 +82,20 @@ MD5sum: ee63cae25d2e5dd5cdb098cf8aa73c83
 SHA1: 63103d394783e6efff48d52a12fb8b3d0e4f3275
 SHA256: f440c157b38f6b4b94a81a5eed99cc7dc61b57ed4a597a8243e0874d4ee1ffdc
 
+Package: gsasl
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 2.2.4-1
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libgnutls, libiconv, readline, libgsasl (= 2.2.4-1)
+Description: GNU SASL library command line interface
+Filename: ./gsasl_2.2.4-1_aarch64.deb
+Size: 30012
+MD5sum: 9cbac3fad5663f4dfe9bbffa0ffcdf53
+SHA1: dd78714aaf265466145f40dc4e685a14cbbdc101
+SHA256: 7713451359382e08755455d4b7011c035f739cf63ab7d8f53d38db14d6a5ab04
+
 Package: hurl
 Architecture: aarch64
 Installed-Size: 6840
@@ -108,6 +122,20 @@ Size: 2943024
 MD5sum: 57373d1f0bc1446436a5be37bcdf455e
 SHA1: 97deed2fe08842c3e4eaaa1a0d5fc668512692db
 SHA256: f9a5b469f00c3be1fe93e838550877c54dc8e13c2d8535613f550b2dc622dff6
+
+Package: janet
+Architecture: aarch64
+Installed-Size: 780
+Maintainer: Komo @mbekkomo
+Version: 1.42.1-1
+Homepage: https://janet-lang.org
+Depends: libjanet (= 1.42.1-1)
+Description: Janet is a dialect of Lisp intended for embedding into programs and such
+Filename: ./janet_1.42.1-1_aarch64.deb
+Size: 253104
+MD5sum: 35763f2da1192b2c2f05f046296137c9
+SHA1: f60035e7412a120eeeef9f37f2a86f6f27e58609
+SHA256: 29aed25933b72d83f3b88cf06cfdb8aa962f77338042b50452441d185f4d2a77
 
 Package: jfrog-cli
 Architecture: aarch64
@@ -191,6 +219,20 @@ Size: 473412
 MD5sum: a2c319eac1977830c543f232e3c96cf1
 SHA1: 35ff91138d27bd32ff2132bb0714d58a7bcc115e
 SHA256: 0dcb3af72927aec149824470066f86ea5a9b57edd79fe5b8d6f1c98946a3aaed
+
+Package: knot-utils
+Architecture: aarch64
+Installed-Size: 520
+Maintainer: @termux
+Version: 3.6.2-1
+Homepage: https://www.knot-dns.cz/
+Depends: libedit, libidn2, libnghttp2, resolv-conf, libknot (= 3.6.2-1)
+Description: Knot DNS utilities
+Filename: ./knot-utils_3.6.2-1_aarch64.deb
+Size: 100552
+MD5sum: 5d8a28c0b99c053397d1fd3a142bb852
+SHA1: c8f51250db4fea6290413393e33de46c408234cb
+SHA256: 1bc303a67ff3fff2268472a8e2072a77f9f5dc70b0d8e780725b4e5bf96baa04
 
 Package: lcal
 Architecture: aarch64
@@ -757,6 +799,36 @@ MD5sum: 5729753eaaab2ab1b0489b1a72072f8e
 SHA1: a49c02dcf8cd4888ac42b833f1251918d640ba35
 SHA256: 2384e0b2b2d3c3ce66bbdb5b88dd798551856d9de4f36a77429f588f928409fd
 
+Package: libgsasl-static
+Architecture: aarch64
+Installed-Size: 472
+Maintainer: @termux
+Version: 2.2.4-1
+Homepage: https://www.gnu.org/software/gsasl
+Depends: libgsasl (= 2.2.4-1)
+Description: Static libraries for libgsasl
+Filename: ./libgsasl-static_2.2.4-1_aarch64.deb
+Size: 69028
+MD5sum: 5afddb8dbec0981c208572b37f320ccb
+SHA1: e89ae22fcc05fc193bbd60bbbec31b1c1f8ce44b
+SHA256: 84ad91fba3b1be80520e7a8e640ded75a7e5f9941498e834139b69e87cd0fa82
+
+Package: libgsasl
+Architecture: aarch64
+Installed-Size: 640
+Maintainer: @termux
+Version: 2.2.4-1
+Homepage: https://www.gnu.org/software/gsasl
+Breaks: libgsasl-dev
+Depends: libidn
+Replaces: libgsasl-dev
+Description: GNU SASL library
+Filename: ./libgsasl_2.2.4-1_aarch64.deb
+Size: 135636
+MD5sum: af2c3dc870a7e258aa414a0658438b2e
+SHA1: 5ae413a052f7ea9f9ce3b7d129cad4ef22e79935
+SHA256: 07a76ab40442961721dd4769357c129a3a96933b391cd3caaec7611105e4f66a
+
 Package: libidn2-static
 Architecture: aarch64
 Installed-Size: 296
@@ -770,6 +842,104 @@ Size: 73428
 MD5sum: 4b64c3934c563692fb73d9a5803c1f2c
 SHA1: 1ac37c83bf80f6f0730c7b754fef2d7260e271b2
 SHA256: e3ed74c2986a372b401c30c6e7e0118ca0e79f8cd936f269e5d24878d5df9e59
+
+Package: libjanet-static
+Architecture: aarch64
+Installed-Size: 1084
+Maintainer: Komo @mbekkomo
+Version: 1.42.1-1
+Homepage: https://janet-lang.org
+Depends: libjanet (= 1.42.1-1)
+Description: Static libraries for libjanet
+Filename: ./libjanet-static_1.42.1-1_aarch64.deb
+Size: 278716
+MD5sum: e619be4642883d6290c1728409b4b202
+SHA1: 2813af2b3da6d982051406e30e2a9829f12b3849
+SHA256: f4522442b459d0e27a5e83b1fcfb38e0d84262485d64b65ccc8d617c0be2b20b
+
+Package: libjanet
+Architecture: aarch64
+Installed-Size: 952
+Maintainer: Komo @mbekkomo
+Version: 1.42.1-1
+Homepage: https://janet-lang.org
+Depends: libandroid-spawn
+Description: Development library for Janet
+Filename: ./libjanet_1.42.1-1_aarch64.deb
+Size: 284504
+MD5sum: 76563a5564fa6cae5c979633ff37db3d
+SHA1: 5ade7293a8da89f31b9bf65307bef58d9d8a45e7
+SHA256: 9d7f3139c25c5b1434de883de8f6a9ef2321704b0fccfde659c661d331d70ea7
+
+Package: libkeyfinder
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: @termux
+Version: 2.2.8-1
+Homepage: https://mixxxdj.github.io/libkeyfinder
+Depends: fftw, libc++
+Description: Musical key detection for digital audio
+Filename: ./libkeyfinder_2.2.8-1_aarch64.deb
+Size: 44860
+MD5sum: 1cd005ead253d67d94a1797b0b9bbe21
+SHA1: 679041110488b5eff91d740b2cb5c24cdd414fec
+SHA256: f19eb9488885a0652b72ba2ade39ccaa55ea6a059a9c1b64f6376a285f9660db
+
+Package: libknot-static
+Architecture: aarch64
+Installed-Size: 1092
+Maintainer: @termux
+Version: 3.6.2-1
+Homepage: https://www.knot-dns.cz/
+Depends: libknot (= 3.6.2-1)
+Description: Static libraries for libknot
+Filename: ./libknot-static_3.6.2-1_aarch64.deb
+Size: 278108
+MD5sum: 0d59e50c50707c8d361e932a40152154
+SHA1: ab91399ada9b6fa6407eb8cc77f3f05af1a5633d
+SHA256: 06bddf5dde0ab9783685b546662fff6f8723f143ab71c43767e15382e2c1c57d
+
+Package: libknot
+Architecture: aarch64
+Installed-Size: 1200
+Maintainer: @termux
+Version: 3.6.2-1
+Homepage: https://www.knot-dns.cz/
+Depends: libgnutls, liblmdb
+Description: Knot DNS libraries
+Filename: ./libknot_3.6.2-1_aarch64.deb
+Size: 292496
+MD5sum: 0e4505c3ad1a0f2a4905b5addfcb65a9
+SHA1: 31851cc54d25fcf2a0d1d808e64d381232cbb84a
+SHA256: 5f3fd43e633dd417260028755da8ff7b06cc75218aa09ba333f63af9b1d628f3
+
+Package: liblightning-static
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: @termux
+Version: 2.2.3-2
+Homepage: https://www.gnu.org/software/lightning/
+Depends: liblightning (= 2.2.3-2)
+Description: Static libraries for liblightning
+Filename: ./liblightning-static_2.2.3-2_aarch64.deb
+Size: 48856
+MD5sum: eb9402520ee140773d058e63f903e906
+SHA1: 34426e9bbee971b268812ca1cd5c06267eb36d1a
+SHA256: 6ed18171efb0c848dfe9dcb1fc98bb596fb5aaf15555403e8e5750e13e903980
+
+Package: liblightning
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 2.2.3-2
+Homepage: https://www.gnu.org/software/lightning/
+Depends: zlib
+Description: A library to aid in making portable programs that compile assembly code at run time
+Filename: ./liblightning_2.2.3-2_aarch64.deb
+Size: 75784
+MD5sum: 587e1dfdc10a8a70a4cc3390e10d6b59
+SHA1: d9697ecb9205b3dfa64193fe1977c7d1b8b5d127
+SHA256: b8a11146bd46fca1513d9cb98e80d4574842eb79d4cc6f7329b9ffc654e400d7
 
 Package: libliquid-dsp-static
 Architecture: aarch64
