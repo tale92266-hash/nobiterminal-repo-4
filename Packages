@@ -910,6 +910,50 @@ MD5sum: 34f05adad4e614bcebbb222a3895cd78
 SHA1: abc7e1f0a1f93c9055ac80934b2180068df8c098
 SHA256: 62c24e5fdca6f1c0cb911451fbbaa1aed7fdf620c32142b84b0d804e5d402045
 
+Package: libgmime-static
+Architecture: aarch64
+Installed-Size: 968
+Maintainer: @termux
+Version: 3.2.15-3
+Homepage: https://github.com/jstedfast/gmime
+Depends: libgmime (= 3.2.15-3)
+Description: Static libraries for libgmime
+Filename: ./libgmime-static_3.2.15-3_aarch64.deb
+Size: 162432
+MD5sum: f8bde3ca24175946f1219d17436dd7fa
+SHA1: e05ccc978337a3a643bf2883a85afba85e9da590
+SHA256: f67adfc362875eaf80d019d48bc880ea4281b34634ccb419c8020793bfa42519
+
+Package: libgmime
+Architecture: aarch64
+Installed-Size: 2224
+Maintainer: @termux
+Version: 3.2.15-3
+Homepage: https://github.com/jstedfast/gmime
+Breaks: libgmime-dev
+Depends: glib, libiconv, libidn2, zlib
+Replaces: libgmime-dev
+Description: MIME message parser and creator
+Filename: ./libgmime_3.2.15-3_aarch64.deb
+Size: 252356
+MD5sum: f1e4fca9a0a4862141a0d916b49a1398
+SHA1: 29f842e1722862a791e618f09125f66ab07d827a
+SHA256: c5b27081c3ccc0bd4d1951041163f6cd22399500ffe671f2d337d274020e4b8a
+
+Package: libgnustep-base
+Architecture: aarch64
+Installed-Size: 11748
+Maintainer: @termux
+Version: 1.31.1-6
+Homepage: https://www.gnustep.org
+Depends: gnustep-make, libcurl, libc++, libffi, libgmp, libgnutls, libiconv, libicu, libxml2, libxslt, zlib
+Description: A library of general-purpose, non-graphical Objective C objects
+Filename: ./libgnustep-base_1.31.1-6_aarch64.deb
+Size: 1635876
+MD5sum: e2fcb210697a0c19cb080f5b390d9bde
+SHA1: 5baed45e7cf34cad5a7bc89f116b983fca87296b
+SHA256: c8e3465869ac8ef744609d7fcca491753db4e99fbf107f79834a73049e30fcbf
+
 Package: libgpg-error-static
 Architecture: aarch64
 Installed-Size: 304
