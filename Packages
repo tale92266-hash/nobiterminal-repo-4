@@ -138,3 +138,107 @@ Size: 20084
 MD5sum: b2c2d9a843f6bdc7119ffe3e169efb50
 SHA1: 3540533801b47c0f4c0cc4df45224f70edc75835
 SHA256: 0112e5edd8c2977b7c41680cc69e5036d56ce6a379eaca74a592b3fc41bb57a2
+
+Package: libandroid-complex-math-static
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 0.2-1
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm/upstream-netbsd/lib/libm/complex
+Depends: libandroid-complex-math (= 0.2-1)
+Description: Static libraries for libandroid-complex-math
+Filename: ./libandroid-complex-math-static_0.2-1_aarch64.deb
+Size: 6004
+MD5sum: 55a31076110b47ebe335f9ea05882b97
+SHA1: 265299c3c0c151a1291b2025e3c335962364cc63
+SHA256: 1b92f46ce2884cfe975a680b50dd7611386d8a8e71bc3d5979bd19ef58eda49c
+
+Package: libandroid-complex-math
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 0.2-1
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm/upstream-netbsd/lib/libm/complex
+Description: A shared library providing libm complex math functions
+Filename: ./libandroid-complex-math_0.2-1_aarch64.deb
+Size: 9780
+MD5sum: 2c6e2183690d79884689d892523c4723
+SHA1: b71550537c6e016d89498d9b52226c370b48caa2
+SHA256: 1b0ba561694e75849f1d77fa873fc158b83503c87613584abf24b183070ca381
+
+Package: liblrdf-static
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: @termux
+Version: 0.6.1-3
+Homepage: https://github.com/swh/LRDF
+Depends: liblrdf (= 0.6.1-3)
+Description: Static libraries for liblrdf
+Filename: ./liblrdf-static_0.6.1-3_aarch64.deb
+Size: 28620
+MD5sum: 12b91f8e6d85adeb7f272bb9333e0492
+SHA1: d7e15bb989826e40c5feebd080d313df113b2523
+SHA256: 9617be70a452e3ccfd469a0f6e30c0b92f1f262c09fa851c4d9f1281c2c71ab9
+
+Package: liblrdf
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 0.6.1-3
+Homepage: https://github.com/swh/LRDF
+Depends: libraptor2
+Description: A library to make it easy to manipulate RDF files describing LADSPA plugins
+Filename: ./liblrdf_0.6.1-3_aarch64.deb
+Size: 14564
+MD5sum: 7b66978964c0ec8d2e7898bc451dcf2d
+SHA1: 135f209495cf26d0344dacc2c96ba2605ad7204a
+SHA256: d417d361b3c59043dc95ffe3d9ecbdd5e535a0866d714fce2c64b7e8a0124d5c
+
+Package: libsixel
+Architecture: aarch64
+Installed-Size: 572
+Maintainer: @termux
+Version: 1.10.5-2
+Homepage: https://saitoha.github.io/libsixel/
+Breaks: libsixel-dev
+Depends: gdk-pixbuf, glib, libcurl, libgd, libjpeg-turbo, libpng
+Replaces: libsixel-dev
+Description: Encoder/decoder implementation for DEC SIXEL graphics
+Filename: ./libsixel_1.10.5-2_aarch64.deb
+Size: 96728
+MD5sum: 0ec486d54c1ad9b5ec7328a8f02c9017
+SHA1: 9b0f14f7ba2fa24da9315370a8039fe209020557
+SHA256: f7d93310fcc0f5dedd7d80a74e03055f50cad20a58fae9937dfbb594871daad6
+
+Package: vim
+Architecture: aarch64
+Installed-Size: 35452
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 9.2.1250-1
+Homepage: https://www.vim.org
+Breaks: vim-python, vim-runtime
+Depends: libiconv, libsodium, ncurses
+Conflicts: vim-gtk
+Recommends: diffutils, xxd
+Replaces: vim-python, vim-runtime
+Provides: vim-python
+Suggests: luajit, perl, python, ruby, tcl
+Description: Vi IMproved - enhanced vi editor
+Filename: ./vim_9.2.1250-1_aarch64.deb
+Size: 6834732
+MD5sum: b686c0af5281cc5d783151ecd176971d
+SHA1: 9d7d6c4c9d99af7bc5cbc5a5518c019723de3e66
+SHA256: 6de13bcc3c75508a756d385de2c6ea5e16ac8516d6b6299768daf0c0d7744b66
+
+Package: xxd
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 9.2.1250-1
+Homepage: https://www.vim.org
+Description: Hexdump utility from vim
+Filename: ./xxd_9.2.1250-1_aarch64.deb
+Size: 13488
+MD5sum: a9a0df0b35707f53505cc2a37aac5c2d
+SHA1: ba46f59355c6c92790cc0504ba6aa7ba86b8e231
+SHA256: 0b662884d03dbca7e1d8cb063fe90dc60082d289f350874e839f1adc134b25b0
