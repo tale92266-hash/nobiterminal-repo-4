@@ -757,6 +757,20 @@ MD5sum: 2265dc29183d4f11901f65ad672adf8d
 SHA1: faee9ad69273ddee78649cfb9e6b9ae819270f7e
 SHA256: 162807d457c4adea119b5f7063bec42f24a601789159f4c85a552339261c82a3
 
+Package: libfcl
+Architecture: aarch64
+Installed-Size: 10040
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Version: 0.7.0-5
+Homepage: https://github.com/flexible-collision-library/fcl
+Depends: libandroid-support, libc++, libccd, octomap
+Description: Flexible collision library
+Filename: ./libfcl_0.7.0-5_aarch64.deb
+Size: 1044300
+MD5sum: 3201c4417ef223bc55d5232bec07b479
+SHA1: 9b4751def2bf76c63ea22a0bb82b8dce50fbc7bb
+SHA256: 1e0453095997da2e187b5a930751507e8344e78aac3392965a28cd25f3c7ffdd
+
 Package: libfixposix-static
 Architecture: aarch64
 Installed-Size: 96
