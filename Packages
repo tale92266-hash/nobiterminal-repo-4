@@ -1,3 +1,17 @@
+Package: cec-client
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: @termux
+Version: 8.1.7-1
+Homepage: https://libcec.pulse-eight.com/
+Depends: libcec (= 8.1.7-1)
+Description: Client applications for libCEC
+Filename: ./cec-client_8.1.7-1_aarch64.deb
+Size: 46756
+MD5sum: 9e4267b8fb8fd5e7a886a52516c35bd6
+SHA1: a5b150719ec7883193f348609ff0714633426fc6
+SHA256: e0a1d18f4e0604a1bbf4ac355f35842cda71efd7ee665fd624d2fd93c64f9d3d
+
 Package: dialog-static
 Architecture: aarch64
 Installed-Size: 448
@@ -427,6 +441,61 @@ MD5sum: 2a2f374ebb052eece1366238692fd111
 SHA1: 01f5e7618d74cbd0f7b6716149487985ef28695e
 SHA256: fe8fbf9e56eb2502f4994aea538785ba8edc052093339d9ba4d93d08dab585b2
 
+Package: libcec-static
+Architecture: aarch64
+Installed-Size: 1396
+Maintainer: @termux
+Version: 8.1.7-1
+Homepage: https://libcec.pulse-eight.com/
+Depends: libcec (= 8.1.7-1)
+Description: Static libraries for libcec
+Filename: ./libcec-static_8.1.7-1_aarch64.deb
+Size: 173880
+MD5sum: 7ddbb406ecb1aae8ad8352c07ace41a7
+SHA1: a59bbed8e28c173e6c2b4500a38f8ee1406a6fb7
+SHA256: 405f2adddc43d04618fb64cdbe415dcbc236376b27ef4896e5a8a0b513887f9e
+
+Package: libcec
+Architecture: aarch64
+Installed-Size: 740
+Maintainer: @termux
+Version: 8.1.7-1
+Homepage: https://libcec.pulse-eight.com/
+Depends: libc++, libp8-platform
+Description: Provides support for Pulse-Eight's USB-CEC adapter and other CEC capable hardware
+Filename: ./libcec_8.1.7-1_aarch64.deb
+Size: 158756
+MD5sum: da0a4e9da8220718897aa6c9bb3068c6
+SHA1: 6267a2079be044bcc0e233900d6ced3ec37dec7a
+SHA256: 07aae0daf056f95483b36797dd7287d5d0c1afb637264353fdef0d8b87afb6c1
+
+Package: libceres-solver
+Architecture: aarch64
+Installed-Size: 5960
+Maintainer: @termux
+Version: 2.2.0-6
+Homepage: http://ceres-solver.org
+Depends: libc++, eigen3, google-glog, gflags
+Description: C++ library for modeling and solving large, complicated optimization problems
+Filename: ./libceres-solver_2.2.0-6_aarch64.deb
+Size: 981892
+MD5sum: 3431f386f7989323865e3c3d10d2e265
+SHA1: 39e52ca7883186e940ffa78ddbe7eeeb7f1554c0
+SHA256: 88cc2b4654d8e7938b542af91f9850ce195ee23ce75cea5e0ce864ebe00176b0
+
+Package: libchipmunk
+Architecture: aarch64
+Installed-Size: 420
+Maintainer: @termux
+Version: 7.0.3-3
+Homepage: http://chipmunk2d.net
+Description: A fast and lightweight 2D game physics library
+Filename: ./libchipmunk_7.0.3-3_aarch64.deb
+Size: 81720
+MD5sum: 9d0e0655808c214f1ba5b73e7dbf8c6b
+SHA1: 3ab3a79709e1f68910a64aa55e9c2b0df87921e9
+SHA256: 7f61e5d15c92630d48bbd7a9e6598d4d15a4b8b3651b30878343095ecf77890c
+
 Package: libclc
 Architecture: all
 Installed-Size: 72028
@@ -702,6 +771,103 @@ MD5sum: 4b64c3934c563692fb73d9a5803c1f2c
 SHA1: 1ac37c83bf80f6f0730c7b754fef2d7260e271b2
 SHA256: e3ed74c2986a372b401c30c6e7e0118ca0e79f8cd936f269e5d24878d5df9e59
 
+Package: libliquid-dsp-static
+Architecture: aarch64
+Installed-Size: 1764
+Maintainer: @termux
+Version: 1.8.3-2
+Homepage: https://liquidsdr.org/
+Depends: libliquid-dsp (= 1.8.3-2)
+Description: Static libraries for libliquid-dsp
+Filename: ./libliquid-dsp-static_1.8.3-2_aarch64.deb
+Size: 314944
+MD5sum: 73f0b6af27cc3faf178770f3908df25b
+SHA1: 5dd5cbf299eb4371492570ec91ba966d2193b43e
+SHA256: a05c3b7f6562dd7c5c71e9437ba3922d226a8ceac337746c72fa7fbb18872a9c
+
+Package: libliquid-dsp
+Architecture: aarch64
+Installed-Size: 1608
+Maintainer: @termux
+Version: 1.8.3-2
+Homepage: https://liquidsdr.org/
+Depends: fftw
+Description: Software-defined radio digital signal processing library
+Filename: ./libliquid-dsp_1.8.3-2_aarch64.deb
+Size: 350604
+MD5sum: ff3a0b590584637af202fa577b2a586c
+SHA1: 98737d0473f3f857f115022af35ccb4384d1e44c
+SHA256: 542c48c0953c70a3eea0803b481b057b20d0e860740ef9d5d663930db8f3aea4
+
+Package: liblo-static
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 0.36-1
+Homepage: https://liblo.sourceforge.net/
+Depends: liblo (= 0.36-1)
+Description: Static libraries for liblo
+Filename: ./liblo-static_0.36-1_aarch64.deb
+Size: 26700
+MD5sum: b9cac87ed8aebd5f34ff824c4b64d136
+SHA1: a901f9797433e45c160a80620876056269a6d0e5
+SHA256: 0d0b4b71dc92a600b55c099b07ed56830a851ca55c100b6d48d68cda2e3e3af8
+
+Package: liblo
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: @termux
+Version: 0.36-1
+Homepage: https://liblo.sourceforge.net/
+Description: A lightweight library that provides an easy to use implementation of the OSC protocol
+Filename: ./liblo_0.36-1_aarch64.deb
+Size: 52744
+MD5sum: c2a13e48541e6a45025a968b22fc7a6c
+SHA1: e2cc8027fba62a79cc07750ccf03c075cec52229
+SHA256: e9419e80e3684bfbf7b2854c16d9f011fce63288e32e608bf962591ad43cf7d5
+
+Package: liblog4c-static
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 1.2.4-3
+Homepage: https://log4c.sourceforge.net/
+Depends: liblog4c (= 1.2.4-3)
+Description: Static libraries for liblog4c
+Filename: ./liblog4c-static_1.2.4-3_aarch64.deb
+Size: 27732
+MD5sum: 2e828774e05a4e5391ba4502c8063efd
+SHA1: 8b9443f850d2cfd3d07ab8078a519ded008f7fba
+SHA256: 606de9bc39d2169b7eff4bfb5d2943afaf27685db00dd7feb0f67b7ef495f5ba
+
+Package: liblog4c
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: @termux
+Version: 1.2.4-3
+Homepage: https://log4c.sourceforge.net/
+Depends: libexpat
+Description: A C library for flexible logging to files, syslog and other destinations
+Filename: ./liblog4c_1.2.4-3_aarch64.deb
+Size: 37044
+MD5sum: 4028d4675978a059b407e3deb6d2f351
+SHA1: e734693e7b9e0182993760cd0c91d5e4b5c03805
+SHA256: 6738d56ec042c5c1f0903f68be48894767e1ccb617b389cf80f517646f179aa9
+
+Package: liblog4cxx
+Architecture: aarch64
+Installed-Size: 3536
+Maintainer: @termux
+Version: 1.8.0-1
+Homepage: https://logging.apache.org/log4cxx/latest_stable/index.html
+Depends: apr, apr-util, libc++
+Description: A logging framework for C++ patterned after Apache log4j
+Filename: ./liblog4cxx_1.8.0-1_aarch64.deb
+Size: 551504
+MD5sum: c29f21c3e126347bd40f91d31c042239
+SHA1: 37b5d4f40c3b985a6504a88c9a761a7f49e45913
+SHA256: d14998ac4dff4ad96fef3627311d2c0c6ee8e621f3f9b9651602a7304736ba45
+
 Package: liblrdf-static
 Architecture: aarch64
 Installed-Size: 152
@@ -813,6 +979,20 @@ Size: 355060
 MD5sum: a1d25dddbd1f429349ea1eb7834384b8
 SHA1: 0ba735ab033a3d3c5f7b4197662e1ba99244326a
 SHA256: d2b44fcec0dbe60412f152fd782c87b17f69c7b39bb1a464c42cf3145e62f7c5
+
+Package: libp8-platform
+Architecture: aarch64
+Installed-Size: 400
+Maintainer: @termux
+Version: 2.2.0-1
+Homepage: https://github.com/Pulse-Eight/platform
+Depends: libc++
+Description: Platform support library used by libCEC and binary add-ons for Kodi
+Filename: ./libp8-platform_2.2.0-1_aarch64.deb
+Size: 68516
+MD5sum: d81f42d86fa93fcb5aa2d6e000458e5c
+SHA1: 4fbd246a1ce9ddbfbdfb748950d9c5d29e1053d3
+SHA256: 8ee149df94ac20cbfa48c6a97a01d69508fdd288472733553898c63d9c1a95e0
 
 Package: libpagmo
 Architecture: aarch64
