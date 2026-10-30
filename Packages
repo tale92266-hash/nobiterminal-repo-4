@@ -1,0 +1,140 @@
+Package: k9s
+Architecture: aarch64
+Installed-Size: 132280
+Maintainer: Krishna Kanhaiya @kcubeterm
+Version: 0.51.0-2
+Homepage: https://k9scli.io
+Description: Kubernetes CLI To Manage Your Clusters In Style!
+Filename: ./k9s_0.51.0-2_aarch64.deb
+Size: 25056772
+MD5sum: a9b644543aae7fd5993769a181b4f244
+SHA1: 70c9963b8fcf8f26847b17796161b5f68fe99cbe
+SHA256: 224f995b191fe1a4e7fcad43fb998979331e407013d14eccf2ac6264b7ea0908
+
+Package: kakoune-lsp
+Architecture: aarch64
+Installed-Size: 7076
+Maintainer: @termux
+Version: 22.0.0-1
+Homepage: https://github.com/kakoune-lsp/kakoune-lsp
+Conflicts: kak-lsp
+Replaces: kak-lsp
+Description: Language Server Protocol Client for the Kakoune editor
+Filename: ./kakoune-lsp_22.0.0-1_aarch64.deb
+Size: 2112092
+MD5sum: 759760a1c3fafe1269b3d5d4798b3182
+SHA1: 3df1c2d105f5bdbccca256f4439bae25924d7935
+SHA256: 883af3b8cc3aaf969023b9cddc57dd35dbe96340855bda68c1e1f6ac931928d0
+
+Package: kakoune
+Architecture: aarch64
+Installed-Size: 3532
+Maintainer: @termux
+Version: 2026.05.21-2
+Homepage: https://kakoune.org/
+Depends: libc++
+Description: Code editor heavily inspired by Vim
+Filename: ./kakoune_2026.05.21-2_aarch64.deb
+Size: 718144
+MD5sum: 4fe02b042aaa4677b652afb70077ca5f
+SHA1: 9665a85d065f69935bb811a036eafa4549756bb9
+SHA256: 71a35bca50c834f057a1b09057f858ee36c192152a6b9de61cb2718007964ead
+
+Package: kbd
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 2.10.0-1
+Homepage: https://kbd-project.org/
+Description: KBD's showkey utility for examining keycodes
+Filename: ./kbd_2.10.0-1_aarch64.deb
+Size: 22544
+MD5sum: ee8ec2450974e22ae056cd93f3c7b77a
+SHA1: 284eed0c70ede18db6bc76a4396be07e0991415c
+SHA256: 80b297c28a896e659605788e41b9dcf925213b247cce9cfdefc285ab68d678ab
+
+Package: kew
+Architecture: aarch64
+Installed-Size: 1460
+Maintainer: @termux
+Version: 4.4.2-1
+Homepage: https://kewplayer.com
+Depends: chafa, faad2, fftw, glib, libandroid-spawn, libogg, libvorbis, libopus, opusfile, taglib
+Suggests: chroma-visualizer
+Description: Music for the Shell
+Filename: ./kew_4.4.2-1_aarch64.deb
+Size: 473412
+MD5sum: a2c319eac1977830c543f232e3c96cf1
+SHA1: 35ff91138d27bd32ff2132bb0714d58a7bcc115e
+SHA256: 0dcb3af72927aec149824470066f86ea5a9b57edd79fe5b8d6f1c98946a3aaed
+
+Package: lcal
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 2.1.0-2
+Homepage: https://pcal.sourceforge.net/
+Description: A multi-platform program which generates PostScript lunar calendars in a yearly format
+Filename: ./lcal_2.1.0-2_aarch64.deb
+Size: 22252
+MD5sum: 0c602a90c0648946923fc368f2e35898
+SHA1: 088e17c6db6196cfa8b1bc0d98c531d1105dcb5e
+SHA256: 7a4c391183e3cdaf553e8d792b802014463a11a5af7bc792ddd41dd884718882
+
+Package: ledger
+Architecture: aarch64
+Installed-Size: 7420
+Maintainer: @termux
+Version: 3.4.1-6
+Homepage: https://www.ledger-cli.org
+Breaks: ledger-dev
+Depends: boost, libc++, libedit, libmpfr, libgmp, python
+Replaces: ledger-dev
+Description: Powerful, double-entry accounting system
+Filename: ./ledger_3.4.1-6_aarch64.deb
+Size: 1306432
+MD5sum: 92d10764f8f1582d4dcd595058bf3a9b
+SHA1: 19b6fbb72f74a2c2e3f6c8733ae703d85e377fa2
+SHA256: 04181f4501be1865ed2098cd05df808348df31286eddcc5d8e9329904a40c74d
+
+Package: lego
+Architecture: aarch64
+Installed-Size: 70656
+Maintainer: Izumi Sena Sora <info@unordinary.eu.org>
+Version: 5.6.0-1
+Homepage: https://github.com/go-acme/lego
+Description: Let's Encrypt/ACME client and library written in Go
+Filename: ./lego_5.6.0-1_aarch64.deb
+Size: 13583012
+MD5sum: 956a08c1edb37b89db0017c41e74fa42
+SHA1: 180ce03a53ed1b47998c0669acd4b86b3be8e885
+SHA256: f98f2a25317d13b094a80884f28fed701a9103186ed75d9e435d567cbc20bcfb
+
+Package: lensfun
+Architecture: aarch64
+Installed-Size: 4612
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.3.4-2
+Homepage: https://lensfun.github.io/
+Depends: glib, libpng, libxml2
+Description: Lensfun
+Filename: ./lensfun_0.3.4-2_aarch64.deb
+Size: 398680
+MD5sum: 6f1b806907dee9546d6c1f8ff340aa82
+SHA1: c57b799c39b8317e3f6c559f4002111e2d00b18a
+SHA256: 8153482744b861caec0c0370d33e3fa212d4fbda359683845bd6d64e1a159c01
+
+Package: lesspipe
+Architecture: all
+Installed-Size: 156
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.28-1
+Homepage: https://lesspipe.org/
+Depends: file, less
+Suggests: 7zip, imagemagick, perl, unrar, unzip
+Description: An input filter for the pager less
+Filename: ./lesspipe_2.28-1_all.deb
+Size: 20084
+MD5sum: b2c2d9a843f6bdc7119ffe3e169efb50
+SHA1: 3540533801b47c0f4c0cc4df45224f70edc75835
+SHA256: 0112e5edd8c2977b7c41680cc69e5036d56ce6a379eaca74a592b3fc41bb57a2
