@@ -249,6 +249,46 @@ MD5sum: b2c2d9a843f6bdc7119ffe3e169efb50
 SHA1: 3540533801b47c0f4c0cc4df45224f70edc75835
 SHA256: 0112e5edd8c2977b7c41680cc69e5036d56ce6a379eaca74a592b3fc41bb57a2
 
+Package: lexbor
+Architecture: aarch64
+Installed-Size: 12332
+Maintainer: @termux
+Version: 3.0.1-1
+Homepage: https://lexbor.com
+Description: Fast embeddable web browser engine written in C with no dependencies
+Filename: ./lexbor_3.0.1-1_aarch64.deb
+Size: 964568
+MD5sum: cfe0ce93c223da28e2d141c0df3fbb60
+SHA1: 9febd3000fad187fc1e94f3a0b1e5ab0b2ba53f6
+SHA256: 89cfde9a3e9797a4a1deb63a10c7fee0bbe35182a29f031fbdedbf1bb59886fa
+
+Package: lexter
+Architecture: aarch64
+Installed-Size: 808
+Maintainer: Henrik Grimler @Grimler91
+Version: 1.0.3-6
+Homepage: https://www.kyne.au/~mark/software/lexter.php
+Depends: gettext, ncurses
+Description: A real-time word puzzle for text terminals
+Filename: ./lexter_1.0.3-6_aarch64.deb
+Size: 168204
+MD5sum: 8f54138f2b09fe124a469c98a86f97d7
+SHA1: be7d0ec99790ff0745ea6ac8d9eb259c1945ae80
+SHA256: a29e6a7b5f31400e3e21ccac144ff7c4e921e46a61bf2a130dcba7285dec32d1
+
+Package: lf
+Architecture: aarch64
+Installed-Size: 6572
+Maintainer: @termux
+Version: 42-2
+Homepage: https://github.com/gokcehan/lf
+Description: Terminal file manager
+Filename: ./lf_42-2_aarch64.deb
+Size: 1806080
+MD5sum: 2beb531913b97cc877f5312d2f7b65fd
+SHA1: ae513819bb1692cb48c53fc2980849285f965bac
+SHA256: 2e21f84ff48393c3184590d7f61b7f2af3f7f209219adf47f95294038f0542fa
+
 Package: libacl-static
 Architecture: aarch64
 Installed-Size: 164
@@ -330,6 +370,62 @@ Size: 50764
 MD5sum: 7220ae3715aefc4c18070b84032dd017
 SHA1: ddf98cccbd2d818456ce6cced14565d98f986ff8
 SHA256: 59d3f74b3180fad334145590930435a2cd62c81f8ebf82e9f7245821a082aff9
+
+Package: libcddb-static
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 1.3.2-2
+Homepage: https://libcddb.sourceforge.net/
+Depends: libcddb (= 1.3.2-2)
+Description: Static libraries for libcddb
+Filename: ./libcddb-static_1.3.2-2_aarch64.deb
+Size: 24712
+MD5sum: 43b0321ce20aaed297f9b73a5886a309
+SHA1: 60cc426070ab7b2fb889af3388e53cd4000857fd
+SHA256: d043a8702cec4eba268251c89b4bdb8e38cab519c53270a872c0b8df749fb4f3
+
+Package: libcddb
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: @termux
+Version: 1.3.2-2
+Homepage: https://libcddb.sourceforge.net/
+Depends: libiconv
+Description: A C library to access data on a CDDB server
+Filename: ./libcddb_1.3.2-2_aarch64.deb
+Size: 38960
+MD5sum: ee8e2999b1c00beaa230877b50755743
+SHA1: 72f0f12cecfad99351eb8c31df77f2b1409db5df
+SHA256: 3ad66edcc90391c3500bed9aa0cf583024b17e6ed27a73ef0dc690b3a93e30c4
+
+Package: libcdr-static
+Architecture: aarch64
+Installed-Size: 2480
+Maintainer: @termux
+Version: 0.1.9-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+Depends: libcdr (= 0.1.9-1)
+Description: Static libraries for libcdr
+Filename: ./libcdr-static_0.1.9-1_aarch64.deb
+Size: 432816
+MD5sum: 099e3b63effd6dbaa4d18ff7c3bfeff8
+SHA1: 4e8def3b7768fbe0f61569a46eb59c9e3b654aa8
+SHA256: b1493b5e5ecce540586c30b757972529961681e8410a4249e34470412bc7c200
+
+Package: libcdr
+Architecture: aarch64
+Installed-Size: 960
+Maintainer: @termux
+Version: 0.1.9-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+Depends: libicu, librevenge, libxml2, littlecms, zlib
+Description: CorelDraw file format importer library for LibreOffice
+Filename: ./libcdr_0.1.9-1_aarch64.deb
+Size: 332468
+MD5sum: 2a2f374ebb052eece1366238692fd111
+SHA1: 01f5e7618d74cbd0f7b6716149487985ef28695e
+SHA256: fe8fbf9e56eb2502f4994aea538785ba8edc052093339d9ba4d93d08dab585b2
 
 Package: libclc
 Architecture: all
