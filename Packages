@@ -54,6 +54,60 @@ MD5sum: cc0b933dbd1a72edb8cac7901328cc17
 SHA1: e35cb64c9a917fb5c784581a6bf57e835e1393ba
 SHA256: 30c2718c5a275aa56d8dd1601edb2587d658124fd11dac9735a97d1a1974ec35
 
+Package: glib-networking
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 2.90.1-1
+Homepage: https://gitlab.gnome.org/GNOME/glib-networking
+Depends: glib, openssl
+Description: Network-related giomodules for glib
+Filename: ./glib-networking_2.90.1-1_aarch64.deb
+Size: 37688
+MD5sum: ee63cae25d2e5dd5cdb098cf8aa73c83
+SHA1: 63103d394783e6efff48d52a12fb8b3d0e4f3275
+SHA256: f440c157b38f6b4b94a81a5eed99cc7dc61b57ed4a597a8243e0874d4ee1ffdc
+
+Package: hurl
+Architecture: aarch64
+Installed-Size: 6840
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 8.1.0-1
+Homepage: https://hurl.dev
+Depends: libcurl, libxml2, openssl
+Description: Command line tool that runs and tests HTTP requests defined in a plain text format
+Filename: ./hurl_8.1.0-1_aarch64.deb
+Size: 1687972
+MD5sum: 147379d9e123392f3659b17ea1228daf
+SHA1: 5dad8d2fb069325438ecf0274e9713c5c4ef2eb3
+SHA256: 968788dd1434b23857ba3bc4bcf918373cbea66fdc1f5b634c4d26affaebda07
+
+Package: hut
+Architecture: aarch64
+Installed-Size: 11100
+Maintainer: @termux
+Version: 0.9.0-2
+Homepage: https://git.sr.ht/~xenrox/hut
+Description: A CLI tool for sr.ht
+Filename: ./hut_0.9.0-2_aarch64.deb
+Size: 2943024
+MD5sum: 57373d1f0bc1446436a5be37bcdf455e
+SHA1: 97deed2fe08842c3e4eaaa1a0d5fc668512692db
+SHA256: f9a5b469f00c3be1fe93e838550877c54dc8e13c2d8535613f550b2dc622dff6
+
+Package: jfrog-cli
+Architecture: aarch64
+Installed-Size: 66248
+Maintainer: @termux
+Version: 2.129.0-1
+Homepage: https://jfrog.com/getcli
+Description: A CLI for JFrog products
+Filename: ./jfrog-cli_2.129.0-1_aarch64.deb
+Size: 19750260
+MD5sum: 9b75405efa880ab9f2428374a88412d7
+SHA1: 6e576f97245d16161855652e2a1f1484240b7022
+SHA256: 9aff5ec11c005360b1b88f2979736e2a60265642cbb24cc1bea497f2d95e4d21
+
 Package: k9s
 Architecture: aarch64
 Installed-Size: 132280
@@ -277,6 +331,73 @@ MD5sum: 88e1de4aad87ac334f93dc9355546e5f
 SHA1: 768a40c230e9087511cc66c6ff4f75e9d8c04308
 SHA256: f416c4311b034646935183a02bc5653c36e5cd693fb69536cd89cc24fa109c88
 
+Package: libexttextcat-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 3.4.8-1
+Homepage: https://wiki.documentfoundation.org/Libexttextcat
+Depends: libexttextcat (= 3.4.8-1)
+Description: Static libraries for libexttextcat
+Filename: ./libexttextcat-static_3.4.8-1_aarch64.deb
+Size: 7564
+MD5sum: 824b82b68680bb6a5fbfe10f75a9fec2
+SHA1: 571a88c3ea2b70bb95a63442f1eab3aaf2749ac7
+SHA256: fd11342adfb803aaf86f0b48ab0f08b93c799df1d01e7f939a31205c2c52764e
+
+Package: libexttextcat
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 3.4.8-1
+Homepage: https://wiki.documentfoundation.org/Libexttextcat
+Description: N-Gram-Based Text Categorization library primarily intended for language guessing
+Filename: ./libexttextcat_3.4.8-1_aarch64.deb
+Size: 14008
+MD5sum: 8f42e4efc268d2bb3d1ffbad79010ce8
+SHA1: 6fcca98ebd72760f497e4058af7181d03d50668f
+SHA256: 2e27cb0f38343df65dc4e90222b40955902d6af124c0d99437f9ca8d2552a623
+
+Package: libfann
+Architecture: aarch64
+Installed-Size: 684
+Maintainer: @termux
+Version: 2.2.0-3
+Homepage: http://leenissen.dk/fann/wp
+Description: Fast artificial neural network library
+Filename: ./libfann_2.2.0-3_aarch64.deb
+Size: 93772
+MD5sum: 2265dc29183d4f11901f65ad672adf8d
+SHA1: faee9ad69273ddee78649cfb9e6b9ae819270f7e
+SHA256: 162807d457c4adea119b5f7063bec42f24a601789159f4c85a552339261c82a3
+
+Package: libfixposix-static
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 0.5.1-2
+Homepage: https://github.com/sionescu/libfixposix/
+Depends: libfixposix (= 0.5.1-2)
+Description: Static libraries for libfixposix
+Filename: ./libfixposix-static_0.5.1-2_aarch64.deb
+Size: 11624
+MD5sum: 070465d16ae0ca0a2c80c116e87dea4d
+SHA1: dd1a0b432144d7469a94756916ff76960d7c3c1c
+SHA256: af2f58a840af07db79bb6ebfef9d8d6fcda2b9b346aafd4d8eae9a5c17bf566a
+
+Package: libfixposix
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 0.5.1-2
+Homepage: https://github.com/sionescu/libfixposix/
+Description: Thin wrapper over POSIX syscalls
+Filename: ./libfixposix_0.5.1-2_aarch64.deb
+Size: 14520
+MD5sum: b466857c618507bafb1a739e8ece6672
+SHA1: 10fa57926fc6fe53b272eb32d3e563e915f660f4
+SHA256: da715d9d2b827715b816856a2acf9a203c6353c5b3985f21cdb9075e029924cd
+
 Package: libgcrypt-static
 Architecture: aarch64
 Installed-Size: 1888
@@ -474,6 +595,20 @@ Size: 481764
 MD5sum: 815256060d1732732303dd8c1065f6fe
 SHA1: a84d62d0c39d10fc63a1683bd1fbeae196d7bce8
 SHA256: 455f13db09620d8e5a2e0d1beb67906aa9e83c871b5cc7c9b5bbb52871a8e5aa
+
+Package: nlopt
+Architecture: aarch64
+Installed-Size: 736
+Maintainer: @termux
+Version: 2.11.0-1
+Homepage: https://nlopt.readthedocs.io/
+Depends: libc++
+Description: Library for nonlinear optimization
+Filename: ./nlopt_2.11.0-1_aarch64.deb
+Size: 253540
+MD5sum: 106e17120170b355bd793b9ca84384eb
+SHA1: 2b9c67b21ac6fc4e1d34d6967a3731628deadaf4
+SHA256: fb7eaa3c787ae202414a2cf98d62e6647b1aaf5102b2a7a37c4bfacdfb24896f
 
 Package: procps-static
 Architecture: aarch64
