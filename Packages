@@ -562,6 +562,62 @@ MD5sum: b466857c618507bafb1a739e8ece6672
 SHA1: 10fa57926fc6fe53b272eb32d3e563e915f660f4
 SHA256: da715d9d2b827715b816856a2acf9a203c6353c5b3985f21cdb9075e029924cd
 
+Package: libflann
+Architecture: aarch64
+Installed-Size: 8156
+Maintainer: @termux
+Version: 2022.10.27-3
+Homepage: https://github.com/flann-lib/flann
+Depends: libc++, liblz4
+Description: A library for performing fast approximate nearest neighbor searches in high dimensional spaces
+Filename: ./libflann_2022.10.27-3_aarch64.deb
+Size: 1077904
+MD5sum: c0ce8905feaff13cb8abd2ca97f442de
+SHA1: cbc5adcbe9fe6c322e9df39ef43e47e4491fb2f5
+SHA256: fb40b4a2e3190402ac6c8dfedd3575df940c7906a3b9a28af0c3460f96552d25
+
+Package: libfreehand-static
+Architecture: aarch64
+Installed-Size: 1816
+Maintainer: @termux
+Version: 0.1.4-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
+Depends: libfreehand (= 0.1.4-1)
+Description: Static libraries for libfreehand
+Filename: ./libfreehand-static_0.1.4-1_aarch64.deb
+Size: 321252
+MD5sum: 28d46218283af83bcde4b29608902136
+SHA1: 1bc3d887bd8b7d5afe2a0c69471d8bbf2b6044e5
+SHA256: fe67ed36f2b5c85d58342ab74f7c62c8d3188dc43d3fd255670006d94dd7c172
+
+Package: libfreehand
+Architecture: aarch64
+Installed-Size: 616
+Maintainer: @termux
+Version: 0.1.4-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
+Depends: boost, littlecms, libicu, librevenge, zlib
+Description: a library for import of Aldus/Macromedia/Adobe FreeHand documents
+Filename: ./libfreehand_0.1.4-1_aarch64.deb
+Size: 243156
+MD5sum: ca77bddd026c7c770d49e112c6e78df4
+SHA1: 580639b65ef8b6b55195a4dc503786a7dd110201
+SHA256: 83f31f5ed5e5c0b50fbe5ee262be8771700eedc428d34696ad274478833ac574
+
+Package: libftxui
+Architecture: aarch64
+Installed-Size: 1536
+Maintainer: @termux
+Version: 7.0.3-1
+Homepage: https://github.com/ArthurSonzogni/FTXUI
+Depends: libc++
+Description: A simple C++ library for terminal based user interface
+Filename: ./libftxui_7.0.3-1_aarch64.deb
+Size: 291112
+MD5sum: 24b4c8711207d76b67a9cac1cdc9b40a
+SHA1: 9ac54621b11bb4566f8b06bae06ee1359aa3bd95
+SHA256: 9865425d96da0cac6aba920a4b7c85326cce0fbd6f52f04bfd6bfef6f8a17238
+
 Package: libgcrypt-static
 Architecture: aarch64
 Installed-Size: 1888
@@ -575,6 +631,48 @@ Size: 484120
 MD5sum: 66c45619d3926e1b96b4eaeee1d8948b
 SHA1: f1434fb0afd4e532ce75cf9778d2699614591ddb
 SHA256: 292bff0bf3369d67a3ec731ef678d88aa6feaf14b754f147220f2869e2f00d9b
+
+Package: libgedit-gfls
+Architecture: aarch64
+Installed-Size: 380
+Maintainer: @termux
+Version: 0.5.0-1
+Homepage: https://gitlab.gnome.org/World/gedit/libgedit-gfls
+Depends: glib
+Description: A module dedicated to file loading and saving
+Filename: ./libgedit-gfls_0.5.0-1_aarch64.deb
+Size: 38628
+MD5sum: 5dc6186534cd1426dbadba37a6a80a7e
+SHA1: d91dcc27dfa60fee239761dcdde46bf52b876221
+SHA256: 0503fcd9628afa6f201dc96debdeaa57e72187611be039b8e48b269544329b49
+
+Package: libgee-static
+Architecture: aarch64
+Installed-Size: 1760
+Maintainer: @termux
+Version: 0.20.8-2
+Homepage: https://wiki.gnome.org/Projects/Libgee
+Depends: libgee (= 0.20.8-2)
+Description: Static libraries for libgee
+Filename: ./libgee-static_0.20.8-2_aarch64.deb
+Size: 245960
+MD5sum: cfbd81626cc5dacb07b11350536b7bb6
+SHA1: 70a9353c9bad6d21452491be02cb5848c4714bed
+SHA256: 841c8f954e6cc469cf39b6aeafeae8e1731637c8ee4dd6f0996803c8867a900d
+
+Package: libgee
+Architecture: aarch64
+Installed-Size: 1828
+Maintainer: @termux
+Version: 0.20.8-2
+Homepage: https://wiki.gnome.org/Projects/Libgee
+Depends: glib
+Description: A collection library providing GObject-based interfaces and classes for commonly used data structures
+Filename: ./libgee_0.20.8-2_aarch64.deb
+Size: 236556
+MD5sum: 34f05adad4e614bcebbb222a3895cd78
+SHA1: abc7e1f0a1f93c9055ac80934b2180068df8c098
+SHA256: 62c24e5fdca6f1c0cb911451fbbaa1aed7fdf620c32142b84b0d804e5d402045
 
 Package: libgpg-error-static
 Architecture: aarch64
