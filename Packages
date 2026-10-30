@@ -318,6 +318,19 @@ MD5sum: 338f40a21e9bec84829a4e3329b83942
 SHA1: e73f308d63794311f006a8071f9c72ac0f96921c
 SHA256: a88dd8bd6115f8e12c3e777f8d54f6b7ced6115cccfac25a90714a68e546e56f
 
+Package: libccd
+Architecture: aarch64
+Installed-Size: 416
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Version: 2.1-3
+Homepage: https://github.com/danfis/libccd
+Description: Library for collision detection between two convex shapes
+Filename: ./libccd_2.1-3_aarch64.deb
+Size: 50764
+MD5sum: 7220ae3715aefc4c18070b84032dd017
+SHA1: ddf98cccbd2d818456ce6cced14565d98f986ff8
+SHA256: 59d3f74b3180fad334145590930435a2cd62c81f8ebf82e9f7245821a082aff9
+
 Package: libclc
 Architecture: all
 Installed-Size: 72028
@@ -330,6 +343,61 @@ Size: 8581820
 MD5sum: 88e1de4aad87ac334f93dc9355546e5f
 SHA1: 768a40c230e9087511cc66c6ff4f75e9d8c04308
 SHA256: f416c4311b034646935183a02bc5653c36e5cd693fb69536cd89cc24fa109c88
+
+Package: libczmq-static
+Architecture: aarch64
+Installed-Size: 988
+Maintainer: @termux
+Version: 4.2.1-5
+Homepage: https://zeromq.org/
+Depends: libczmq (= 4.2.1-5)
+Description: Static libraries for libczmq
+Filename: ./libczmq-static_4.2.1-5_aarch64.deb
+Size: 167476
+MD5sum: 9eecfdb79bc766ace906535a104d677c
+SHA1: 89e08b8099f129855b73b01e92627fd411b009eb
+SHA256: 2d5a845fce5b3066b097e96d1a603f0303c154cf43537b51e2e3477d93f37d64
+
+Package: libczmq
+Architecture: aarch64
+Installed-Size: 1500
+Maintainer: @termux
+Version: 4.2.1-5
+Homepage: https://zeromq.org/
+Depends: liblz4, libuuid, libzmq
+Description: High-level C binding for ZeroMQ
+Filename: ./libczmq_4.2.1-5_aarch64.deb
+Size: 361720
+MD5sum: 56d4cb0f8f945483408e3a94545c189c
+SHA1: a70c0b55f352636232e159f052c018b2e8a973c4
+SHA256: 5b89c9868257088406504e78e45e59a37867fe85e4de3aa1cc4871a6b02056c3
+
+Package: libdaemon-static
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 0.14-2
+Homepage: https://0pointer.de/lennart/projects/libdaemon/
+Depends: libdaemon (= 0.14-2)
+Description: Static libraries for libdaemon
+Filename: ./libdaemon-static_0.14-2_aarch64.deb
+Size: 10556
+MD5sum: a38f8ed22e11761bf850e47b13850df2
+SHA1: 6c4d0cb4b25502a5121a4d9f218f8eaf41a74452
+SHA256: 694b60f33bbd8021d9fa25f9b1b2e35910379d6b0157ae2eeb91328fb37ce002
+
+Package: libdaemon
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 0.14-2
+Homepage: https://0pointer.de/lennart/projects/libdaemon/
+Description: A lightweight C library that eases the writing of UNIX daemons
+Filename: ./libdaemon_0.14-2_aarch64.deb
+Size: 17008
+MD5sum: 1ed85ee750c77d04577ab221fca7243e
+SHA1: 741e1b431d9b2744621e7d30dce875d33291db9d
+SHA256: fc1ffa6de353800cb9d8ed69a75546923739e845ae7059ddd70e883217a7d723
 
 Package: libexttextcat-static
 Architecture: aarch64
@@ -538,6 +606,34 @@ MD5sum: 45a46f6d49e4d5ce47b65161a4a03a63
 SHA1: d96dd2ccdaf219aa8d5818adf48687b00936e238
 SHA256: 88c99991415753c61931624bfa3a97631d6ee85b4354315b69b0408427f144c1
 
+Package: libode
+Architecture: aarch64
+Installed-Size: 1468
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Version: 0.16.6-3
+Homepage: https://www.ode.org
+Depends: libc++, libccd
+Description: An open source, high performance library for simulating rigid body dynamics
+Filename: ./libode_0.16.6-3_aarch64.deb
+Size: 355060
+MD5sum: a1d25dddbd1f429349ea1eb7834384b8
+SHA1: 0ba735ab033a3d3c5f7b4197662e1ba99244326a
+SHA256: d2b44fcec0dbe60412f152fd782c87b17f69c7b39bb1a464c42cf3145e62f7c5
+
+Package: libpagmo
+Architecture: aarch64
+Installed-Size: 20720
+Maintainer: @termux
+Version: 2.20.0-2
+Homepage: https://esa.github.io/pagmo2/index.html
+Depends: libc++, boost, boost-headers, libtbb, eigen, nlopt
+Description: Scientific library for massively parallel optimization
+Filename: ./libpagmo_2.20.0-2_aarch64.deb
+Size: 4208872
+MD5sum: 4dd032ed1c6b1c0918fb41a29c995945
+SHA1: 3df97f13f3c8f21176d27692c2fb2a6323980fe7
+SHA256: 1893f5e30fcbe85e570e5e6964019b4f1169c06b5992afe918dd2c172981f7b4
+
 Package: libsixel
 Architecture: aarch64
 Installed-Size: 572
@@ -567,6 +663,34 @@ Size: 32448
 MD5sum: 755136cc85801b98ffe9c52ea1089e69
 SHA1: 41905587f2dab57b0e43fa4ce2dc86a67611f3df
 SHA256: 421401687e7b7a7bdc0b1595907217794c88df35155a8ed1aec7c6c0e3db8a58
+
+Package: libtbb
+Architecture: aarch64
+Installed-Size: 2408
+Maintainer: @termux
+Version: 2023.2.0-1
+Homepage: https://uxlfoundation.github.io/oneTBB/
+Depends: libc++
+Description: oneAPI Threading Building Blocks
+Filename: ./libtbb_2023.2.0-1_aarch64.deb
+Size: 306784
+MD5sum: 225ab118316853d1ba0f52e971bde056
+SHA1: 41a1a215aed0c0e9de266e1e62557d6a151134bf
+SHA256: 4caf85700d83455674d4bb740adfdbb0776f0eada9bb3c912dcbdda644c22cbf
+
+Package: libtinyxml2
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 11.0.0-2
+Homepage: http://www.grinninglizard.com/tinyxml2/
+Depends: libc++
+Description: A simple, small, efficient, C++ XML parser
+Filename: ./libtinyxml2_11.0.0-2_aarch64.deb
+Size: 53788
+MD5sum: 7dafa0fda79eb48976feb740b809c474
+SHA1: a31bce62aef313ba9ebf97d4c080e440072f6888
+SHA256: d44939f3d9f0c97ff848efd5614689be5e4a4cc50353372d63dc0ddbde50257b
 
 Package: libtirpc-static
 Architecture: aarch64
