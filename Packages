@@ -39,6 +39,20 @@ MD5sum: c9c202b12747f9166a426ebb20e32f5c
 SHA1: f5067f4c4daaf25e2516a4d995999afe6aa059b9
 SHA256: 10c1030de4a8812c00fe1bfcf8d722383adb06c2f322b2ce8aee867920f5a5ce
 
+Package: distcc
+Architecture: aarch64
+Installed-Size: 660
+Maintainer: @termux
+Version: 3.4-5
+Homepage: http://distcc.org/
+Depends: libpopt
+Description: Distributed C/C++ compiler
+Filename: ./distcc_3.4-5_aarch64.deb
+Size: 161072
+MD5sum: d6045052f15633426a45511f1e94bcad
+SHA1: 852e28d892ce56443aeb02bd800f2018bd067e51
+SHA256: e94cea0ca7ffaabde9e8f1e92ab205395f531034bd56c6abfb62cada9a740f8e
+
 Package: dvdauthor
 Architecture: aarch64
 Installed-Size: 612
