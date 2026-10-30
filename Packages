@@ -137,6 +137,20 @@ MD5sum: cc0b933dbd1a72edb8cac7901328cc17
 SHA1: e35cb64c9a917fb5c784581a6bf57e835e1393ba
 SHA256: 30c2718c5a275aa56d8dd1601edb2587d658124fd11dac9735a97d1a1974ec35
 
+Package: geth
+Architecture: aarch64
+Installed-Size: 65072
+Maintainer: @termux
+Version: 1.17.10-1
+Homepage: https://geth.ethereum.org/
+Suggests: geth-utils
+Description: Go implementation of the Ethereum protocol
+Filename: ./geth_1.17.10-1_aarch64.deb
+Size: 16106168
+MD5sum: 49a56ca8860ceb5161d4308988746a0a
+SHA1: 7f831e2631479c17a91ccb2a7a182d907bb92da5
+SHA256: 3a17492be36310f51b35858a03499f78cc359ba8adf4585acffb8bf33a5bacdc
+
 Package: glab-cli
 Architecture: aarch64
 Installed-Size: 50448
@@ -274,6 +288,20 @@ Size: 19750260
 MD5sum: 9b75405efa880ab9f2428374a88412d7
 SHA1: 6e576f97245d16161855652e2a1f1484240b7022
 SHA256: 9aff5ec11c005360b1b88f2979736e2a60265642cbb24cc1bea497f2d95e4d21
+
+Package: jq-static
+Architecture: aarch64
+Installed-Size: 628
+Maintainer: @termux
+Version: 1.8.2-1
+Homepage: https://jqlang.org/
+Depends: jq (= 1.8.2-1)
+Description: Static libraries for jq
+Filename: ./jq-static_1.8.2-1_aarch64.deb
+Size: 141664
+MD5sum: 00b0b620da315da07ea18dcee112f9f4
+SHA1: 57ca562c6af1c0ef4f73f9b37bb3cfc477699e9e
+SHA256: 6d25e4c9b2cafba373b31f0476dd76f2c35cf3b87304e03380f514b70abe0502
 
 Package: k9s
 Architecture: aarch64
@@ -1460,6 +1488,34 @@ Size: 481764
 MD5sum: 815256060d1732732303dd8c1065f6fe
 SHA1: a84d62d0c39d10fc63a1683bd1fbeae196d7bce8
 SHA256: 455f13db09620d8e5a2e0d1beb67906aa9e83c871b5cc7c9b5bbb52871a8e5aa
+
+Package: lsof-static
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: @termux
+Version: 4.99.7-1
+Homepage: https://github.com/lsof-org/lsof
+Depends: lsof (= 4.99.7-1)
+Description: Static libraries for lsof
+Filename: ./lsof-static_4.99.7-1_aarch64.deb
+Size: 54644
+MD5sum: 726615c81892dee8bc9489509ae8a227
+SHA1: 2c6fe1cfb829c3ea002cc8e0efc51728cd780476
+SHA256: 0adb233e7951bd0485c94844342f58139e7556afe6e8db803bb7b1614e14f755
+
+Package: lsof
+Architecture: aarch64
+Installed-Size: 396
+Maintainer: @termux
+Version: 4.99.7-1
+Homepage: https://github.com/lsof-org/lsof
+Depends: libandroid-support, libtirpc
+Description: Lists open files for running Unix processes
+Filename: ./lsof_4.99.7-1_aarch64.deb
+Size: 124080
+MD5sum: e46d2fd35f6761bcc7ab65b8290fc1fe
+SHA1: 667181ce1e049b4f48f032f9327bb46196cfaa50
+SHA256: 25e97c70dee1266d0b56ff8034eca210709dd290f6e4aee14ae27316a4442a1f
 
 Package: nlopt
 Architecture: aarch64
