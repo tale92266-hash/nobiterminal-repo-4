@@ -53,6 +53,75 @@ MD5sum: 9e4267b8fb8fd5e7a886a52516c35bd6
 SHA1: a5b150719ec7883193f348609ff0714633426fc6
 SHA256: e0a1d18f4e0604a1bbf4ac355f35842cda71efd7ee665fd624d2fd93c64f9d3d
 
+Package: dasm
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: @termux
+Version: 2.20.17-1
+Homepage: https://dasm-dillon.sourceforge.io/
+Description: Macro assembler with support for several 8-bit microprocessors
+Filename: ./dasm_2.20.17-1_aarch64.deb
+Size: 39568
+MD5sum: ff2a1f4d0aef56628104f99536eab3cb
+SHA1: f4f2b93845308eab34edce303635773a477caa53
+SHA256: 09c74153d767124238866e675b8b7942e73eb6d60f33d99db11940980c527a68
+
+Package: dcraw
+Architecture: aarch64
+Installed-Size: 288
+Maintainer: @termux
+Version: 9.28.0-8
+Homepage: https://www.dechifro.org/dcraw/
+Depends: littlecms, libjasper, libjpeg-turbo
+Description: Raw digital camera images decoding utility
+Filename: ./dcraw_9.28.0-8_aarch64.deb
+Size: 114392
+MD5sum: c8b13e2d0c76ae0a19e46cf16a341612
+SHA1: a75d70aa757ca5a753b7b919d907f7fcf2bbb358
+SHA256: e4351bfa433d926fffb0ae3ac73efd8e2b6855d0ed3e3c9d5b1a7e12c1521ccd
+
+Package: ddrescue
+Architecture: aarch64
+Installed-Size: 396
+Maintainer: @termux
+Version: 1.30-1
+Homepage: https://www.gnu.org/software/ddrescue/
+Depends: libc++
+Description: GNU data recovery tool
+Filename: ./ddrescue_1.30-1_aarch64.deb
+Size: 100724
+MD5sum: fc6e8e3aabe93236044bf2f71235290e
+SHA1: 29a7045e297bf1aa9503e2ebda567700cc9e0ef7
+SHA256: 324bd3a8b7555dee4c72df52a6a76a293f2e6e60776cb9b4b467c11947070053
+
+Package: debootstrap
+Architecture: all
+Installed-Size: 336
+Maintainer: @termux
+Version: 1.0.145-1
+Homepage: https://wiki.debian.org/Debootstrap
+Depends: llvm, perl, proot, sed, wget
+Description: Bootstrap a basic Debian system
+Filename: ./debootstrap_1.0.145-1_all.deb
+Size: 35828
+MD5sum: 749e40be5616964b79b5f6f4c7f09c03
+SHA1: dec607cd330b644c4f653e8595956766a2465ecf
+SHA256: 0a6415c71aa79aa96923582982cb22cec4fb7096d966cb9d5048c9c9722544ee
+
+Package: delve
+Architecture: aarch64
+Installed-Size: 14208
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 1.27.2-2
+Homepage: https://github.com/go-delve/delve
+Depends: golang, git
+Description: A debugger for the Go programming language
+Filename: ./delve_1.27.2-2_aarch64.deb
+Size: 3687888
+MD5sum: 39a1a7c6761755957a67c67e61e05170
+SHA1: 72effc9f4d5186fd3d62ebdf8da25d6b7be17f0f
+SHA256: 795badc7627ba1a1734ecc2f5864c6a7607be3fc7094434743b61e63bc8ed2d4
+
 Package: desktop-file-utils
 Architecture: aarch64
 Installed-Size: 256
@@ -1562,6 +1631,35 @@ MD5sum: 0ec486d54c1ad9b5ec7328a8f02c9017
 SHA1: 9b0f14f7ba2fa24da9315370a8039fe209020557
 SHA256: f7d93310fcc0f5dedd7d80a74e03055f50cad20a58fae9937dfbb594871daad6
 
+Package: libtalloc-static
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 2.5.0-1
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Depends: libtalloc (= 2.5.0-1)
+Description: Static libraries for libtalloc
+Filename: ./libtalloc-static_2.5.0-1_aarch64.deb
+Size: 11572
+MD5sum: c4952556ed67dd5c6c32e0b05126f24c
+SHA1: ee1542b2231068eaddfe861b5af83da97992efdd
+SHA256: 5f48b7ccde146f79c26bdc5707581263c3904e6acd6777a0a1d92f0aadbb9a7a
+
+Package: libtalloc
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 2.5.0-1
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Breaks: libtalloc-dev
+Replaces: libtalloc-dev
+Description: Hierarchical, reference counted memory pool system with destructors
+Filename: ./libtalloc_2.5.0-1_aarch64.deb
+Size: 34028
+MD5sum: 10c0295f92310e1520469388e5188371
+SHA1: 909db8cf151f3a90a9e9d1d6b8606543184e448c
+SHA256: dab6f0e8e5bbe81b833fa67674fdd1bc81768d6cfc7b267ed72b19003ae9c6c7
+
 Package: libtasn1-static
 Architecture: aarch64
 Installed-Size: 148
@@ -1785,6 +1883,21 @@ Size: 53372
 MD5sum: 33bf22d0025d794b8c887222300cdc2e
 SHA1: 09fe6a64ef86cb06d3d860802b1fa44c3bd46880
 SHA256: fa419e74063c5e7c3944d4b70e846289b906534ced9ef5935672b303da38914a
+
+Package: proot
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: Michal Bednarski @michalbednarski
+Version: 5.1.107.101-1
+Homepage: https://proot-me.github.io/
+Depends: libandroid-shmem, libtalloc
+Suggests: proot-distro
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+Filename: ./proot_5.1.107.101-1_aarch64.deb
+Size: 103020
+MD5sum: a9979ab15d31cab6e57c19b535b55ce5
+SHA1: b31da6c0f12b31e1887546bb9a8b8d35c58d55e6
+SHA256: 20d2df1a1099d8dd62d28dfc8d7ea92876331a7f9ffc3e039090f5e9b86b8538
 
 Package: qt6-qt5compat-cross-tools
 Architecture: all
