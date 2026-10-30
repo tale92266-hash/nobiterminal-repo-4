@@ -1,3 +1,31 @@
+Package: adwaita-icon-theme-legacy
+Architecture: all
+Installed-Size: 7732
+Maintainer: @termux
+Version: 46.2-1
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme-legacy
+Depends: hicolor-icon-theme
+Description: GNOME fallback icons for legacy apps
+Filename: ./adwaita-icon-theme-legacy_46.2-1_all.deb
+Size: 2056332
+MD5sum: 32b2f8380ebd54f06ed7ed0eb6f67834
+SHA1: 4df20545963ab7d620a8d457ade1068ba737cae6
+SHA256: 8be66f8ad8fd882df075586723760eaffab05eeb5a2ee1ab5b5dea8775c47e31
+
+Package: adwaita-icon-theme
+Architecture: all
+Installed-Size: 15384
+Maintainer: @termux
+Version: 51.0
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+Depends: adwaita-icon-theme-legacy, hicolor-icon-theme
+Description: GNOME standard icons
+Filename: ./adwaita-icon-theme_51.0_all.deb
+Size: 455864
+MD5sum: 4faec73322a0ead8e60fb4e5853c3e93
+SHA1: a48483225f5d8170425d3a9244cc2f52fc4333d0
+SHA256: 34e2092fd15f95eb530159f82bf72235c7328fe91879778198e43472d6415048
+
 Package: agate
 Architecture: aarch64
 Installed-Size: 2116
@@ -24,6 +52,20 @@ Size: 46756
 MD5sum: 9e4267b8fb8fd5e7a886a52516c35bd6
 SHA1: a5b150719ec7883193f348609ff0714633426fc6
 SHA256: e0a1d18f4e0604a1bbf4ac355f35842cda71efd7ee665fd624d2fd93c64f9d3d
+
+Package: desktop-file-utils
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: @termux
+Version: 0.28-3
+Homepage: https://www.freedesktop.org/wiki/Software/desktop-file-utils
+Depends: glib
+Description: Command line utilities for working with desktop entries
+Filename: ./desktop-file-utils_0.28-3_aarch64.deb
+Size: 37984
+MD5sum: ac5ee378f0045f64258383f76cb2e6a2
+SHA1: b8f0ba70b091acd6b6165d911f99c38723e7e335
+SHA256: 9157a83e2b18adb561b555bc5eb8878fcbcf50c9891355ccd4e1a459dc1e3fda
 
 Package: dialog-static
 Architecture: aarch64
@@ -178,6 +220,20 @@ MD5sum: ee63cae25d2e5dd5cdb098cf8aa73c83
 SHA1: 63103d394783e6efff48d52a12fb8b3d0e4f3275
 SHA256: f440c157b38f6b4b94a81a5eed99cc7dc61b57ed4a597a8243e0874d4ee1ffdc
 
+Package: gpsbabel
+Architecture: aarch64
+Installed-Size: 2444
+Maintainer: @termux
+Version: 1.10.0-4
+Homepage: https://www.gpsbabel.org/
+Depends: libc++, libusb, qt6-qt5compat, qt6-qtbase
+Description: GPS file conversion plus transfer to/from GPS units
+Filename: ./gpsbabel_1.10.0-4_aarch64.deb
+Size: 718148
+MD5sum: 894b0a291016d09d7c9e9fcd8751c60d
+SHA1: 316cb0b07bf2f042e46977bb954d292587d4fb9d
+SHA256: 88618742b0dad45b2dfd223c2491e84f78461f84dc01d43be238eac980fb5be4
+
 Package: gsasl
 Architecture: aarch64
 Installed-Size: 124
@@ -191,6 +247,51 @@ Size: 30012
 MD5sum: 9cbac3fad5663f4dfe9bbffa0ffcdf53
 SHA1: dd78714aaf265466145f40dc4e685a14cbbdc101
 SHA256: 7713451359382e08755455d4b7011c035f739cf63ab7d8f53d38db14d6a5ab04
+
+Package: gtk-update-icon-cache
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 3.24.52
+Homepage: https://www.gtk.org/
+Depends: gdk-pixbuf, glib
+Breaks: gtk3 (<< 3.24.41)
+Replaces: gtk3 (<< 3.24.41)
+Description: GTK+ icon cache updater
+Filename: ./gtk-update-icon-cache_3.24.52_aarch64.deb
+Size: 11644
+MD5sum: 0edbec5bfc47d56ff9a2a951b8f5f7ba
+SHA1: edf29fa06d9e46b3543595982649350c193707d9
+SHA256: 9c8aa8a541c142a6e6d58d29521fa0d549474744d1a71b6a953419d24e94c35a
+
+Package: gtk3
+Architecture: aarch64
+Installed-Size: 31436
+Maintainer: @termux
+Version: 3.24.52
+Homepage: https://www.gtk.org/
+Depends: adwaita-icon-theme, at-spi2-core, coreutils, desktop-file-utils, fontconfig, fribidi, gdk-pixbuf, glib, gtk-update-icon-cache, harfbuzz, libcairo, libepoxy, libwayland, libxcomposite, libxcursor, libxdamage, libxfixes, libxi, libxinerama, libxkbcommon, libxrandr, pango, shared-mime-info, ttf-dejavu
+Conflicts: libgtk3
+Replaces: libgtk3
+Description: GObject-based multi-platform GUI toolkit
+Filename: ./gtk3_3.24.52_aarch64.deb
+Size: 5584172
+MD5sum: 8a0457015367073211f1c104c0412b1a
+SHA1: c7eda6841882d143e1a99be7330b4bad1210b8b7
+SHA256: 522b2da70cd75cd0c2ba0068f371a0840d37b3ab812001be68ad8c0029abf721
+
+Package: hicolor-icon-theme
+Architecture: all
+Installed-Size: 108
+Maintainer: @termux
+Version: 0.18
+Homepage: https://www.freedesktop.org/wiki/Software/icon-theme/
+Description: Freedesktop.org Hicolor icon theme
+Filename: ./hicolor-icon-theme_0.18_all.deb
+Size: 4828
+MD5sum: 573fc364ab2d5c1e68c917f31495de74
+SHA1: 77f90223051c640345b266962164d7ccec9450e1
+SHA256: 9c5ff215412fa5efed8fa89eccdeec82c185f1e2832c9e3f687f93cf5495e7a3
 
 Package: hunspell-en-us
 Architecture: all
@@ -1489,6 +1590,104 @@ MD5sum: 815256060d1732732303dd8c1065f6fe
 SHA1: a84d62d0c39d10fc63a1683bd1fbeae196d7bce8
 SHA256: 455f13db09620d8e5a2e0d1beb67906aa9e83c871b5cc7c9b5bbb52871a8e5aa
 
+Package: libxcomposite-static
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: @termux
+Version: 0.4.7
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcomposite (= 0.4.7)
+Description: Static libraries for libxcomposite
+Filename: ./libxcomposite-static_0.4.7_aarch64.deb
+Size: 3720
+MD5sum: 62afc1a347fe3b30f4d937ca9023c3ac
+SHA1: 29b39461a3291e1a02740ef2cdff1c96c14f2ada
+SHA256: 97378618e8fca1540a5761d51b88cce43445ebfe5e40f496cf1c0797673c4336
+
+Package: libxcomposite
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 0.4.7
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 Composite extension library
+Filename: ./libxcomposite_0.4.7_aarch64.deb
+Size: 9608
+MD5sum: aac70d406955932844f074a9d50ba4b7
+SHA1: b4b3c580b231c5e11dfdd983f389b3c55ddec8fb
+SHA256: fe1ea835545bea7f58ff316f7773468cf656ee893f0274f4c2da14e875557fa0
+
+Package: libxdamage-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @termux
+Version: 1.1.7
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdamage (= 1.1.7)
+Description: Static libraries for libxdamage
+Filename: ./libxdamage-static_1.1.7_aarch64.deb
+Size: 3728
+MD5sum: 3dbfb5f15a0df1b941164c1f6d999991
+SHA1: 9ff495e6ec107b6ce7cb9c4ce5e206435525b131
+SHA256: 66cbca2a241ca9f4d0c84d7fb006217eddf7a47f2bea409cc621780056e40c22
+
+Package: libxdamage
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 1.1.7
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxfixes
+Description: X11 damaged region extension library
+Filename: ./libxdamage_1.1.7_aarch64.deb
+Size: 5308
+MD5sum: 7cf87487e0bdd7ec4d8ae17d2c20d499
+SHA1: b2952cc9a39a82788d70d912a3af22fd7ff78653
+SHA256: abb13db8938f2151c62e7f9be0226e0adea8491a387e4b7ce16f1740d66cf8b6
+
+Package: libxinerama-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @termux
+Version: 1.1.6
+Homepage: https://xorg.freedesktop.org/
+Depends: libxinerama (= 1.1.6)
+Description: Static libraries for libxinerama
+Filename: ./libxinerama-static_1.1.6_aarch64.deb
+Size: 3448
+MD5sum: 8da106af09463224dce07d9f6547b87e
+SHA1: d392abdf16a33f2e8a5cba6a9599287fa9388ff0
+SHA256: c9e1e7913bf3569b5b7942f61acd4b729a8dcf4e48798ed4fa35a5e26598b4ab
+
+Package: libxinerama
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: @termux
+Version: 1.1.6
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext
+Description: X11 Xinerama extension library
+Filename: ./libxinerama_1.1.6_aarch64.deb
+Size: 7792
+MD5sum: d20db4c0971c155d86c33779a3f61e25
+SHA1: 0b309480967f15787414e7e19556161489b31549
+SHA256: 31066834e721097acfc7724ab2daf29feddc723084abc96aea3bef253ff1f2d3
+
+Package: libxkbcommon
+Architecture: aarch64
+Installed-Size: 1324
+Maintainer: @termux
+Version: 1.13.2
+Homepage: https://xkbcommon.org/
+Depends: libxcb, libxml2, libwayland, xkeyboard-config
+Description: Keymap handling library for toolkits and window systems
+Filename: ./libxkbcommon_1.13.2_aarch64.deb
+Size: 255568
+MD5sum: a0fd019fd8decbc56e19e2f11e380b9b
+SHA1: 048b1620b699aecd75a5078a89c5c3d64edad95d
+SHA256: 06f28632e268b47110edef21dd7985cd7be88413a295ae26ed9ff2cc4a2f448b
+
 Package: lsof-static
 Architecture: aarch64
 Installed-Size: 260
@@ -1545,6 +1744,182 @@ MD5sum: 33bf22d0025d794b8c887222300cdc2e
 SHA1: 09fe6a64ef86cb06d3d860802b1fa44c3bd46880
 SHA256: fa419e74063c5e7c3944d4b70e846289b906534ced9ef5935672b303da38914a
 
+Package: qt6-qt5compat-cross-tools
+Architecture: all
+Installed-Size: 5540
+Maintainer: @termux
+Version: 6.12.0-1
+Homepage: https://www.qt.io/
+Depends: qt6-qt5compat (= 6.12.0-1)
+Description: Tools for cross build on the host (NOT for Termux)
+Filename: ./qt6-qt5compat-cross-tools_6.12.0-1_all.deb
+Size: 657508
+MD5sum: 99bc66ea740ff4ec9939bcd4ee35b11a
+SHA1: 077745f87dab301b6d8b325bc46ed3abfdc118f4
+SHA256: 3499fcb4ffa1410939b2220f570ac90971f247a5b1d6f8cf432107fa7d0d8cb7
+
+Package: qt6-qt5compat
+Architecture: aarch64
+Installed-Size: 2796
+Maintainer: @termux
+Version: 6.12.0-1
+Homepage: https://www.qt.io/
+Depends: libc++, libicu, qt6-qtbase (>= 6.12.0), qt6-qtdeclarative (>= 6.12.0), qt6-qtshadertools (>= 6.12.0)
+Description: Qt6 Module that contains unsupported Qt 5 APIs
+Filename: ./qt6-qt5compat_6.12.0-1_aarch64.deb
+Size: 471400
+MD5sum: 68fcf141f7cd080b7d176d022fd5ec17
+SHA1: 95fef5acc6fc00f3d3fd8dea1736e612f697f464
+SHA256: a1931de22fecfb1145cf14354790ff7bd4b27b1133d51a5447d14815fdcbafcc
+
+Package: qt6-qtbase-cross-tools
+Architecture: all
+Installed-Size: 83520
+Maintainer: @termux
+Version: 6.12.0
+Homepage: https://www.qt.io/
+Depends: qt6-qtbase (= 6.12.0)
+Description: Tools for cross build on the host (NOT for Termux)
+Filename: ./qt6-qtbase-cross-tools_6.12.0_all.deb
+Size: 15257864
+MD5sum: 8a6127fbdba826a0fbeef62614cdc534
+SHA1: b23a6fed3f14b7e6d7a6b2ba54940fd3cbf54d70
+SHA256: 57ea44817520d1e7ed1988c2f8e774f76df52c7a134bfff055b75e4982cf3540
+
+Package: qt6-qtbase-gtk-platformtheme
+Architecture: aarch64
+Installed-Size: 232
+Maintainer: @termux
+Version: 6.12.0
+Homepage: https://www.qt.io/
+Depends: gdk-pixbuf, gtk3, pango, qt6-qtbase (= 6.12.0)
+Description: GTK+ 3 platform theme for Qt 6
+Filename: ./qt6-qtbase-gtk-platformtheme_6.12.0_aarch64.deb
+Size: 55236
+MD5sum: 4dc09b19531e9125c77095998f50d624
+SHA1: cb184e4c907f7af311e3e31240de3d2b126687e6
+SHA256: dbbd83b96b1f58fd81a7602354112820e950b58a303030b0fc2b85469beb860b
+
+Package: qt6-qtbase
+Architecture: aarch64
+Installed-Size: 79460
+Maintainer: @termux
+Version: 6.12.0
+Homepage: https://www.qt.io/
+Depends: brotli, double-conversion, freetype, glib, harfbuzz, krb5, libandroid-posix-semaphore, libandroid-shmem, libc++, libdrm, libglvnd-dev, libice, libicu, libjpeg-turbo, libpng, libsm, libsqlite, libuuid, libx11, libxcb, libxi, libxkbcommon, libwayland, opengl, openssl, pcre2, vulkan-loader, xcb-util-cursor, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, xdg-utils, zlib, zstd
+Conflicts: qt6-qtwayland (<< 6.10.0)
+Description: A cross-platform application and UI framework
+Filename: ./qt6-qtbase_6.12.0_aarch64.deb
+Size: 13023028
+MD5sum: eccd7b53a4e74cfb124283717052c9f1
+SHA1: b72043c46d72b88eaf53ff6e51e90ff15a37f610
+SHA256: afddf991986069f4ef1014f6a3b279332f6b41f1ed67087480069c6680863a5f
+
+Package: qt6-qtdeclarative-cross-tools
+Architecture: all
+Installed-Size: 202328
+Maintainer: @termux
+Version: 6.12.0-1
+Homepage: https://www.qt.io/
+Depends: qt6-qtdeclarative (= 6.12.0-1)
+Description: Tools for cross build on the host (NOT for Termux)
+Filename: ./qt6-qtdeclarative-cross-tools_6.12.0-1_all.deb
+Size: 21481492
+MD5sum: 4ff0fdaae505d5db59c7e1f0ee1be976
+SHA1: 2de34f38b0763fa9b7b706d372330a648333fcba
+SHA256: 3fdc44d4ab26fcf1ad47aba0a0e752099fe0665dfa4fe2fa93d5516664ca5972
+
+Package: qt6-qtdeclarative
+Architecture: aarch64
+Installed-Size: 139912
+Maintainer: @termux
+Version: 6.12.0-1
+Homepage: https://www.qt.io/
+Depends: libc++, qt6-qtbase (>= 6.12.0)
+Recommends: qt6-qtlanguageserver
+Description: Classes for QML and JavaScript languages
+Filename: ./qt6-qtdeclarative_6.12.0-1_aarch64.deb
+Size: 16839688
+MD5sum: 7b213680b698a2fbfce8e271e5cf5259
+SHA1: e797257e6f3aca44da65831b9d8cac54c54e153d
+SHA256: 83a019379e4ada0b2b947bcbebe8e5a13de3271e003d12b3750be8079a33a4e9
+
+Package: qt6-qtlanguageserver-cross-tools
+Architecture: all
+Installed-Size: 6132
+Maintainer: @termux
+Version: 6.12.0
+Homepage: https://www.qt.io/
+Depends: qt6-qtlanguageserver (= 6.12.0)
+Description: Tools for cross build on the host (NOT for Termux)
+Filename: ./qt6-qtlanguageserver-cross-tools_6.12.0_all.deb
+Size: 387584
+MD5sum: ad4f4a90667cfc1b4bf4c47ebbb6c39f
+SHA1: 9d43ce77fc7ebed52bdf033036fe4d009a9db25c
+SHA256: 40910de35ff924df249fba6a8341c6e77a5fe94f6d12070484c6f41327269785
+
+Package: qt6-qtlanguageserver
+Architecture: aarch64
+Installed-Size: 8504
+Maintainer: @termux
+Version: 6.12.0
+Homepage: https://www.qt.io/
+Depends: libc++, qt6-qtbase (>= 6.12.0)
+Description: An implementation of the Language Server Protocol
+Filename: ./qt6-qtlanguageserver_6.12.0_aarch64.deb
+Size: 497340
+MD5sum: b45445ba1fbf10c9afd38a14b16b7232
+SHA1: 02834c47e941c14cb717b9aab22bfd17fabdf0db
+SHA256: 8589a298bc149975fc8012d4c9007bb5eab45f6cc7c0fbd614642c97f839fac0
+
+Package: qt6-qtshadertools-cross-tools
+Architecture: all
+Installed-Size: 5332
+Maintainer: @termux
+Version: 6.12.0-1
+Homepage: https://www.qt.io/
+Depends: qt6-qtshadertools (= 6.12.0-1)
+Breaks: qt6-shadertools-cross-tools
+Replaces: qt6-shadertools-cross-tools
+Provides: qt6-shadertools-cross-tools
+Description: Tools for cross build on the host (NOT for Termux)
+Filename: ./qt6-qtshadertools-cross-tools_6.12.0-1_all.deb
+Size: 1320512
+MD5sum: ea0dcc4bf8c00a5ca48450bfac01c26e
+SHA1: c55e5408509abd51c38011980dcfc8d30738f951
+SHA256: fada218298c9e817129390964a67e0371d5685355c686f9177643e82a5d5e69b
+
+Package: qt6-qtshadertools
+Architecture: aarch64
+Installed-Size: 5796
+Maintainer: @termux
+Version: 6.12.0-1
+Homepage: https://www.qt.io/
+Breaks: qt6-shadertools
+Depends: libc++, qt6-qtbase (>= 6.12.0)
+Replaces: qt6-shadertools
+Provides: qt6-shadertools
+Description: Qt6 Shader Tools
+Filename: ./qt6-qtshadertools_6.12.0-1_aarch64.deb
+Size: 1308116
+MD5sum: d09d9c5a2ee6e9d3027caadf4f9755f6
+SHA1: 00f228aacbdc88f56dc914c80f5b6e99d4e70221
+SHA256: fa22f386dc3e13d73c52f9d849c38eb3cefc5905fffa1852e464b7f0ec47e753
+
+Package: shared-mime-info
+Architecture: aarch64
+Installed-Size: 3272
+Maintainer: @termux
+Version: 2.5.1
+Homepage: https://freedesktop.org/Software/shared-mime-info
+Depends: coreutils, glib, libxml2
+Description: Freedesktop.org Shared MIME Info
+Filename: ./shared-mime-info_2.5.1_aarch64.deb
+Size: 335564
+MD5sum: 3f38ce909213a0cefca8405c8a44e73f
+SHA1: d2188f6d2c755a292ebfa562021158fcc67b1431
+SHA256: 2b33965b7961626aa39cc63b63823fd7dcb16a766322c16df72808367cc10ff3
+
 Package: termux-exec-static
 Architecture: aarch64
 Installed-Size: 76
@@ -1578,6 +1953,229 @@ Size: 6834732
 MD5sum: b686c0af5281cc5d783151ecd176971d
 SHA1: 9d7d6c4c9d99af7bc5cbc5a5518c019723de3e66
 SHA256: 6de13bcc3c75508a756d385de2c6ea5e16ac8516d6b6299768daf0c0d7744b66
+
+Package: which
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 2.25-1
+Homepage: https://savannah.gnu.org/projects/which/
+Conflicts: debianutils (<< 5.7-1)
+Description: Shows the full path of (shell) commands
+Filename: ./which_2.25-1_aarch64.deb
+Size: 12672
+MD5sum: a5d950499be7b6d6f76393bbc51e4b7c
+SHA1: 57f9734cd4f2a621d2fc214581aeebdd3268422a
+SHA256: 3fba21831dcda587857a72dfbfa427187c9d811f95cea656047dccc4a8026ac9
+
+Package: xcb-util-cursor-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 0.1.6
+Homepage: https://cgit.freedesktop.org/xcb/util-cursor
+Depends: xcb-util-cursor (= 0.1.6)
+Description: Static libraries for xcb-util-cursor
+Filename: ./xcb-util-cursor-static_0.1.6_aarch64.deb
+Size: 7556
+MD5sum: 3cb1e497bc6a7b513c8d10a7b46d1d35
+SHA1: de085473b6dde96ab022e43052db6966eef23a87
+SHA256: 774edbd4589e4671d0aae037ee71e07c9d10ed5cd010e13b95ce837568d08b9f
+
+Package: xcb-util-cursor
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 0.1.6
+Homepage: https://cgit.freedesktop.org/xcb/util-cursor
+Depends: libxcb, xcb-util-image, xcb-util-renderutil
+Description: XCB cursor library
+Filename: ./xcb-util-cursor_0.1.6_aarch64.deb
+Size: 9016
+MD5sum: d80f71f7af0afda91c3dd1556a6f6418
+SHA1: f09f43134aeba6571927f9d2804583d6120c9d63
+SHA256: 8a7701e2957c17dd77f77a5f1588edeca11b2555678920a50dd5595f5c76ab7e
+
+Package: xcb-util-image-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 0.4.1-2
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-image (= 0.4.1-2)
+Description: Static libraries for xcb-util-image
+Filename: ./xcb-util-image-static_0.4.1-2_aarch64.deb
+Size: 6336
+MD5sum: e23ee57c65161a9db86939cc95855916
+SHA1: e2d514c4434cda02d0a6cc19f6391d07efe59ddb
+SHA256: 16a046062fb8b9433fcf0cc95860938369e5b3ffd466888c1a001624cd5ac190
+
+Package: xcb-util-image
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: @termux
+Version: 0.4.1-2
+Homepage: https://xcb.freedesktop.org/
+Depends: libandroid-shmem, libxcb, xcb-util
+Description: Utility libraries for XC Binding - Port of Xlib's XImage and XShmImage functions
+Filename: ./xcb-util-image_0.4.1-2_aarch64.deb
+Size: 14688
+MD5sum: 72e620e2426d0872bc9e213e98612557
+SHA1: f01279b5e20ca91ee9b2301a504255312bab7fbc
+SHA256: c5e3040cc6c9df33489cd411707d0514a08064a6fdf6eaad58ef6502cda05701
+
+Package: xcb-util-keysyms-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @termux
+Version: 0.4.1-1
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-keysyms (= 0.4.1-1)
+Description: Static libraries for xcb-util-keysyms
+Filename: ./xcb-util-keysyms-static_0.4.1-1_aarch64.deb
+Size: 3624
+MD5sum: 17ce0f8880692f049a38dd161ecc0439
+SHA1: 7683e0d88cfa8aba3dd6ff7af7afeab05950ddea
+SHA256: e1a0860f6979b74f2b31e93b5ba225e91415d68db8d6a0dd47f3ffae35f18f8f
+
+Package: xcb-util-keysyms
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 0.4.1-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - Standard X key constants and conversion to/from keycodes
+Filename: ./xcb-util-keysyms_0.4.1-1_aarch64.deb
+Size: 5568
+MD5sum: e6c35c15bb056bf6308c57f8b03cd695
+SHA1: 37647c7641323160fe58120329869603a94d8817
+SHA256: 18ef7a11a83c4c805e7a1303198229a26601a59b9d46711e7fdfbeb078f94f87
+
+Package: xcb-util-renderutil-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 0.3.10-1
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-renderutil (= 0.3.10-1)
+Description: Static libraries for xcb-util-renderutil
+Filename: ./xcb-util-renderutil-static_0.3.10-1_aarch64.deb
+Size: 4800
+MD5sum: 2044801b9f131953bc994fa484c7d25e
+SHA1: 786ea8f19f6d6e9a45cf73cb9a5359c8051b6bdb
+SHA256: ca5d2d25afeab72309d5554a7e15a2e66c4be198ea24d8a8ce69d81c45ca304b
+
+Package: xcb-util-renderutil
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 0.3.10-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - Convenience functions for the Render extension
+Filename: ./xcb-util-renderutil_0.3.10-1_aarch64.deb
+Size: 6920
+MD5sum: 445995af551cc7dfff01aee6735bf130
+SHA1: 9f9119b82f484dfbc37f3bb1100c2e433dc98be3
+SHA256: 0fa855c5678857a5d6c8dff05fd584c4eaa59327bc28ace93f7b823beae9a0bf
+
+Package: xcb-util-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 0.4.1-1
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util (= 0.4.1-1)
+Description: Static libraries for xcb-util
+Filename: ./xcb-util-static_0.4.1-1_aarch64.deb
+Size: 7240
+MD5sum: 4c02946ddf8f0eed13c7d119b9147a53
+SHA1: a81d628d73c8d36b4afb78f7bce9c306fbc60a8d
+SHA256: 315a7a2414c6e64e1016d52eca15a1502fea0d7f423aca3c62acf26dee88cdbf
+
+Package: xcb-util-wm-static
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: @termux
+Version: 0.4.2-1
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-util-wm (= 0.4.2-1)
+Description: Static libraries for xcb-util-wm
+Filename: ./xcb-util-wm-static_0.4.2-1_aarch64.deb
+Size: 13996
+MD5sum: 85e8baaf606a87fee186430cf4f0a771
+SHA1: 3ec5e953b3fbe5fd8d70dcb345b54b7e088eb15b
+SHA256: 38141f84ea4ae996ef56349ae0c87deb6c82ef8626d78a0e8e7a09ff91df91bc
+
+Package: xcb-util-wm
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: @termux
+Version: 0.4.2-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding - client and window-manager helpers for ICCCM
+Filename: ./xcb-util-wm_0.4.2-1_aarch64.deb
+Size: 29232
+MD5sum: 7058c4c1e48c4c078307da1cd65ee6da
+SHA1: fcff43b6b7971382e899cbb6689666aca9329e3f
+SHA256: 607b0f6c59085431c680753e12472932b60d4fe074011080a1b6bcfa967e0d66
+
+Package: xcb-util
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 0.4.1-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb
+Description: Utility libraries for XC Binding
+Filename: ./xcb-util_0.4.1-1_aarch64.deb
+Size: 9236
+MD5sum: d833f5bae334f6dee3857c5a7e2e9ad1
+SHA1: adc08441ca1ecdfff6489c3de7e96ff05bb31149
+SHA256: 628a225484754580514f2a497bd151ebe8bbd98d1060a2d9f0c6f5e710875d2c
+
+Package: xdg-utils
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: @termux
+Version: 1.2.1-1
+Homepage: https://www.freedesktop.org/wiki/Software/xdg-utils/
+Depends: desktop-file-utils, file, make, perl, shared-mime-info, which, xorg-xprop
+Description: A set of simple scripts that provide basic desktop integration functions for any Free Desktop
+Filename: ./xdg-utils_1.2.1-1_aarch64.deb
+Size: 54304
+MD5sum: 7293cb1562271def68f70749241f3c9c
+SHA1: c6920c6e5da62207d9f2d11285c76db682e190b6
+SHA256: 276b39364f1ec3a6d20279cf4e4e9946cb0b44e4df435ceda6e59fc089fb0d94
+
+Package: xkeyboard-config
+Architecture: all
+Installed-Size: 4100
+Maintainer: @termux
+Version: 2.48-1
+Homepage: https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config
+Description: X keyboard configuration files
+Filename: ./xkeyboard-config_2.48-1_all.deb
+Size: 356904
+MD5sum: df9f39fb97e10e0cb9f4700e1e6898f9
+SHA1: 63ef2f778cba7f2699d52320ce3759cc616f9379
+SHA256: e53fa20328e0460707b4d04d62eb82f50803484c4b11aa9db59efa6ef65c5600
+
+Package: xorg-xprop
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 1.2.8
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: Utility to print properties of X11 windows
+Filename: ./xorg-xprop_1.2.8_aarch64.deb
+Size: 21628
+MD5sum: 357fe5cd77dcea1829c601855c530b90
+SHA1: 95bbb021efcbe248cddaed64ff65e5d2edeb3d10
+SHA256: da7725570721a053fa91e64e1e392eda7d93a1b5164c7e7a990fae8990af31fd
 
 Package: xxd
 Architecture: aarch64
