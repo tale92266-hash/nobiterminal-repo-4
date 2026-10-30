@@ -731,6 +731,20 @@ MD5sum: 1ed85ee750c77d04577ab221fca7243e
 SHA1: 741e1b431d9b2744621e7d30dce875d33291db9d
 SHA256: fc1ffa6de353800cb9d8ed69a75546923739e845ae7059ddd70e883217a7d723
 
+Package: libdart
+Architecture: aarch64
+Installed-Size: 52884
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Version: 6.20.3-1
+Homepage: https://dartsim.github.io/
+Depends: libc++, eigen, assimp, libccd, libfcl, fmt, libspdlog, libbullet, libode, libpagmo, octomap, libtinyxml2
+Description: Dynamic Animation and Robotics Toolkit
+Filename: ./libdart_6.20.3-1_aarch64.deb
+Size: 12039468
+MD5sum: 7f845812bbbf5bc1a8fd3daf44136a90
+SHA1: 5662d5aa73b367a01ec482dcb0fccfbdaea950aa
+SHA256: 5f59ccc21a6c1b56c4506b3f56b297675db607cbaae6ca1e4d440bd14c3e7966
+
 Package: libexttextcat-static
 Architecture: aarch64
 Installed-Size: 56
