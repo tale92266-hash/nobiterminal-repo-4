@@ -954,6 +954,73 @@ MD5sum: 36f1919be7cffe669ddfb997bbaaba1d
 SHA1: 11d5bd81a25c7c068b0aba35e14efe6a0a5695b3
 SHA256: 2906dd3307d1cc3484572b1e1c9447413fafca16504510216a9ec31f212bad2d
 
+Package: hashdeep
+Architecture: aarch64
+Installed-Size: 1320
+Maintainer: @termux
+Version: 4.4-10
+Homepage: https://md5deep.sourceforge.net/
+Depends: libc++
+Description: Programs to compute hashsums of arbitrary number of files recursively
+Filename: ./hashdeep_4.4-10_aarch64.deb
+Size: 90048
+MD5sum: 06b9767a44075000d5e415fdabd60fe5
+SHA1: af175b09dc490dde1ca650eb3618f151ff43c6c5
+SHA256: b11da042abf44d7a26dfa4476d4ab7f5f9a3b1f3bafd35f056ab82088181ef48
+
+Package: hexyl
+Architecture: aarch64
+Installed-Size: 984
+Maintainer: @termux
+Version: 0.17.0-1
+Homepage: https://github.com/sharkdp/hexyl
+Description: A command-line hex viewer
+Filename: ./hexyl_0.17.0-1_aarch64.deb
+Size: 340404
+MD5sum: d4a6374f710977f12dd5006b325be32c
+SHA1: 276e7121939ca6493f87b2cceea173e1fd031665
+SHA256: 0e161990cea45a7ada19f1fba4527d87692616fcac23b54d2a658f7487b4a87e
+
+Package: hey
+Architecture: aarch64
+Installed-Size: 8968
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.1.5-2
+Homepage: https://github.com/rakyll/hey
+Description: HTTP load generator, ApacheBench (ab) replacement
+Filename: ./hey_0.1.5-2_aarch64.deb
+Size: 2475580
+MD5sum: 0ddf10d6f7cd737d5d7559e5f666353d
+SHA1: 03ea2855cc8fd6e144b2e8f103cb9beb39169582
+SHA256: 6311d25ac45f4513797ad2c6acfcb8623a8e12f2f1b693db0af815cf6835d0e1
+
+Package: heyu
+Architecture: aarch64
+Installed-Size: 868
+Maintainer: @termux
+Version: 1:2.10.3-3
+Homepage: https://www.heyu.org/
+Description: Program for remotely controlling lights and appliances
+Filename: ./heyu_1:2.10.3-3_aarch64.deb
+Size: 371768
+MD5sum: d795586d7de9d5912deec1c6e544ad64
+SHA1: d875ea9b12794b3466d8989607b12b2ccd827e29
+SHA256: 0c202c610a32efbc78ebbeffd700c6af63c49a8be3830a412054fbe5c39bf239
+
+Package: hfsutils
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: @termux
+Version: 3.2.6-3
+Homepage: https://www.mars.org/home/rob/proj/hfs/
+Depends: libandroid-support
+Description: Tool for manipulating HFS images
+Filename: ./hfsutils_3.2.6-3_aarch64.deb
+Size: 54120
+MD5sum: 037aa574e82c0e057097d819936050ce
+SHA1: a5c46437d84d3e3ad2abf0422a93687a0a18d491
+SHA256: 5c3e8f096dd9f6d80c5bca26ec4adde4b97906fb61eb1306f5bc903320fcf7dd
+
 Package: hicolor-icon-theme
 Architecture: all
 Installed-Size: 108
@@ -967,6 +1034,88 @@ MD5sum: 573fc364ab2d5c1e68c917f31495de74
 SHA1: 77f90223051c640345b266962164d7ccec9450e1
 SHA256: 9c5ff215412fa5efed8fa89eccdeec82c185f1e2832c9e3f687f93cf5495e7a3
 
+Package: hidapi
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 0.15.0-1
+Homepage: https://libusb.info/hidapi
+Depends: libiconv, libusb
+Description: Simple cross-platform library for communicating with HID devices
+Filename: ./hidapi_0.15.0-1_aarch64.deb
+Size: 31920
+MD5sum: 6d803d2255837191f38ec9b07bd521a2
+SHA1: f7d36a3d53db8d4bef9d5762d4cfb5a1fa999eb3
+SHA256: 742f2cb61e04d8d8c9ea8a2290e3aa314bbb997e9285ae3f0cc8436e80502e39
+
+Package: hilbish
+Architecture: aarch64
+Installed-Size: 7648
+Maintainer: @termux
+Version: 1:2.3.4-3
+Homepage: https://rosettea.github.io/Hilbish/
+Description: The Moon-powered shell! A comfy and extensible shell for Lua fans!
+Filename: ./hilbish_1:2.3.4-3_aarch64.deb
+Size: 1953636
+MD5sum: 34f293ef038163870941451c388bbe50
+SHA1: c439766d47f038fb3b84141c4421d0e1fc523359
+SHA256: 4ef4076f6db04adaf2e4cd356374ff64e210e90d05ddc876c2bcfcf02288539b
+
+Package: hk
+Architecture: aarch64
+Installed-Size: 24512
+Maintainer: @termux
+Version: 2.10.0-1
+Homepage: https://hk.jdx.dev/
+Depends: git, zlib
+Description: A tool for managing git hooks
+Filename: ./hk_2.10.0-1_aarch64.deb
+Size: 6319244
+MD5sum: 64a18966239bfc2dcd9f18e7853dd588
+SHA1: 5551f4d037e5adb80c52f1b36e2371aaecfbcb13
+SHA256: 23f5f608cb3c11f792f16005fcdd6c2f0c608cbf0999457d978786989514fcd9
+
+Package: hub
+Architecture: aarch64
+Installed-Size: 8352
+Maintainer: @termux
+Version: 2.14.2-8
+Homepage: https://hub.github.com/
+Depends: git
+Description: Command-line wrapper for git that makes you better at GitHub
+Filename: ./hub_2.14.2-8_aarch64.deb
+Size: 2404804
+MD5sum: 158c01ca6dbc9f0ab14297ad257a1565
+SHA1: 9d62e9b5206f8c90125a9560545686f506517d6a
+SHA256: 4a45901bb1ffb2c734b6da6e778bdbc317bf138c403c47ebb7b9cba6e1223cc3
+
+Package: hugo
+Architecture: aarch64
+Installed-Size: 66508
+Maintainer: @termux
+Version: 0.169.0-1
+Homepage: https://gohugo.io/
+Depends: libc++
+Description: A fast and flexible static site generator
+Filename: ./hugo_0.169.0-1_aarch64.deb
+Size: 14468076
+MD5sum: dce4f0f3ce071a299739ca237c012764
+SHA1: 3f1e3014a1e4fc23a058ea6044c0fdc66c26de94
+SHA256: 2245ab75e9c21fbf4055527feb31580e84b4adee29e43403fa221d5789270ce5
+
+Package: hummin
+Architecture: aarch64
+Installed-Size: 7728
+Maintainer: @termux
+Version: 2021.05.18-6
+Homepage: https://trantor.is/
+Description: Command line client for the imperial library of trantor
+Filename: ./hummin_2021.05.18-6_aarch64.deb
+Size: 2237364
+MD5sum: 90870345e562cd5c7ab4b50ebc69decf
+SHA1: 253814810fcc5878d4bde6cdb95086f643d9b0dd
+SHA256: 91d86c0a6742c531f985d13b2cb0f7926d0b7af3c610428e42afadc668d9aa26
+
 Package: hunspell-en-us
 Architecture: all
 Installed-Size: 584
@@ -979,6 +1128,32 @@ Size: 162128
 MD5sum: dd4ec254a685475e25c8b9e2e4492c84
 SHA1: 0d83fafdf63649850865faab00e209d5fda82c19
 SHA256: 23c8d841ad0bff22081f57b5dd02c7628a0d5bd54206f37b88c6cf19b2645c35
+
+Package: hunspell-fr
+Architecture: all
+Installed-Size: 1444
+Maintainer: @termux
+Version: 20221031-2
+Homepage: https://hunspell.github.io
+Description: French dictionary for hunspell
+Filename: ./hunspell-fr_20221031-2_all.deb
+Size: 284628
+MD5sum: 1464a818ce6c1de09f150dd59a5eeaf5
+SHA1: 921c6ee78297375702349f3dbc92a6c7a75ed1f6
+SHA256: c836fb6f33f2e4c6d17cf2ab235ee44f52dea405b2a15053a2f48bafa47f12f5
+
+Package: hunspell-hu
+Architecture: all
+Installed-Size: 4056
+Maintainer: @termux
+Version: 2024.03.28-2
+Homepage: https://magyarispell.sourceforge.net/
+Description: Hungarian dictionary for hunspell
+Filename: ./hunspell-hu_2024.03.28-2_all.deb
+Size: 642404
+MD5sum: 5617a36539994db8237374e0c2401fcc
+SHA1: 59fef7343af4bd2280081eb921c66da8dd36cde5
+SHA256: 53d07725d786afd3aa809f4d83436de401e47b257bb551c75d2d220a8e5a6083
 
 Package: hunspell-static
 Architecture: aarch64
@@ -1493,6 +1668,80 @@ Size: 10826452
 MD5sum: f852f57dd0c035342d1ce460e7b980dc
 SHA1: 61adde99e51a5d50e73e406e701b44057018a8f6
 SHA256: 31f34a5cbfe1e4636d81f282d1c5b04361e6068373b67842cfde39a05533b1f3
+
+Package: kubelogin
+Architecture: aarch64
+Installed-Size: 16320
+Maintainer: @termux
+Version: 1.36.4-2
+Homepage: https://github.com/int128/kubelogin
+Description: A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication
+Filename: ./kubelogin_1.36.4-2_aarch64.deb
+Size: 4144588
+MD5sum: 57652e69e5b4aa1889f26cc0bd733328
+SHA1: 059837bf7efd552ec1865bff5fd8ee1b528895df
+SHA256: 9bb0d2208409edbe3c7294c1d503982a1d2b6c50b9f23debbda8cf1f67df0dcc
+
+Package: kubo
+Architecture: aarch64
+Installed-Size: 66776
+Maintainer: @termux
+Version: 0.43.1-2
+Homepage: https://ipfs.io/
+Conflicts: ipfs
+Replaces: ipfs
+Provides: ipfs
+Suggests: termux-services
+Description: A peer-to-peer hypermedia distribution protocol
+Filename: ./kubo_0.43.1-2_aarch64.deb
+Size: 15096212
+MD5sum: 8c62ec84e540c2c116b83f1ca964bf9f
+SHA1: daea4440a112c5f14f3f9406ba848f2c1f4d6fa9
+SHA256: 6b7d0c58c2045168d9d8735299d2e5abf06d6830252902bc7cc98eac37900552
+
+Package: lager
+Architecture: aarch64
+Installed-Size: 496
+Maintainer: @termux
+Version: 0.1.3-1
+Homepage: https://sinusoid.es/lager/
+Depends: cmake
+Description: C++ library for value-oriented design
+Filename: ./lager_0.1.3-1_aarch64.deb
+Size: 43720
+MD5sum: b55d0ec04216db6ac20f4eb3c603e4f2
+SHA1: 4eaf1f7eeff3df9261b78e56a6ef8a202ce7ecaf
+SHA256: d16751fbed078ce83a52c6c627368ebd23b3d5a233797ca61d1189a93d2cb4d7
+
+Package: lastpass-cli
+Architecture: aarch64
+Installed-Size: 276
+Maintainer: @termux
+Version: 1.6.2-1
+Homepage: https://lastpass.com/
+Depends: libcurl, libxml2, openssl, pinentry
+Suggests: termux-api
+Description: LastPass command line interface tool
+Filename: ./lastpass-cli_1.6.2-1_aarch64.deb
+Size: 69252
+MD5sum: bee524875b3383c10178e3b873e14bba
+SHA1: abc76971b971af7b3c0f14f00b6a522893120b5b
+SHA256: 8053e573e4c8a17131a78c98b699e35305b1db41e53ce96ed94b6c37103047b8
+
+Package: lazygit
+Architecture: aarch64
+Installed-Size: 21732
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 0.66.2-2
+Homepage: https://github.com/jesseduffield/lazygit
+Recommends: git
+Suggests: diff-so-fancy
+Description: Simple terminal UI for git commands
+Filename: ./lazygit_0.66.2-2_aarch64.deb
+Size: 5047376
+MD5sum: 3d7b0068e85a09e669cdc85585b08d66
+SHA1: f33251e42c7be2313978d7f16553dea23992bf87
+SHA256: 18671d3b930fbd2418363e757a977c0070adc55dbb14ff7358f855d105c676c1
 
 Package: lcal
 Architecture: aarch64
