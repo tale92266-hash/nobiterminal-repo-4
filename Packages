@@ -1209,6 +1209,19 @@ MD5sum: 5617a36539994db8237374e0c2401fcc
 SHA1: 59fef7343af4bd2280081eb921c66da8dd36cde5
 SHA256: 53d07725d786afd3aa809f4d83436de401e47b257bb551c75d2d220a8e5a6083
 
+Package: hunspell-nl
+Architecture: all
+Installed-Size: 2564
+Maintainer: @termux
+Version: 1:2.20.23-1
+Homepage: https://www.opentaal.org/
+Description: Dutch dictionary for hunspell
+Filename: ./hunspell-nl_1:2.20.23-1_all.deb
+Size: 700008
+MD5sum: 409f3cd6f4b0ac9a2387cd577ee2a0e4
+SHA1: a8ac00fbfe53ba98181b9fe2d8b28dae94741dae
+SHA256: 1e1f4d75dacd508f7c39e8eb4f0e43f5ac6b6d807286c4822964fd1f7f83b02d
+
 Package: hunspell-static
 Architecture: aarch64
 Installed-Size: 1828
@@ -1265,6 +1278,20 @@ Size: 2943024
 MD5sum: 57373d1f0bc1446436a5be37bcdf455e
 SHA1: 97deed2fe08842c3e4eaaa1a0d5fc668512692db
 SHA256: f9a5b469f00c3be1fe93e838550877c54dc8e13c2d8535613f550b2dc622dff6
+
+Package: icoutils
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 0.32.3-2
+Homepage: https://www.nongnu.org/icoutils/
+Depends: libpng, perl
+Description: Extracts and converts images in MS Windows(R) icon and cursor files
+Filename: ./icoutils_0.32.3-2_aarch64.deb
+Size: 43052
+MD5sum: 21d24a3f2bfeabc6ccceb070b866b7b1
+SHA1: 7b379c59fe89e47aeb0d81c96e1c3fc4278fb487
+SHA256: 6d6ba1804f7245a4ecbb223fd0bf71284174563033b811a0da755d7e0ba3d1c3
 
 Package: id3lib-static
 Architecture: aarch64
@@ -1363,6 +1390,61 @@ Size: 47708
 MD5sum: 585603575ff484915a85971a87d46f56
 SHA1: 4c764e999536b2ea1e0cc8e0be9070319a8abc13
 SHA256: b10b9ab1a07f1917fdf8ffe3a1e7713496287bb94992fcf20c64bbc0422f815b
+
+Package: indi
+Architecture: aarch64
+Installed-Size: 1736
+Maintainer: 3ls-it <3ls-it@pm.me>
+Version: 2.2.5-1
+Homepage: https://www.indilib.org
+Depends: cfitsio, curl, fftw, gsl, iconv, libc++, libev, libjpeg-turbo, libnova, libnpth, libusb, libxisf, zlib
+Description: Astronomical instrumentation control
+Filename: ./indi_2.2.5-1_aarch64.deb
+Size: 215040
+MD5sum: fb926c77a24f59174b1786c198fb03be
+SHA1: fdca72e400052c9b8baab6854fe5dd5f753ecaf5
+SHA256: 2bac8a50bd30bae1391124d17c973facad5291eb6bc1e2010c89d45f0fd0a10f
+
+Package: innoextract
+Architecture: aarch64
+Installed-Size: 592
+Maintainer: @termux
+Version: 1.13.0-2
+Homepage: https://github.com/crazy-max/innoextract
+Depends: libc++, boost, liblzma, libiconv
+Description: A tool to unpack installers created by Inno Setup
+Filename: ./innoextract_1.13.0-2_aarch64.deb
+Size: 173604
+MD5sum: a989f8b839420baa96ef1ec5c1883f1d
+SHA1: 57006e8b6688079aa673a618f8caf59bd438cc40
+SHA256: 5f2f2ef29c2358436403e15cff018ba86f562b8e4a2da9a27926b5611a09d5ba
+
+Package: inotify-tools-static
+Architecture: aarch64
+Installed-Size: 24456
+Maintainer: @termux
+Version: 4.26.270-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Depends: inotify-tools (= 4.26.270-1)
+Description: Static libraries for inotify-tools
+Filename: ./inotify-tools-static_4.26.270-1_aarch64.deb
+Size: 4263528
+MD5sum: fb42b6b3a296e477360b4036437284ad
+SHA1: f41fbe5e77a9b3f5cc651c4d688466be89f32fc0
+SHA256: e88012a7553811eab953228e689677797f5767c3fffd28f6db708cb523f43eb5
+
+Package: inotify-tools
+Architecture: aarch64
+Installed-Size: 1260
+Maintainer: @termux
+Version: 4.26.270-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Description: Programs providing a simple interface to inotify
+Filename: ./inotify-tools_4.26.270-1_aarch64.deb
+Size: 290372
+MD5sum: bc22d2686997039d38e3f5681064ea2d
+SHA1: b867668ad7ee182fde3d006f122dfccb85351dc1
+SHA256: b099f8c7df9663dab2e20b2c2647d133133c9c3449af6fb4cbe9efbf5901e995
 
 Package: inxi
 Architecture: all
@@ -3286,6 +3368,33 @@ Size: 154984
 MD5sum: 1849c2d91ea7d14b36289762d568ab21
 SHA1: 4478a4c314bea7285b369b60d4cacee1151a9af2
 SHA256: cdc6da1674cbc344f648578f3439acdc9396a4826c90828e1e410171b7cb932d
+
+Package: libnova-static
+Architecture: aarch64
+Installed-Size: 3756
+Maintainer: @termux
+Version: 0.16-3
+Homepage: https://libnova.sourceforge.net
+Depends: libnova (= 0.16-3)
+Description: Static libraries for libnova
+Filename: ./libnova-static_0.16-3_aarch64.deb
+Size: 838432
+MD5sum: 0b5d28b52d7a2b2cf75abf2e99d6bb19
+SHA1: 74bf159ffd594a0204edff0e8fd26833e562bc17
+SHA256: 833099984bbd8f4a6eaa41e66a0102060bec8301ab733e5a819c8a699d70c240
+
+Package: libnova
+Architecture: aarch64
+Installed-Size: 3820
+Maintainer: @termux
+Version: 0.16-3
+Homepage: https://libnova.sourceforge.net
+Description: A general purpose, double precision, Celestial Mechanics, Astrometry and Astrodynamics library
+Filename: ./libnova_0.16-3_aarch64.deb
+Size: 842268
+MD5sum: ded695a056e6fe31c2c13d4087cc2ed1
+SHA1: 8be511deb61b432f122bcdfc276194a015b9d742
+SHA256: 1e9b690bb1675499c712df5560d0d9d14aee7c0a1aa66fdcd8712dbe61f04305
 
 Package: libnpth-static
 Architecture: aarch64
