@@ -148,6 +148,20 @@ MD5sum: 823168288946fbe188feb520f65326a4
 SHA1: 7ae9cdb4a6e10ee33f90c04165cb90c6737b72b6
 SHA256: 1d87b7a0962aed7d13a9ae627806f7098809de62ea1877b37560ceb9ce1f7c40
 
+Package: cccc
+Architecture: aarch64
+Installed-Size: 576
+Maintainer: @termux
+Version: 3.2.0-2
+Homepage: https://sarnold.github.io/cccc/
+Depends: libc++
+Description: Source code counter and metrics tool for C++, C, and Java
+Filename: ./cccc_3.2.0-2_aarch64.deb
+Size: 130508
+MD5sum: 690bd2cc83ce8efb401322dbe2908fd3
+SHA1: b5014dd3cfd975519d2ad35ec16ef87bd2c004d2
+SHA256: d62ab46b0f04aa54a7688d22825e10a979e015d76abe9b16813af5cc53e3dae3
+
 Package: cec-client
 Architecture: aarch64
 Installed-Size: 184
