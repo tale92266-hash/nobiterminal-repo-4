@@ -954,6 +954,60 @@ MD5sum: 36f1919be7cffe669ddfb997bbaaba1d
 SHA1: 11d5bd81a25c7c068b0aba35e14efe6a0a5695b3
 SHA256: 2906dd3307d1cc3484572b1e1c9447413fafca16504510216a9ec31f212bad2d
 
+Package: half
+Architecture: all
+Installed-Size: 264
+Maintainer: @termux
+Version: 2.2.1-1
+Homepage: https://half.sourceforge.net/
+Description: C++ header-only library for IEEE 754 half-precision floating-point format
+Filename: ./half_2.2.1-1_all.deb
+Size: 30452
+MD5sum: 95a0b99259149db0d87e23bdad644715
+SHA1: 4cb46f95f7220a73102303ed926a9762e5693bea
+SHA256: 487ab097f1e02ff87b100783f6a0eef68b84d3c8fb6f72959fe7f232f60cf335
+
+Package: haproxy
+Architecture: aarch64
+Installed-Size: 6420
+Maintainer: @termux
+Version: 3.4.7-1
+Homepage: https://www.haproxy.org/
+Depends: lua53, openssl, pcre2, zlib
+Description: The Reliable, High Performance TCP/HTTP Load Balancer
+Filename: ./haproxy_3.4.7-1_aarch64.deb
+Size: 1723628
+MD5sum: 84db15b032973b78ccb12555b69e8968
+SHA1: 4b66cbd7f87680fdd9c1772d7fcc609660202da8
+SHA256: 59f237b46b394cd699c4b574eff38b97e2fc911c427d664d179a802db5ddb84c
+
+Package: harper
+Architecture: aarch64
+Installed-Size: 60048
+Maintainer: @termux
+Version: 3.0.0-1
+Homepage: https://writewithharper.com/
+Description: Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
+Filename: ./harper_3.0.0-1_aarch64.deb
+Size: 10485352
+MD5sum: d51fbd9440889b3ab2814496729f0e0e
+SHA1: f7f5cd5ac7c302eab0d7273d391588b96235c4fb
+SHA256: a350e4ae551632d8a5627e58309fe0a592681a690522ead6ea89bb37714ac08c
+
+Package: hash-slinger
+Architecture: all
+Installed-Size: 128
+Maintainer: @termux
+Version: 3.6-1
+Homepage: https://github.com/letoams/hash-slinger
+Depends: ca-certificates, gnupg, openssh, python, pyunbound, resolv-conf, swig, python-pip
+Description: Various tools to generate special DNS records
+Filename: ./hash-slinger_3.6-1_all.deb
+Size: 23240
+MD5sum: 281ffe9c557a9a3ea218a59a9589a143
+SHA1: 136aa002ae82116faf006c5744969e0fb7bf96e7
+SHA256: 71b2c01915027b8300fd025b6f647c366fd554271422e07f329031516ca0da29
+
 Package: hashdeep
 Architecture: aarch64
 Installed-Size: 1320
@@ -1212,6 +1266,48 @@ MD5sum: 57373d1f0bc1446436a5be37bcdf455e
 SHA1: 97deed2fe08842c3e4eaaa1a0d5fc668512692db
 SHA256: f9a5b469f00c3be1fe93e838550877c54dc8e13c2d8535613f550b2dc622dff6
 
+Package: id3lib-static
+Architecture: aarch64
+Installed-Size: 1216
+Maintainer: @termux
+Version: 3.8.3-5
+Homepage: https://id3lib.sourceforge.net/
+Depends: id3lib (= 3.8.3-5)
+Description: Static libraries for id3lib
+Filename: ./id3lib-static_3.8.3-5_aarch64.deb
+Size: 131112
+MD5sum: c3e5c39b8c170f2f1a481f9b541558fb
+SHA1: 7b44d8a802794118b96b8c72615a182d2dfec0b4
+SHA256: b53747685219b29835f4b53cbce079a40b40556aaae1c83f6b18e8fd41e9d9dc
+
+Package: id3lib
+Architecture: aarch64
+Installed-Size: 584
+Maintainer: @termux
+Version: 3.8.3-5
+Homepage: https://id3lib.sourceforge.net/
+Depends: libc++, libiconv, zlib
+Description: A software library for manipulating ID3v1/v1.1 and ID3v2 tags
+Filename: ./id3lib_3.8.3-5_aarch64.deb
+Size: 102680
+MD5sum: 1d85e4893082a401ebc154f277b6a551
+SHA1: e4684e49fc380704024a5c254532af4578a0fb7a
+SHA256: 5ffb90e2863b4e77295bd6dc6c287323aa8f2cb11dd9325d9b046d7506a85069
+
+Package: id3v2
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 0.1.12-3
+Homepage: https://id3v2.sourceforge.net/
+Depends: id3lib, libc++, zlib
+Description: A command line id3v2 tag editor
+Filename: ./id3v2_0.1.12-3_aarch64.deb
+Size: 26152
+MD5sum: b8bec274f6ad7bd66fe805461314f9a5
+SHA1: 04da12896f8404d38aeb491943eb30c7b5800e54
+SHA256: 99d8c55f44f1d8a41c46f87b592db20778198b53b320c5fe50af2b1b926853fa
+
 Package: imlib2-static
 Architecture: aarch64
 Installed-Size: 600
@@ -1239,6 +1335,62 @@ Size: 513960
 MD5sum: 738e4a2f8b47b5c2e6cc0cd05b41776a
 SHA1: 0b7055a8a75a8eb794b8930adc2559a3487aa465
 SHA256: c619c4de7d255010ab43990a8ac19c54b3873994a18dbc04aaa3485ab2431f78
+
+Package: immer
+Architecture: aarch64
+Installed-Size: 1144
+Maintainer: @termux
+Version: 0.9.1-1
+Homepage: https://sinusoid.es/immer
+Depends: catch2, cmake
+Description: Postmodern immutable and persistent data structures for C++
+Filename: ./immer_0.9.1-1_aarch64.deb
+Size: 87812
+MD5sum: 4f3040ca0ba103671791b4eb45307772
+SHA1: 7a95accc3cc6ca8d40f68b4c57fb844b5363e1ec
+SHA256: 65e11500fbfe93a16b298b09f1037a55757822739764bdf49cb1bdeab8fbf50b
+
+Package: indent
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 2.2.13-2
+Homepage: https://www.gnu.org/software/indent/
+Depends: libandroid-support
+Description: C language source code formatting program
+Filename: ./indent_2.2.13-2_aarch64.deb
+Size: 47708
+MD5sum: 585603575ff484915a85971a87d46f56
+SHA1: 4c764e999536b2ea1e0cc8e0be9070319a8abc13
+SHA256: b10b9ab1a07f1917fdf8ffe3a1e7713496287bb94992fcf20c64bbc0422f815b
+
+Package: inxi
+Architecture: all
+Installed-Size: 1440
+Maintainer: @termux
+Version: 3.3.41-1-1
+Homepage: https://smxi.org/site/about.htm#inxi
+Depends: perl
+Description: Full featured CLI system information tool
+Filename: ./inxi_3.3.41-1-1_all.deb
+Size: 352076
+MD5sum: 09e82f9af3abac9b6bcc9e23ba4db02f
+SHA1: ae0cdf682857c02594b8a3511d69a68347ca93d2
+SHA256: 69424f992baf12d7e966495a9d60be92bcac7e7f0a16f14b6377eabe5600241f
+
+Package: ipcalc
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 0.51-1
+Homepage: http://jodies.de/ipcalc
+Depends: perl
+Description: Calculates IP broadcast, network, Cisco wildcard mask, and host ranges
+Filename: ./ipcalc_0.51-1_aarch64.deb
+Size: 10016
+MD5sum: d4199a21d2bc827c58e87e3cd1d05638
+SHA1: f9e8c3745d99e11ec70be3ef97c48d539d5bb1a0
+SHA256: d70ac1d3f53a9f6d958bcbb2261e52032e53930d1fc4b111364f0a5e1b799f93
 
 Package: iperf3-static
 Architecture: aarch64
@@ -1854,6 +2006,76 @@ MD5sum: 2beb531913b97cc877f5312d2f7b65fd
 SHA1: ae513819bb1692cb48c53fc2980849285f965bac
 SHA256: 2e21f84ff48393c3184590d7f61b7f2af3f7f209219adf47f95294038f0542fa
 
+Package: lftp-static
+Architecture: aarch64
+Installed-Size: 2260
+Maintainer: @termux
+Version: 4.9.3-1
+Homepage: https://lftp.tech/
+Depends: lftp (= 4.9.3-1)
+Description: Static libraries for lftp
+Filename: ./lftp-static_4.9.3-1_aarch64.deb
+Size: 368972
+MD5sum: f6d01ac59caa816cb149aa02fc67977c
+SHA1: 47548bc386e3e9e2966459021d300b02046bcecc
+SHA256: c0b6b8dd7a57dd5ee2297f8b607deba7da53d2af01c28b7ffa339d9a630e37ce
+
+Package: lftp
+Architecture: aarch64
+Installed-Size: 1544
+Maintainer: @termux
+Version: 4.9.3-1
+Homepage: https://lftp.tech/
+Depends: libandroid-support, libc++, libexpat, libiconv, openssl, readline, libidn2, zlib
+Description: FTP/HTTP client and file transfer program
+Filename: ./lftp_4.9.3-1_aarch64.deb
+Size: 501796
+MD5sum: f14bcdccdeee8e6afb4f6adf2c217c56
+SHA1: 95108bc4488440fbb64f31b80fe8d55e08ef916f
+SHA256: 3a3172d2cb02f358960dd5e75143cc9185c97290cf90303232bd93d007801e5f
+
+Package: lgogdownloader
+Architecture: aarch64
+Installed-Size: 1396
+Maintainer: @termux
+Version: 3.19-2
+Homepage: https://sites.google.com/site/gogdownloader/
+Depends: boost, jsoncpp, libc++, libcurl, libhtmlcxx, libtinyxml2, rhash, tidy
+Description: Open source downloader to GOG.com for Linux users using the same API as the official GOGDownloader
+Filename: ./lgogdownloader_3.19-2_aarch64.deb
+Size: 402036
+MD5sum: 2c30ff8407ae129f3f58568857fa49b2
+SHA1: c3aaa4878d501372fe56f51c58e3c925a5fd8738
+SHA256: 6dc2cdd4bbfff3c79ff8dd1e539286833c06f101588cce2fa1409f1007b3401f
+
+Package: libabw-static
+Architecture: aarch64
+Installed-Size: 1316
+Maintainer: @termux
+Version: 0.1.4-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
+Depends: libabw (= 0.1.4-1)
+Description: Static libraries for libabw
+Filename: ./libabw-static_0.1.4-1_aarch64.deb
+Size: 138756
+MD5sum: 0867eb9aa533065474bf665a6f8a182b
+SHA1: 3980dac291cc4e5dcc2363db61d3c4a76630b500
+SHA256: 59c072a08da9fb22ef9447761feda390759cc75f419dfb9be6341acab13cd1a5
+
+Package: libabw
+Architecture: aarch64
+Installed-Size: 448
+Maintainer: @termux
+Version: 0.1.4-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
+Depends: librevenge, libxml2, zlib
+Description: a library that parses the file format of AbiWord documents
+Filename: ./libabw_0.1.4-1_aarch64.deb
+Size: 85284
+MD5sum: a72efa0e4d03d4f6f2baad08979416cd
+SHA1: 84f15a085249dd4825453f55b385e556f3d7a182
+SHA256: 8487288c41c19b0205968fe05ba52482603a3e7c19fac05bf62fe7f654762544
+
 Package: libaccounts-glib
 Architecture: aarch64
 Installed-Size: 620
@@ -2377,6 +2599,35 @@ MD5sum: 7f845812bbbf5bc1a8fd3daf44136a90
 SHA1: 5662d5aa73b367a01ec482dcb0fccfbdaea950aa
 SHA256: 5f59ccc21a6c1b56c4506b3f56b297675db607cbaae6ca1e4d440bd14c3e7966
 
+Package: libev-static
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 4.33-3
+Homepage: http://software.schmorp.de/pkg/libev.html
+Depends: libev (= 4.33-3)
+Description: Static libraries for libev
+Filename: ./libev-static_4.33-3_aarch64.deb
+Size: 21128
+MD5sum: 347e634f2e95afe2e2443ae7a0c3afc6
+SHA1: 0dd98c153847d2876ee2fb7503a0212b49c6a986
+SHA256: 450a4caa3de4be5f47866ef738b0e9cd284b9cbeb9bc076bd2419f280f2ab559
+
+Package: libev
+Architecture: aarch64
+Installed-Size: 248
+Maintainer: @termux
+Version: 4.33-3
+Homepage: http://software.schmorp.de/pkg/libev.html
+Breaks: libev-dev
+Replaces: libev-dev
+Description: Full-featured and high-performance event loop library
+Filename: ./libev_4.33-3_aarch64.deb
+Size: 114584
+MD5sum: 7cae5596cd232a7b289c9aff3ed65500
+SHA1: 3827990b56338607c25d422e9e315d0fa0a50e55
+SHA256: c8b2f6aa4f65101ae150c861e2fe3342754007d272774bd3b8adf24cf83eb36e
+
 Package: libexif-static
 Architecture: aarch64
 Installed-Size: 972
@@ -2686,6 +2937,34 @@ Size: 135636
 MD5sum: af2c3dc870a7e258aa414a0658438b2e
 SHA1: 5ae413a052f7ea9f9ce3b7d129cad4ef22e79935
 SHA256: 07a76ab40442961721dd4769357c129a3a96933b391cd3caaec7611105e4f66a
+
+Package: libhtmlcxx-static
+Architecture: aarch64
+Installed-Size: 472
+Maintainer: @termux
+Version: 0.87-6
+Homepage: https://htmlcxx.sourceforge.net/
+Depends: libhtmlcxx (= 0.87-6)
+Description: Static libraries for libhtmlcxx
+Filename: ./libhtmlcxx-static_0.87-6_aarch64.deb
+Size: 59612
+MD5sum: c49e3131cc4b522aa4022494ef1469ac
+SHA1: f3a24ad06db38933797620afabb7ddc3b638e73d
+SHA256: 92d08521d650defb00272743cade280f4ab192b80f0453337d0374f1586bd16d
+
+Package: libhtmlcxx
+Architecture: aarch64
+Installed-Size: 480
+Maintainer: @termux
+Version: 0.87-6
+Homepage: https://htmlcxx.sourceforge.net/
+Depends: libc++, libiconv
+Description: A simple non-validating css1 and html parser for C++
+Filename: ./libhtmlcxx_0.87-6_aarch64.deb
+Size: 79832
+MD5sum: 666597b0096066e495861e8c1d209f34
+SHA1: 3b5a1a49472a64461d87474b6e7effcab092c5e8
+SHA256: bcd99559cd80d4a2528c612e5816039d851610bf8f1fcdf9040e003b7e216fb2
 
 Package: libidn2-static
 Architecture: aarch64
