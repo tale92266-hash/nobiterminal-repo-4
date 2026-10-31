@@ -218,6 +218,19 @@ MD5sum: 39a1a7c6761755957a67c67e61e05170
 SHA1: 72effc9f4d5186fd3d62ebdf8da25d6b7be17f0f
 SHA256: 795badc7627ba1a1734ecc2f5864c6a7607be3fc7094434743b61e63bc8ed2d4
 
+Package: desed
+Architecture: aarch64
+Installed-Size: 1228
+Maintainer: @termux
+Version: 1.2.2-2
+Homepage: https://github.com/SoptikHa2/desed
+Description: Demystifies and debugs your sed scripts
+Filename: ./desed_1.2.2-2_aarch64.deb
+Size: 401864
+MD5sum: 775f68c9b0cb6d408adc8837062e0b79
+SHA1: 0b6f108099c9c78c092b524d0838551dac3163bd
+SHA256: a54c20a96d7bc6a8edbd21b670ae0dd60330741438893814bd447e7950409838
+
 Package: desktop-file-utils
 Architecture: aarch64
 Installed-Size: 256
@@ -246,6 +259,48 @@ MD5sum: c9c202b12747f9166a426ebb20e32f5c
 SHA1: f5067f4c4daaf25e2516a4d995999afe6aa059b9
 SHA256: 10c1030de4a8812c00fe1bfcf8d722383adb06c2f322b2ce8aee867920f5a5ce
 
+Package: diff-so-fancy
+Architecture: all
+Installed-Size: 128
+Maintainer: @termux
+Version: 1.4.14-2
+Homepage: https://github.com/so-fancy/diff-so-fancy
+Depends: ncurses-utils, perl
+Recommends: git
+Description: Good-lookin' diffs. Actually... nah... The best-lookin' diffs
+Filename: ./diff-so-fancy_1.4.14-2_all.deb
+Size: 23512
+MD5sum: 7a288f743994e9dfc306788fd857209b
+SHA1: 17f4451be7b92a0e67722568fe57fb73e339b0ed
+SHA256: 2a8775f89f07656c40e091599f1b9aa252ccbb9c2185680e82c40aec697441b0
+
+Package: dirb
+Architecture: aarch64
+Installed-Size: 1588
+Maintainer: @termux
+Version: 2.22-6
+Homepage: https://dirb.sourceforge.net/
+Depends: libcurl
+Description: Web Directory Fuzzer
+Filename: ./dirb_2.22-6_aarch64.deb
+Size: 192396
+MD5sum: f488c39f4bae9034845aace847c791dd
+SHA1: fcb17bbbe7efa6bfa8f69cb702388203a91f95c4
+SHA256: 638e08163c1827c99d7a17b167043eda0be3e901557a4b397301bd32dce16972
+
+Package: direnv
+Architecture: aarch64
+Installed-Size: 9248
+Maintainer: @termux
+Version: 2.38.2-2
+Homepage: https://github.com/direnv/direnv
+Description: Environment switcher for shell
+Filename: ./direnv_2.38.2-2_aarch64.deb
+Size: 2608056
+MD5sum: 531c5158b8b5c0fbfb90fb96c1826053
+SHA1: 5be8c459db40a15096d0bba5ac5e7155f14b9622
+SHA256: 879dd2665ce7e85fab247ebaea5c55147e01c0621f0e92e4a1567361d306dea7
+
 Package: distcc
 Architecture: aarch64
 Installed-Size: 660
@@ -259,6 +314,33 @@ Size: 161072
 MD5sum: d6045052f15633426a45511f1e94bcad
 SHA1: 852e28d892ce56443aeb02bd800f2018bd067e51
 SHA256: e94cea0ca7ffaabde9e8f1e92ab205395f531034bd56c6abfb62cada9a740f8e
+
+Package: dmagnetic
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 0.37-2
+Homepage: https://dettus.net/dMagnetic
+Description: Interpreter for classic text adventure games and interactive fiction
+Filename: ./dmagnetic_0.37-2_aarch64.deb
+Size: 61724
+MD5sum: 70e115190014960fe151c0b62701c68c
+SHA1: b6b3674772aafe4fbb4c67102edfd80be424cfd3
+SHA256: 4217701795ab1f70b6011c796a197ad3f08e1cf4cf9b7a1eaf390e5d2ea1ee30
+
+Package: dmtx-utils
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: @termux
+Version: 0.7.6-3
+Homepage: https://github.com/dmtx/dmtx-utils
+Depends: imagemagick, libdmtx
+Description: A command line interface for libdmtx
+Filename: ./dmtx-utils_0.7.6-3_aarch64.deb
+Size: 18344
+MD5sum: 779eb907be00b3cd9e21f301ba92069c
+SHA1: 8ef66efc823e8c84b6391e3d55b4250b03be3228
+SHA256: 5ff27b8687a6322ab36312d55c9774f6421237fea26279406417ce1894ab55ab
 
 Package: dvdauthor
 Architecture: aarch64
