@@ -342,6 +342,20 @@ MD5sum: 779eb907be00b3cd9e21f301ba92069c
 SHA1: 8ef66efc823e8c84b6391e3d55b4250b03be3228
 SHA256: 5ff27b8687a6322ab36312d55c9774f6421237fea26279406417ce1894ab55ab
 
+Package: dte
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: @termux
+Version: 1.11.1-3
+Homepage: https://craigbarnes.gitlab.io/dte/
+Depends: libandroid-support, libandroid-glob, libiconv
+Description: A small, configurable console text editor
+Filename: ./dte_1.11.1-3_aarch64.deb
+Size: 146024
+MD5sum: d300e675c99952fc49b190a3e18bed9c
+SHA1: f33a851f78a1bd0f67f3408043f26386706f04a5
+SHA256: 06a40c785cce787d29020ec30436c1dfa68c5ba389b02e7053bf2ce9597b1b5f
+
 Package: dvdauthor
 Architecture: aarch64
 Installed-Size: 612
@@ -383,6 +397,36 @@ Size: 62268
 MD5sum: cb0651be5275b58c43f9e2108aad233b
 SHA1: 65dda203c043036522c70415efa41defdf6db74c
 SHA256: 8cd6b6b718550541ed0eb410e93f546bd5325655fb6a54d80ae2ea2194300467
+
+Package: etsh
+Architecture: aarch64
+Installed-Size: 312
+Maintainer: @termux
+Version: 5.4.0-3
+Homepage: https://etsh.nl
+Conflicts: teleport-tsh
+Description: An enhanced, backward-compatible port of Thompson Shell
+Filename: ./etsh_5.4.0-3_aarch64.deb
+Size: 76944
+MD5sum: c1c58d7a75d2fb85da55fb9c68a6f2a8
+SHA1: ad9f279ab7bc5933fa59afc0193ad497cad9e692
+SHA256: 6753dcb1b2c6083345de24cc4c9bf999bc87dcafb841706b6d033682f67beae4
+
+Package: expect
+Architecture: aarch64
+Installed-Size: 344
+Maintainer: @termux
+Version: 5.45.4-5
+Homepage: https://core.tcl.tk/expect/index
+Breaks: expect-dev
+Depends: tcl
+Replaces: expect-dev
+Description: Tool for automating interactive terminal applications
+Filename: ./expect_5.45.4-5_aarch64.deb
+Size: 113836
+MD5sum: cd499ecb6fbe33b69e286a9988e586b0
+SHA1: 808cc32c3623754f1fd2bede2b8c0b6bc3d0b6f2
+SHA256: a169833a3d2233635098db4b30c448ec7dfc9029294496cf9f514134acb44b7c
 
 Package: faust-static
 Architecture: aarch64
