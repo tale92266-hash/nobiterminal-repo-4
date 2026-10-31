@@ -512,6 +512,89 @@ MD5sum: e6317cbcd3a1cdc589b0944b0038b7a9
 SHA1: ed35eef1f980817b8a9ed1d79a9d6dde9cddf9a5
 SHA256: 4fd921a75a2a941ccd2e672d19acde02e77418275bdf1c437c9e07c16e5f5fec
 
+Package: feroxbuster
+Architecture: aarch64
+Installed-Size: 6148
+Maintainer: @termux
+Version: 2.13.1-1
+Homepage: https://github.com/epi052/feroxbuster
+Depends: openssl
+Description: A fast, simple, recursive content discovery tool written in Rust
+Filename: ./feroxbuster_2.13.1-1_aarch64.deb
+Size: 1844216
+MD5sum: 0596be58552673618e022c6cd199146c
+SHA1: 98451d35880def6b2269379ca685377d67443dad
+SHA256: 387a401991b258457cf3a87ef8602d127faff219ab2ae45535e8ff0b52e7ba60
+
+Package: flatbuffers-static
+Architecture: aarch64
+Installed-Size: 1184
+Maintainer: @termux
+Version: 25.12.19-2026-02-06-03fffb2-2
+Homepage: https://github.com/google/flatbuffers
+Depends: flatbuffers (= 25.12.19-2026-02-06-03fffb2-2)
+Description: Static libraries for flatbuffers
+Filename: ./flatbuffers-static_25.12.19-2026-02-06-03fffb2-2_aarch64.deb
+Size: 173768
+MD5sum: e6a02f036dd93d4fb83a2c313581e3bd
+SHA1: ad7add262064d0de669d0fb6924071650292284a
+SHA256: 605d0b2be172375c047856b1745901b78583896c7fe72cfe3b71782404a0fc9e
+
+Package: flatbuffers
+Architecture: aarch64
+Installed-Size: 4628
+Maintainer: @termux
+Version: 25.12.19-2026-02-06-03fffb2-2
+Homepage: https://github.com/google/flatbuffers
+Depends: libc++
+Description: Memory Efficient Serialization Library
+Filename: ./flatbuffers_25.12.19-2026-02-06-03fffb2-2_aarch64.deb
+Size: 1050368
+MD5sum: 5f0943ce067c458fa30ed8f09cc2ff0f
+SHA1: c2b725b6fd07e18b30f8ffe10165af7e6a796494
+SHA256: ac91bce4adcea866a8de8af7dbcf8e0762e2c640362fec7d55a1dcaeaf1bbef8
+
+Package: flint
+Architecture: aarch64
+Installed-Size: 15044
+Maintainer: @termux
+Version: 3.6.0-3
+Homepage: http://www.flintlib.org
+Depends: blas-openblas, libgmp, libmpfr
+Description: C library for doing number theory
+Filename: ./flint_3.6.0-3_aarch64.deb
+Size: 4223480
+MD5sum: e75ab43b6a3162fb8d74723e4c1698ba
+SHA1: cc9482ac263a84e2f9d4862ce07f329732379504
+SHA256: e4b3a61eee81e7464211b2e576b6b544a6d2f612a2ca304c00c529b1602ff757
+
+Package: fm
+Architecture: aarch64
+Installed-Size: 13584
+Maintainer: @termux
+Version: 1.2.0-2
+Homepage: https://github.com/knipferrc/fm
+Description: A terminal based file manager
+Filename: ./fm_1.2.0-2_aarch64.deb
+Size: 3217352
+MD5sum: 33444b0b6400479ca8cb669bb61cbf86
+SHA1: 95387027e74e3d57e9a32f195eb939b0834feaf2
+SHA256: caa557c1c22cc3785c935100cd1f10160b22a51e4d2e85a6bb0160ef1ef412f3
+
+Package: forgejo
+Architecture: aarch64
+Installed-Size: 125356
+Maintainer: @termux
+Version: 17.0.1-1
+Homepage: https://forgejo.org/
+Depends: dash, git
+Description: Forgejo is a self-hosted lightweight software forge.
+Filename: ./forgejo_17.0.1-1_aarch64.deb
+Size: 34399028
+MD5sum: cc5a95ab0cf49d0ce3788a490d7a9a25
+SHA1: 827bfddea4d6c3f50d51508e2762ab7697b49fb7
+SHA256: 6c7e7fed4b5b3781b94371ab94c6fd7dc9f8ccd5f77d8dc73be8b615a3f05351
+
 Package: fortune
 Architecture: aarch64
 Installed-Size: 2600
@@ -524,6 +607,20 @@ Size: 817832
 MD5sum: 3307b2fbb46a255cce451220743bcd64
 SHA1: d8194f99833cc60eacebef646cd024eb32bb7a30
 SHA256: 2f7b472c8eaf470dc197f33497747300a914001589ea60ddd016df32b366ee04
+
+Package: frotz
+Architecture: aarch64
+Installed-Size: 212
+Maintainer: @termux
+Version: 2.55-3
+Homepage: https://gitlab.com/DavidGriffith/frotz
+Depends: ncurses, dialog, curl
+Description: Interpreter for Infocom and other Z-machine interactive fiction (IF) games
+Filename: ./frotz_2.55-3_aarch64.deb
+Size: 65868
+MD5sum: 3e84a136ca833afe0f3fe9171201c173
+SHA1: 456cdd50f8762603a89f621465980f1bc84db0e4
+SHA256: b98d82f61fadfb7f88eb32c1a2dfb68359083016a49e8c8d52393284fe876cda
 
 Package: fselect
 Architecture: aarch64
