@@ -1037,6 +1037,120 @@ MD5sum: 57373d1f0bc1446436a5be37bcdf455e
 SHA1: 97deed2fe08842c3e4eaaa1a0d5fc668512692db
 SHA256: f9a5b469f00c3be1fe93e838550877c54dc8e13c2d8535613f550b2dc622dff6
 
+Package: imlib2-static
+Architecture: aarch64
+Installed-Size: 600
+Maintainer: @termux
+Version: 1.12.7-1
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: imlib2 (= 1.12.7-1)
+Description: Static libraries for imlib2
+Filename: ./imlib2-static_1.12.7-1_aarch64.deb
+Size: 119560
+MD5sum: a722805cd590341c3769459ec5098f44
+SHA1: 48f8269263169ded429bcfb551f40cbb57e49341
+SHA256: 0db06868d3f5c9fc9e548b548f9d0175c41883db832138e0dbb5fe1e3883934a
+
+Package: imlib2
+Architecture: aarch64
+Installed-Size: 1312
+Maintainer: @termux
+Version: 1.12.7-1
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: freetype, gdk-pixbuf, giflib, glib, libandroid-shmem, libbz2, libcairo, libheif, libid3tag, libjpeg-turbo, libjxl, liblzma, libpng, librsvg, libtiff, libwebp, libx11, libxcb, libxext, openjpeg, zlib
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+Filename: ./imlib2_1.12.7-1_aarch64.deb
+Size: 513960
+MD5sum: 738e4a2f8b47b5c2e6cc0cd05b41776a
+SHA1: 0b7055a8a75a8eb794b8930adc2559a3487aa465
+SHA256: c619c4de7d255010ab43990a8ac19c54b3873994a18dbc04aaa3485ab2431f78
+
+Package: iperf3-static
+Architecture: aarch64
+Installed-Size: 344
+Maintainer: @termux
+Version: 3.22-1
+Homepage: https://github.com/esnet/iperf
+Depends: iperf3 (= 3.22-1)
+Description: Static libraries for iperf3
+Filename: ./iperf3-static_3.22-1_aarch64.deb
+Size: 72088
+MD5sum: 4c99defdf32be8dcaac4eba67fe5360e
+SHA1: e6eb0ffe527a4ec180a55d655a86b31c3344f98d
+SHA256: 02ee7a74e72d4bc9b72da7df3a8b3187133ff9c50eb0409d78d026917b710eae
+
+Package: iperf3
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: @termux
+Version: 3.22-1
+Homepage: https://github.com/esnet/iperf
+Breaks: iperf3-dev
+Depends: openssl
+Replaces: iperf3-dev
+Description: TCP, UDP, and SCTP network bandwidth measurement tool
+Filename: ./iperf3_3.22-1_aarch64.deb
+Size: 83688
+MD5sum: 61127d17595e7541e3890b559940d24e
+SHA1: 75c1e41a2ea376f1ae8cf88fd6969b8ba8d5d1f7
+SHA256: 942ec39336be668a55c8cae5b22a7f4c8d73ae6cf451f8ed117176e3be0fbc03
+
+Package: ipmitool
+Architecture: aarch64
+Installed-Size: 1752
+Maintainer: @termux
+Version: 1.8.19-2
+Homepage: https://github.com/ipmitool/ipmitool
+Depends: openssl, readline
+Description: Command-line interface to IPMI-enabled devices
+Filename: ./ipmitool_1.8.19-2_aarch64.deb
+Size: 382400
+MD5sum: 3accdb36108189494742f7f9356289fa
+SHA1: 2beba0c64c0d3f5739b02082937fe0fdae5bfb7a
+SHA256: 3f8e9dc769f449312dc5b4f498238ce03793240e375f569ac1fba49bb86251fc
+
+Package: jack2
+Architecture: aarch64
+Installed-Size: 2128
+Maintainer: @termux
+Version: 1.9.22-3
+Homepage: https://jackaudio.org/
+Depends: alsa-lib, dbus, libandroid-posix-semaphore, libdb, libexpat, libsamplerate, libopus
+Description: The JACK low-latency audio server
+Filename: ./jack2_1.9.22-3_aarch64.deb
+Size: 374052
+MD5sum: 941826b01a2239aa6339fd2241568ba9
+SHA1: 9d28b32d4ba7e1c645177b4e0efbd3f801e02cc9
+SHA256: 991aa3a715350b2ec6a07b2d5f89821c2095accb6068875aa4a7bf588ad8413f
+
+Package: jack
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 0.0.1-1
+Homepage: https://github.com/termux/termux-packages
+Depends: jack2
+Description: A metapackage that provides JACK Audio Connection Kit
+Filename: ./jack_0.0.1-1_all.deb
+Size: 716
+MD5sum: 27b1d4f115cfcf706212132a351bcf60
+SHA1: d81efed647d5d558aeea71060eed1114de81caf6
+SHA256: c74847f476a87ba55a730bedf3a9da1850af05545b9d4d6e26d4a5c860cb90a9
+
+Package: jackett
+Architecture: aarch64
+Installed-Size: 16108
+Maintainer: @termux
+Version: 0.24.2918-1
+Homepage: https://github.com/jackett/jackett
+Depends: aspnetcore-runtime-9.0, dotnet-host, dotnet-runtime-9.0
+Description: API Support for your favorite torrent trackers
+Filename: ./jackett_0.24.2918-1_aarch64.deb
+Size: 3544952
+MD5sum: ee664d20b58f00d508dbc4abd0520199
+SHA1: 8b3d3fcb30b0e0a861b3552c36ccf963c55ffd92
+SHA256: 8270b4be997ef2c38d55116b5bc0af71feb0b728c9aeecc60b46678cf143c478
+
 Package: janet
 Architecture: aarch64
 Installed-Size: 780
@@ -1051,6 +1165,61 @@ MD5sum: 35763f2da1192b2c2f05f046296137c9
 SHA1: f60035e7412a120eeeef9f37f2a86f6f27e58609
 SHA256: 29aed25933b72d83f3b88cf06cfdb8aa962f77338042b50452441d185f4d2a77
 
+Package: jbig2enc-static
+Architecture: aarch64
+Installed-Size: 756
+Maintainer: @termux
+Version: 1:0.32-1
+Homepage: https://github.com/agl/jbig2enc
+Depends: jbig2enc (= 1:0.32-1)
+Description: Static libraries for jbig2enc
+Filename: ./jbig2enc-static_1:0.32-1_aarch64.deb
+Size: 71936
+MD5sum: 984f06945431c9faa827fad8a33f754e
+SHA1: 3d4c56aa1130ef5fc3523f4bd39ba065efec9b11
+SHA256: 84fc3dc07951c8d8d81a9b4826c910947d549b750ae1ea451c6dc1eca70bac3c
+
+Package: jbig2enc
+Architecture: aarch64
+Installed-Size: 284
+Maintainer: @termux
+Version: 1:0.32-1
+Homepage: https://github.com/agl/jbig2enc
+Depends: giflib, leptonica, libc++, libjpeg-turbo, libpng, libtiff, libwebp, python, zlib
+Description: An encoder for JBIG2
+Filename: ./jbig2enc_1:0.32-1_aarch64.deb
+Size: 56804
+MD5sum: c75a5a6b41215a7072d6dd82cbfd9f87
+SHA1: f172fc17eccdf1dee0e44478dac3e018c988e192
+SHA256: d1ce04c6787722147806cef49e8daec45459b3c7a04bcca616fcd7ef8af29c44
+
+Package: jcal-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 0.5.1-2
+Homepage: http://nongnu.org/jcal
+Depends: jcal (= 0.5.1-2)
+Description: Static libraries for jcal
+Filename: ./jcal-static_0.5.1-2_aarch64.deb
+Size: 8396
+MD5sum: 4ddbbaec9d5ecbb29f616783ec47c755
+SHA1: d9078389b9b9bb9471a95c9afb4ff3c6cbb80d37
+SHA256: 038a0c41e19cf1a59026b0a0eb97b14cb44c57dff166c67fb63a80c754ba9cb8
+
+Package: jcal
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: @termux
+Version: 0.5.1-2
+Homepage: http://nongnu.org/jcal
+Description: UNIX-cal-like tool to display Jalali (Persian/Iranian) calendar
+Filename: ./jcal_0.5.1-2_aarch64.deb
+Size: 39324
+MD5sum: 1d5d06391dd0562729adb4249fa41039
+SHA1: beebda559cd7388b7a7b3b22aa3c18772278fd13
+SHA256: 2795fbe250db899b8f6337a896a39803031a53660f20e63d55d2f68d65e54ea1
+
 Package: jfrog-cli
 Architecture: aarch64
 Installed-Size: 66248
@@ -1063,6 +1232,47 @@ Size: 19750260
 MD5sum: 9b75405efa880ab9f2428374a88412d7
 SHA1: 6e576f97245d16161855652e2a1f1484240b7022
 SHA256: 9aff5ec11c005360b1b88f2979736e2a60265642cbb24cc1bea497f2d95e4d21
+
+Package: jp2a
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 1.3.3-1
+Homepage: https://github.com/Talinx/jp2a/
+Depends: libcurl, libexif, libjpeg-turbo, libpng, libwebp, ncurses
+Description: A simple JPEG to ASCII converter
+Filename: ./jp2a_1.3.3-1_aarch64.deb
+Size: 23404
+MD5sum: 31cb0f4341d2ba140c9137f61d39dd08
+SHA1: 6f2db2625ab9ea6236b1a6b33818840a097a06c0
+SHA256: 006727539c5cc335529618afc6e942679f16ae9fa4637134a4b1bc9c7209fed9
+
+Package: jpegoptim
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.5.6-1
+Homepage: https://www.kokkonen.net/tjko/projects.html
+Depends: libjpeg-turbo
+Description: JPEG optimizer that recompresses image files to a smaller size, without losing any information
+Filename: ./jpegoptim_1.5.6-1_aarch64.deb
+Size: 20108
+MD5sum: 31848bbc481e0a2092baf056de80c13d
+SHA1: 39434ac2fbebc0365e27ebca25b7e86fe1697612
+SHA256: f109c7b7c69484755ac2bef8c93561e3b8edf01d405225b041eec1d3974f87c6
+
+Package: jq-lsp
+Architecture: aarch64
+Installed-Size: 4988
+Maintainer: @termux
+Version: 0.1.19-2
+Homepage: https://github.com/wader/jq-lsp
+Description: jq language server
+Filename: ./jq-lsp_0.1.19-2_aarch64.deb
+Size: 1334196
+MD5sum: 51b5e2d4313d39e81a81a4dfcf3d2a95
+SHA1: dd397920225cee03b26cf79a619f8b1df9236fa3
+SHA256: e4408717c8d5c4908482de343815b0844ca80026b0714cf11174e22528c9d03a
 
 Package: jq-static
 Architecture: aarch64
@@ -1077,6 +1287,74 @@ Size: 141664
 MD5sum: 00b0b620da315da07ea18dcee112f9f4
 SHA1: 57ca562c6af1c0ef4f73f9b37bb3cfc477699e9e
 SHA256: 6d25e4c9b2cafba373b31f0476dd76f2c35cf3b87304e03380f514b70abe0502
+
+Package: jql
+Architecture: aarch64
+Installed-Size: 908
+Maintainer: @termux
+Version: 9.0.3-1
+Homepage: https://github.com/yamafaktory/jql
+Description: A JSON Query Language CLI tool
+Filename: ./jql_9.0.3-1_aarch64.deb
+Size: 343488
+MD5sum: caf7204ad6d58b58799bdb904edcf2d0
+SHA1: 15a40bed759bd93b1ecb0548837b3d01cb4b874a
+SHA256: 747c95c1890feeac22ab9187610428b09f02c5abff6f88ab75097939cbe65c93
+
+Package: jujutsu
+Architecture: aarch64
+Installed-Size: 22848
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.46.0-1
+Homepage: https://jj-vcs.github.io/jj/
+Suggests: openssl
+Description: A Git-compatible VCS that is both simple and powerful
+Filename: ./jujutsu_0.46.0-1_aarch64.deb
+Size: 6066608
+MD5sum: 7ea2fcf83845d19e634cc0e241201067
+SHA1: 2b69b930cbaae3558c7dd848bd2fc647475164ac
+SHA256: b13db81c9911534953d85ad3dee4aaa05e339fc3905e574c71b086372f324091
+
+Package: jump
+Architecture: aarch64
+Installed-Size: 4024
+Maintainer: @termux
+Version: 0.69.0-2
+Homepage: https://github.com/gsamokovarov/jump
+Description: Jump helps you navigate in shell faster by learning your habits
+Filename: ./jump_0.69.0-2_aarch64.deb
+Size: 1112468
+MD5sum: 93bcbfb17eb5ad64f5c6012b37f33cfa
+SHA1: 73dd6f280ca5a68338ec3e5c65a3a26b474974f4
+SHA256: 2357939aeea9cd0388ab391c55450b41d1d88b92a6ad3a9c871d0098941114af
+
+Package: jupp
+Architecture: aarch64
+Installed-Size: 748
+Maintainer: @termux
+Version: 3.1jupp41-5
+Homepage: http://www.mirbsd.org/jupp.htm
+Depends: ncurses
+Conflicts: joe
+Description: User friendly full screen text editor
+Filename: ./jupp_3.1jupp41-5_aarch64.deb
+Size: 162476
+MD5sum: 22f2383b6650b8280c1955c0c554f67e
+SHA1: a8058c1d647c07c957784493c731d1b57f2b8204
+SHA256: f801673ec75eed75eb35cdc60ca47fdf24b0434720947d90050b94c0506574e3
+
+Package: just
+Architecture: aarch64
+Installed-Size: 4796
+Maintainer: @flipee
+Version: 1.59.0-1
+Homepage: https://just.systems
+Description: A handy way to save and run project-specific commands
+Filename: ./just_1.59.0-1_aarch64.deb
+Size: 1425884
+MD5sum: eef1cdfc934ab0ff37892048f304ce67
+SHA1: 1a047f94cb356ce98b6773234445a7daba6adf96
+SHA256: 0633741fad77c8ac89e367d9de3b20104206ee94b232e8a005009b7d40d6767c
 
 Package: k9s
 Architecture: aarch64
@@ -1148,6 +1426,20 @@ MD5sum: a2c319eac1977830c543f232e3c96cf1
 SHA1: 35ff91138d27bd32ff2132bb0714d58a7bcc115e
 SHA256: 0dcb3af72927aec149824470066f86ea5a9b57edd79fe5b8d6f1c98946a3aaed
 
+Package: knockd
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 0.8.2-3
+Homepage: https://zeroflux.org/projects/knock
+Depends: libpcap
+Description: A port-knocking daemon
+Filename: ./knockd_0.8.2-3_aarch64.deb
+Size: 29516
+MD5sum: c60985ea07218eb8d35027f7f26ca96f
+SHA1: e125fbf5725bfa22825536e9c926a832e2ef471f
+SHA256: 91f1c366aeb1ce608219f60ce29d45ef9da6be2d04707426cdff96d8dc6fcd30
+
 Package: knot-utils
 Architecture: aarch64
 Installed-Size: 520
@@ -1161,6 +1453,46 @@ Size: 100552
 MD5sum: 5d8a28c0b99c053397d1fd3a142bb852
 SHA1: c8f51250db4fea6290413393e33de46c408234cb
 SHA256: 1bc303a67ff3fff2268472a8e2072a77f9f5dc70b0d8e780725b4e5bf96baa04
+
+Package: kona
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: @termux
+Version: 20211225-2
+Homepage: https://github.com/kevinlawler/kona
+Description: Open-source implementation of the APL-like K programming language
+Filename: ./kona_20211225-2_aarch64.deb
+Size: 85604
+MD5sum: 5c681b02d63a49681febe53f64492a59
+SHA1: 801e0e8d48ff74e767605f7599cba279f0b03e81
+SHA256: 3482a96662530dc525d3a1e7fd71c3dfe1fbf4e6740e6983eaa71efefbfa916c
+
+Package: kubecolor
+Architecture: aarch64
+Installed-Size: 7044
+Maintainer: Kalle Fagerberg @applejag
+Version: 0.8.0-2
+Homepage: https://github.com/kubecolor/kubecolor
+Depends: kubectl
+Description: Colorize your kubectl output
+Filename: ./kubecolor_0.8.0-2_aarch64.deb
+Size: 2024648
+MD5sum: 119abf71036e3145b11da15d4590c203
+SHA1: 7ed6960d44147e1f54bc908d70d0bb578a5eb054
+SHA256: a44c7b6ffc6f18559e0570ca1ac4727f291f125816d3902e2181562421e1fc0a
+
+Package: kubectl
+Architecture: aarch64
+Installed-Size: 61216
+Maintainer: @termux
+Version: 1.37.2-1
+Homepage: https://kubernetes.io/
+Description: Kubernetes.io client binary
+Filename: ./kubectl_1.37.2-1_aarch64.deb
+Size: 10826452
+MD5sum: f852f57dd0c035342d1ce460e7b980dc
+SHA1: 61adde99e51a5d50e73e406e701b44057018a8f6
+SHA256: 31f34a5cbfe1e4636d81f282d1c5b04361e6068373b67842cfde39a05533b1f3
 
 Package: lcal
 Architecture: aarch64
@@ -1273,6 +1605,20 @@ MD5sum: 2beb531913b97cc877f5312d2f7b65fd
 SHA1: ae513819bb1692cb48c53fc2980849285f965bac
 SHA256: 2e21f84ff48393c3184590d7f61b7f2af3f7f209219adf47f95294038f0542fa
 
+Package: libaccounts-glib
+Architecture: aarch64
+Installed-Size: 620
+Maintainer: @termux
+Version: 1.27-1
+Homepage: https://gitlab.com/accounts-sso/libaccounts-glib
+Depends: glib, libc++, libxml2, sqlite
+Description: Glib-based client library for accessing the online accounts database
+Filename: ./libaccounts-glib_1.27-1_aarch64.deb
+Size: 69476
+MD5sum: 06f0b990c9dee8dc7085928d96eef62c
+SHA1: 505b0499ca065726623b137b2171dc20d8589965
+SHA256: 78677fde18f40ee38be974fa4b0e4862426e8c13370e5a49a25223eadee4725b
+
 Package: libacl-static
 Architecture: aarch64
 Installed-Size: 164
@@ -1286,6 +1632,19 @@ Size: 20208
 MD5sum: 7235c2166436ca96100f0fa2f1ab7e1a
 SHA1: 3bcb08426cb7630335f7a2ca93f5d1025a6968a1
 SHA256: 7311eb1f291240343393b5bdd9cbefeb45f2145571dcd6ff9d8e9a82d86643ef
+
+Package: libaml
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 1.0.0-2
+Homepage: https://github.com/any1/aml
+Description: Andri's Main Loop library
+Filename: ./libaml_1.0.0-2_aarch64.deb
+Size: 11644
+MD5sum: 2759635b3374f836050fbf1ae31dc765
+SHA1: b908bab2e57c0aca350971b08b2129c55d092762
+SHA256: 0ae1ee117a4118c20e39aaf88c7089d8be87ac1b3ffc214b0369c7f487d88d31
 
 Package: libandroid-complex-math-static
 Architecture: aarch64
@@ -1356,6 +1715,36 @@ Size: 33476
 MD5sum: 338f40a21e9bec84829a4e3329b83942
 SHA1: e73f308d63794311f006a8071f9c72ac0f96921c
 SHA256: a88dd8bd6115f8e12c3e777f8d54f6b7ced6115cccfac25a90714a68e546e56f
+
+Package: libcaca-static
+Architecture: aarch64
+Installed-Size: 1524
+Maintainer: @termux
+Version: 0.99.beta20-4
+Homepage: http://caca.zoy.org/wiki/libcaca
+Depends: libcaca (= 0.99.beta20-4)
+Description: Static libraries for libcaca
+Filename: ./libcaca-static_0.99.beta20-4_aarch64.deb
+Size: 303888
+MD5sum: 8d586f08dc0d5296620a362297a05f16
+SHA1: 0f99359dbfba6c56a14f3e60c49f23fbd30fda8c
+SHA256: 73d97f23dbb69dafdb004e2b1426d21b42e7f6a61863d6f6654bce929683f8f0
+
+Package: libcaca
+Architecture: aarch64
+Installed-Size: 1384
+Maintainer: @termux
+Version: 0.99.beta20-4
+Homepage: http://caca.zoy.org/wiki/libcaca
+Breaks: libcaca-dev
+Depends: imlib2, libc++, ncurses, zlib
+Replaces: libcaca-dev
+Description: Graphics library that outputs text instead of pixels
+Filename: ./libcaca_0.99.beta20-4_aarch64.deb
+Size: 247676
+MD5sum: 539715ba3544e1008c9137a7899f2d16
+SHA1: 96e352b4d4c90971fa8739d7876bd2a704d8d367
+SHA256: 7a15148037dd9ed6dc5438dedd536df524d654623fda24a0715ccf4f4791d802
 
 Package: libccd
 Architecture: aarch64
@@ -1494,6 +1883,182 @@ MD5sum: 88e1de4aad87ac334f93dc9355546e5f
 SHA1: 768a40c230e9087511cc66c6ff4f75e9d8c04308
 SHA256: f416c4311b034646935183a02bc5653c36e5cd693fb69536cd89cc24fa109c88
 
+Package: libcln-static
+Architecture: aarch64
+Installed-Size: 8452
+Maintainer: @termux
+Version: 1.3.7-2
+Homepage: https://www.ginac.de/CLN/
+Depends: libcln (= 1.3.7-2)
+Description: Static libraries for libcln
+Filename: ./libcln-static_1.3.7-2_aarch64.deb
+Size: 618344
+MD5sum: c4dc48334c451732c147d0ca34bac4a6
+SHA1: 165beca548036b9d13fc0026c9bb5d4cac62b892
+SHA256: e9adf59b9dda9111305a14a9b11be9cd52165964458bd36f3ba97d5164635317
+
+Package: libcln
+Architecture: aarch64
+Installed-Size: 1968
+Maintainer: @termux
+Version: 1.3.7-2
+Homepage: https://www.ginac.de/CLN/
+Breaks: libcln-dev
+Depends: libc++, libgmp
+Replaces: libcln-dev
+Description: CLN is a library for efficient computations with all kinds of numbers in arbitrary precision
+Filename: ./libcln_1.3.7-2_aarch64.deb
+Size: 405504
+MD5sum: 9fdc74437cebca4faf1794120994f885
+SHA1: c2bad0b3bff68945f79f3a8cfd61d3fbed7f6b3b
+SHA256: edec00d38ee68af83dfba71130a802b79ed4dd7cdea1db2761ee0dff6234b986
+
+Package: libcmis
+Architecture: aarch64
+Installed-Size: 1504
+Maintainer: @termux
+Version: 0.6.3-4
+Homepage: https://github.com/tdf/libcmis
+Depends: boost, curl, libxml2
+Description: a C/C++ client library for the CMIS protocol
+Filename: ./libcmis_0.6.3-4_aarch64.deb
+Size: 310268
+MD5sum: a7fa8d3db006c1e4eb7ac7397a94c68c
+SHA1: b6cf97e12832afd419d722a1cb9cdd524982b73d
+SHA256: 9d2d229aaaece0dc91ab3eaa36b65b0421bcf81474a1443e481a2ff14a76a99d
+
+Package: libcoap-static
+Architecture: aarch64
+Installed-Size: 752
+Maintainer: @termux
+Version: 4.3.5b-1
+Homepage: https://libcoap.net/
+Depends: libcoap (= 4.3.5b-1)
+Description: Static libraries for libcoap
+Filename: ./libcoap-static_4.3.5b-1_aarch64.deb
+Size: 160952
+MD5sum: 1715a9ef739c80a0122a2ed9492a5ab9
+SHA1: 9ee0115b696f87a2ea9ad5f1a0cf7e283e48e83e
+SHA256: 4c2a310ac97d90b4a9fd34cbf85cf0a154ceaf4522d216ebee7b791d1e60c1ec
+
+Package: libcoap
+Architecture: aarch64
+Installed-Size: 2612
+Maintainer: @termux
+Version: 4.3.5b-1
+Homepage: https://libcoap.net/
+Breaks: libcoap-dev
+Depends: openssl
+Replaces: libcoap-dev
+Description: Implementation of CoAP, a lightweight protocol for resource constrained devices
+Filename: ./libcoap_4.3.5b-1_aarch64.deb
+Size: 385052
+MD5sum: d62234068886988a8305571fc39a5818
+SHA1: 5ea811ded251e845d56ab863ab6e014e850e0290
+SHA256: 2a5d48cc4888886ee5cd6319c72898d35eaa467dd60681645cf1f35462784d55
+
+Package: libconfig-static
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: @termux
+Version: 1.8.3-1
+Homepage: https://github.com/hyperrealm/libconfig
+Depends: libconfig (= 1.8.3-1)
+Description: Static libraries for libconfig
+Filename: ./libconfig-static_1.8.3-1_aarch64.deb
+Size: 31816
+MD5sum: be8254d84494a8cae8174f690e10aa12
+SHA1: 2262cde2d9b359f6da3db77611741deb1b669fe6
+SHA256: c9eac58d98def74d487c8ca8a3d63031e7da9f0b5b5f000531aa5296d594fcdb
+
+Package: libconfig
+Architecture: aarch64
+Installed-Size: 432
+Maintainer: @termux
+Version: 1.8.3-1
+Homepage: https://github.com/hyperrealm/libconfig
+Breaks: libconfig-dev
+Depends: libc++
+Replaces: libconfig-dev
+Description: C/C++ Configuration File Library
+Filename: ./libconfig_1.8.3-1_aarch64.deb
+Size: 77600
+MD5sum: 3a12ecc8acc9b4ca28e3a89812c95421
+SHA1: 0d9463a8340ca92f091d2bfc12ed8f175fc02270
+SHA256: 92190c833085502d3150c54f32e0c2bb9b9df2f3058cd8f265b8f75f89f04582
+
+Package: libcroco-static
+Architecture: aarch64
+Installed-Size: 468
+Maintainer: @termux
+Version: 0.6.13-11
+Homepage: https://gitlab.gnome.org/Archive/libcroco
+Depends: libcroco (= 0.6.13-11)
+Description: Static libraries for libcroco
+Filename: ./libcroco-static_0.6.13-11_aarch64.deb
+Size: 79464
+MD5sum: f4115facb8efa87f2d95e43f5e93afb0
+SHA1: 178a0071f49d5f4880a96cd83765b21d0f9c7351
+SHA256: a1526449c0f726b9a60cc886081ed750e4849b766c913daa79afc4c6390d0d69
+
+Package: libcroco
+Architecture: aarch64
+Installed-Size: 472
+Maintainer: @termux
+Version: 0.6.13-11
+Homepage: https://gitlab.gnome.org/Archive/libcroco
+Breaks: libcroco-dev
+Depends: glib,liblzma,libxml2
+Replaces: libcroco-dev
+Description: CSS parsing and manipulation library
+Filename: ./libcroco_0.6.13-11_aarch64.deb
+Size: 88512
+MD5sum: 40866577e0e2f8a4febfdd14511c9c0f
+SHA1: 84817c19a0f8f4fa22310f6cbcc242cf1d805e40
+SHA256: 41cc03dfd850f45c40481fce943e46ab81455e7de277cbfdb62a9c8173a4cf5b
+
+Package: libcue
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 2.3.0-2
+Homepage: https://github.com/lipnitsk/libcue/
+Breaks: libcue-dev
+Replaces: libcue-dev
+Description: CUE Sheet Parser Library
+Filename: ./libcue_2.3.0-2_aarch64.deb
+Size: 17444
+MD5sum: ffb29057528c0603a8bd94656434df6f
+SHA1: 6bef51180a7785a075fb369b23fd923073be92f0
+SHA256: f1758d85fd21d25333172ff2433acb465d7d8c677825fbdd59c96ad02c171ea1
+
+Package: libcunit-static
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: @termux
+Version: 2.1.3-2
+Homepage: https://sourceforge.net/projects/cunit/
+Depends: libcunit (= 2.1.3-2)
+Description: Static libraries for libcunit
+Filename: ./libcunit-static_2.1.3-2_aarch64.deb
+Size: 22356
+MD5sum: 206b9a6a7e8a7174ad7b8edf55cc893c
+SHA1: 4de91605cd647d22ac1acf97572e05bbac8c28aa
+SHA256: d710f3dac353c8a75882e29699e06936458d1e9990b9d2a3c2cf7d035cae427d
+
+Package: libcunit
+Architecture: aarch64
+Installed-Size: 548
+Maintainer: @termux
+Version: 2.1.3-2
+Homepage: https://sourceforge.net/projects/cunit/
+Description: C Unit Testing Framework
+Filename: ./libcunit_2.1.3-2_aarch64.deb
+Size: 68300
+MD5sum: fafbc0207737660debe109b259b010a1
+SHA1: 7c9752abbe7c62930160b171e15cc847c9fb5ad9
+SHA256: 25c555441c287831000e9ed497d85157d6a995b674c6f347e99904edec2fbfe6
+
 Package: libczmq-static
 Architecture: aarch64
 Installed-Size: 988
@@ -1562,6 +2127,35 @@ Size: 12039468
 MD5sum: 7f845812bbbf5bc1a8fd3daf44136a90
 SHA1: 5662d5aa73b367a01ec482dcb0fccfbdaea950aa
 SHA256: 5f59ccc21a6c1b56c4506b3f56b297675db607cbaae6ca1e4d440bd14c3e7966
+
+Package: libexif-static
+Architecture: aarch64
+Installed-Size: 972
+Maintainer: @termux
+Version: 0.6.26-1
+Homepage: https://libexif.github.io/
+Depends: libexif (= 0.6.26-1)
+Description: Static libraries for libexif
+Filename: ./libexif-static_0.6.26-1_aarch64.deb
+Size: 155584
+MD5sum: 2e9c243864a56ae0c5b8af353c3f1d77
+SHA1: a41c64ca8c9926769b9b24c9a16e7f4f291ea4e6
+SHA256: d3e04dce513a06d61aa48299d7dab7a1ef60fa509228fe18adc3cd8ad3460b39
+
+Package: libexif
+Architecture: aarch64
+Installed-Size: 584
+Maintainer: @termux
+Version: 0.6.26-1
+Homepage: https://libexif.github.io/
+Breaks: libexif-dev
+Replaces: libexif-dev
+Description: Library for reading and writing EXIF image metadata
+Filename: ./libexif_0.6.26-1_aarch64.deb
+Size: 102048
+MD5sum: 084cf21e9879c74220c28d76502cdb7e
+SHA1: d3d10d532a52cbfc5851c651a0ee347bc6a8fc05
+SHA256: 378fca046b7c288e60d05b9f2739ddd1d5c423fa905dac102a010ea936b8c56d
 
 Package: libexttextcat-static
 Architecture: aarch64
