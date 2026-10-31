@@ -135,6 +135,19 @@ MD5sum: 71919799d73eb1f0ee6353edfed9cc5d
 SHA1: cb22f54bd91981f70f2dac7748376a1077d37d6c
 SHA256: bc1f02c0cfc58fd72fcebf2036299110f6c60f74f958b2e3c674ee729d73ceac
 
+Package: cargo-machete
+Architecture: aarch64
+Installed-Size: 4736
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.9.2-1
+Homepage: https://github.com/bnjbvr/cargo-machete
+Description: Find unused dependencies in Rust projects
+Filename: ./cargo-machete_0.9.2-1_aarch64.deb
+Size: 1268460
+MD5sum: 823168288946fbe188feb520f65326a4
+SHA1: 7ae9cdb4a6e10ee33f90c04165cb90c6737b72b6
+SHA256: 1d87b7a0962aed7d13a9ae627806f7098809de62ea1877b37560ceb9ce1f7c40
+
 Package: cec-client
 Architecture: aarch64
 Installed-Size: 184
@@ -148,6 +161,49 @@ Size: 46756
 MD5sum: 9e4267b8fb8fd5e7a886a52516c35bd6
 SHA1: a5b150719ec7883193f348609ff0714633426fc6
 SHA256: e0a1d18f4e0604a1bbf4ac355f35842cda71efd7ee665fd624d2fd93c64f9d3d
+
+Package: ckermit
+Architecture: aarch64
+Installed-Size: 4896
+Maintainer: @termux
+Version: 9.0.302-4
+Homepage: https://www.kermitproject.org/ckermit.html
+Depends: libcrypt
+Description: A combined network and serial communication software package
+Filename: ./ckermit_9.0.302-4_aarch64.deb
+Size: 1403328
+MD5sum: 15d2e57797f30b7c06a653f9def41a04
+SHA1: 4f2442dbd63272a63be53b92ba091bae9cd7f853
+SHA256: b8060250fdcec673d238cb197fcf371256c06e74347b705935fb72367a6f1086
+
+Package: cmark
+Architecture: aarch64
+Installed-Size: 312
+Maintainer: @termux
+Version: 0.31.2-2
+Homepage: https://github.com/commonmark/cmark
+Breaks: cmark-dev
+Replaces: cmark-dev
+Description: CommonMark parsing and rendering program
+Filename: ./cmark_0.31.2-2_aarch64.deb
+Size: 78796
+MD5sum: 017e9379bc5fc7a8239f8e33e9b324f2
+SHA1: de47856b1059982eaeaebad682cb6da9316f9366
+SHA256: f12c35d61e9f2d768b7e226057cfdb7cb1a0f72a6eb52c22814fc42d463e4382
+
+Package: command-not-found
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 3.5.0-18
+Homepage: https://github.com/termux/command-not-found
+Depends: libc++
+Description: Suggest installation of packages in interactive shell sessions
+Filename: ./command-not-found_3.5.0-18_aarch64.deb
+Size: 16980
+MD5sum: 13ec8cbf7d3cbf6f6c776dfddf11af9c
+SHA1: 9fc9a9a96e6dd1b514434348f65dc5ebfdeff762
+SHA256: f360b67cea676371d089c3ce5eaed54d8bd0a33748635d84eb4738327a417bc5
 
 Package: dasm
 Architecture: aarch64
@@ -456,6 +512,33 @@ MD5sum: e6317cbcd3a1cdc589b0944b0038b7a9
 SHA1: ed35eef1f980817b8a9ed1d79a9d6dde9cddf9a5
 SHA256: 4fd921a75a2a941ccd2e672d19acde02e77418275bdf1c437c9e07c16e5f5fec
 
+Package: fortune
+Architecture: aarch64
+Installed-Size: 2600
+Maintainer: @termux
+Version: 1.2-3
+Homepage: https://www.fefe.de/fortune/
+Description: Revealer of fortunes
+Filename: ./fortune_1.2-3_aarch64.deb
+Size: 817832
+MD5sum: 3307b2fbb46a255cce451220743bcd64
+SHA1: d8194f99833cc60eacebef646cd024eb32bb7a30
+SHA256: 2f7b472c8eaf470dc197f33497747300a914001589ea60ddd016df32b366ee04
+
+Package: fselect
+Architecture: aarch64
+Installed-Size: 6976
+Maintainer: @termux
+Version: 0.10.4-1
+Homepage: https://fselect.rocks/
+Depends: zlib
+Description: Find files with SQL-like queries
+Filename: ./fselect_0.10.4-1_aarch64.deb
+Size: 2420328
+MD5sum: 15a96301901a8e12c044d8919ed16c29
+SHA1: 3b5e8bf1f7d7f25d1e0bedcdcdf514ac36ec0b58
+SHA256: 2bf1e47fcae75ff128ffd604359af87eb0de62cdefea68eeb1c9046167004b0c
+
 Package: gawk-static
 Architecture: aarch64
 Installed-Size: 172
@@ -483,6 +566,19 @@ Size: 16106168
 MD5sum: 49a56ca8860ceb5161d4308988746a0a
 SHA1: 7f831e2631479c17a91ccb2a7a182d907bb92da5
 SHA256: 3a17492be36310f51b35858a03499f78cc359ba8adf4585acffb8bf33a5bacdc
+
+Package: gforth
+Architecture: aarch64
+Installed-Size: 4088
+Maintainer: @termux
+Version: 0.7.3-4
+Homepage: https://www.gnu.org/software/gforth/
+Description: The Forth implementation of the GNU project
+Filename: ./gforth_0.7.3-4_aarch64.deb
+Size: 613060
+MD5sum: 41be1afd3e622c9601113d7176634665
+SHA1: e542452a9da5547493be100cdf776d7b069bbbcd
+SHA256: f1cf2b1f814f7bec3ea348b7fc5001ecaec14e92f32ae49faca231015ec261e3
 
 Package: glab-cli
 Architecture: aarch64
