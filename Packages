@@ -53,6 +53,88 @@ MD5sum: ef321c8b54e657729578967d8411610b
 SHA1: f32772b3c55a51cbc2968de27438f7fa98ac85c7
 SHA256: 15570203e01355a691b975c70493774d196a406b3bb6ae373883b8f2f31e4ea4
 
+Package: cargo-audit
+Architecture: aarch64
+Installed-Size: 12724
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.22.2-1
+Homepage: https://rustsec.org
+Description: Audit Cargo.lock for crates with security vulnerabilities reported to the RustSec Advisory Database
+Filename: ./cargo-audit_0.22.2-1_aarch64.deb
+Size: 4015744
+MD5sum: 34afda236c5f21aa0fad1f7169b00805
+SHA1: 767c6d728c75297ab1a9a4fd11379bd7a891e61e
+SHA256: 4fd9db40378adccd9087c47c23051ccc04c25a7ed942f105507cbf0a9b488d8f
+
+Package: cargo-binstall
+Architecture: aarch64
+Installed-Size: 15968
+Maintainer: @termux
+Version: 1.26.1-1
+Homepage: https://github.com/cargo-bins/cargo-binstall
+Depends: resolv-conf
+Description: Tool to fetch and install precompiled musl-based static binaries from the Rust ecosystem
+Filename: ./cargo-binstall_1.26.1-1_aarch64.deb
+Size: 4971840
+MD5sum: 348d5f01e3d069a3824e8e24c2b26fd1
+SHA1: f319cb22aa9e1170ca48d6728381ed391f081f1d
+SHA256: 9b36122dc06ddfda36b3ebf54647839fcd43b8bd5b52120391f56951bcb41bb1
+
+Package: cargo-c
+Architecture: aarch64
+Installed-Size: 92912
+Maintainer: @termux
+Version: 0.10.26-1
+Homepage: https://github.com/lu-zero/cargo-c
+Depends: libcurl, libgit2, libssh2, openssl, zlib
+Description: Cargo C-ABI helpers
+Filename: ./cargo-c_0.10.26-1_aarch64.deb
+Size: 24560200
+MD5sum: 54b80c5eff547ba8954e9b4dced316bb
+SHA1: f7512527650c0c09bb311fc6a319c26004d23b46
+SHA256: 32a57417b601cc4c8c026f9f26f4dcb897c664a32b7becbe34b3ddc8a8e99aaf
+
+Package: cargo-cache
+Architecture: aarch64
+Installed-Size: 2876
+Maintainer: @termux
+Version: 0.8.3-1
+Homepage: https://github.com/matthiaskrgr/cargo-cache
+Depends: zlib
+Description: Tool to manage cargo cache
+Filename: ./cargo-cache_0.8.3-1_aarch64.deb
+Size: 908372
+MD5sum: b97c8068807622662b7cfc3dd514a0b9
+SHA1: 23a3adce8d446b7de7e73f079985d892b1c8caa3
+SHA256: 6f40fd3f3180e0a5abb5d7e146c455d9369e3c44ee842f5669bf3c926b9df3c1
+
+Package: cargo-flamegraph
+Architecture: aarch64
+Installed-Size: 3564
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.6.14-1
+Homepage: https://github.com/flamegraph-rs/flamegraph
+Description: Simple cargo subcommand for generating flamegraphs, using inferno under the hood
+Filename: ./cargo-flamegraph_0.6.14-1_aarch64.deb
+Size: 757588
+MD5sum: ebed91e48a7de0cb8ce595d966bc40b0
+SHA1: c94bdffa74404067140c9b7331317a8f8a90eaa8
+SHA256: f99d0a49bf7348048afded7a023043c4185f3dc86bf6bf941191e22fcd75fbde
+
+Package: cargo-leptos
+Architecture: aarch64
+Installed-Size: 37164
+Maintainer: @termux
+Version: 0.3.11-1
+Homepage: https://github.com/leptos-rs/cargo-leptos
+Depends: openssl
+Description: Build tool for the Rust framework Leptos
+Filename: ./cargo-leptos_0.3.11-1_aarch64.deb
+Size: 9964484
+MD5sum: 71919799d73eb1f0ee6353edfed9cc5d
+SHA1: cb22f54bd91981f70f2dac7748376a1077d37d6c
+SHA256: bc1f02c0cfc58fd72fcebf2036299110f6c60f74f958b2e3c674ee729d73ceac
+
 Package: cec-client
 Architecture: aarch64
 Installed-Size: 184
