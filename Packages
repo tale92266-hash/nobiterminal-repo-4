@@ -3479,6 +3479,19 @@ MD5sum: 3b04a0c2f275af29b402e9155361e6ed
 SHA1: 9a1ac3d26b1a60b153562b5afd4346d14fc77929
 SHA256: 1b858632b92fc0933f801d4f6ae3746cb57662b1e81953592c49170ad04aa610
 
+Package: libseat
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 0.9.3-1
+Homepage: https://sr.ht/~kennylevinsen/seatd/
+Description: Reference implementation of a wayland compositor
+Filename: ./libseat_0.9.3-1_aarch64.deb
+Size: 24444
+MD5sum: ad47a37bc776bacfc7ae6e5b29d6ab73
+SHA1: 8fc2ba92670d211e86cd906ac201ce5ab161c8a9
+SHA256: 37ac84305f04f2e072014313bb7b48dbb882a1db2ca0d529fcc41a8b13a6ddaa
+
 Package: libsixel
 Architecture: aarch64
 Installed-Size: 572
@@ -3494,6 +3507,34 @@ Size: 96728
 MD5sum: 0ec486d54c1ad9b5ec7328a8f02c9017
 SHA1: 9b0f14f7ba2fa24da9315370a8039fe209020557
 SHA256: f7d93310fcc0f5dedd7d80a74e03055f50cad20a58fae9937dfbb594871daad6
+
+Package: libskiasharp
+Architecture: aarch64
+Installed-Size: 8492
+Maintainer: @termux
+Version: 3.119.4-1
+Homepage: https://github.com/mono/SkiaSharp
+Breaks: jellyfin-server (<< 12.0~)
+Depends: libexpat, libglvnd, libpng, libwebp, freetype, zlib, libjpeg-turbo
+Description: SkiaSharp is a cross-platform 2D graphics API for .NET platforms
+Filename: ./libskiasharp_3.119.4-1_aarch64.deb
+Size: 2224404
+MD5sum: 1288492c4bb6c26407c03e7f7b01e46f
+SHA1: 2e289f5ed81a939f7711a033d862658859d5becd
+SHA256: 0188a5f0b99036be4bb8d96037ef547923d42b97ad9753cda10d54b12f18aa63
+
+Package: libsrtp
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 2.8.1-1
+Homepage: https://github.com/cisco/libsrtp
+Description: Library for SRTP (Secure Realtime Transport Protocol)
+Filename: ./libsrtp_2.8.1-1_aarch64.deb
+Size: 45436
+MD5sum: 554a107e7461e5749d93c60de590aebf
+SHA1: 0bca2eab09542c93cbdd64a97c4d42078da49f10
+SHA256: b4f17588f15ad91f84544966bae6b579836c9a9034586b0191dfa866e12f857e
 
 Package: libtalloc-static
 Architecture: aarch64
@@ -3552,6 +3593,36 @@ MD5sum: 225ab118316853d1ba0f52e971bde056
 SHA1: 41a1a215aed0c0e9de266e1e62557d6a151134bf
 SHA256: 4caf85700d83455674d4bb740adfdbb0776f0eada9bb3c912dcbdda644c22cbf
 
+Package: libtiledb
+Architecture: aarch64
+Installed-Size: 14108
+Maintainer: @termux
+Version: 2.30.1-3
+Homepage: https://tiledb.com/
+Depends: ca-certificates, fmt, libblosc2, libbz2, libc++, liblz4, libspdlog, openssl, zlib, zstd
+Description: A powerful engine for storing and accessing dense and sparse multi-dimensional arrays
+Filename: ./libtiledb_2.30.1-3_aarch64.deb
+Size: 1980224
+MD5sum: a05992aac252433a1a60887dee9ec0b2
+SHA1: 08d66460c98e23cef5211feace5511ccf94cee12
+SHA256: ad10725a65c252bbbda3d2e592f3a55f504020028e15f0801ec58a7c6527326b
+
+Package: libtins
+Architecture: aarch64
+Installed-Size: 1896
+Maintainer: @termux
+Version: 4.6-1
+Homepage: https://libtins.github.io
+Breaks: libtins-dev
+Depends: libc++, libpcap, openssl
+Replaces: libtins-dev
+Description: High-level, multiplatform C++ network packet sniffing and crafting library.
+Filename: ./libtins_4.6-1_aarch64.deb
+Size: 301064
+MD5sum: 7d0adc074145191027f5501ba7db78a6
+SHA1: 5a308000909cb45eb4e765e2674103216bf569ee
+SHA256: 300fdb5ee9c538b8d518a61be3eb96c1c839e1a269a3076a065b72e63b32fe24
+
 Package: libtinyxml2
 Architecture: aarch64
 Installed-Size: 280
@@ -3566,6 +3637,20 @@ MD5sum: 7dafa0fda79eb48976feb740b809c474
 SHA1: a31bce62aef313ba9ebf97d4c080e440072f6888
 SHA256: d44939f3d9f0c97ff848efd5614689be5e4a4cc50353372d63dc0ddbde50257b
 
+Package: libtinyxml
+Architecture: aarch64
+Installed-Size: 312
+Maintainer: @termux
+Version: 2.6.2-3
+Homepage: https://sourceforge.net/projects/tinyxml/
+Depends: libc++
+Description: A simple, small, C++ XML parser
+Filename: ./libtinyxml_2.6.2-3_aarch64.deb
+Size: 76644
+MD5sum: 0a132db16254fa34ea2ffadfe11a93da
+SHA1: 33f356fd19272f905f4a3a93eeb5083a4e039d1c
+SHA256: f2ea74289240928f62f40d609847af6b126d3018bec2bbe6004f7b5423b1b41d
+
 Package: libtirpc-static
 Architecture: aarch64
 Installed-Size: 384
@@ -3579,6 +3664,157 @@ Size: 69540
 MD5sum: db2e584188f2e8463669caa2ff9b8ca2
 SHA1: c811e220faf289446d4ffc5f45e92de51b6eeba1
 SHA256: 43dc814952cd6c5967d40f42cb05189836dcb8f2c7e0cae1d90930c5b35fa7cf
+
+Package: libtllist
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.1.0-1
+Homepage: https://codeberg.org/dnkl/fcft
+Description: A small font loading and glyph rasterization library
+Filename: ./libtllist_1.1.0-1_aarch64.deb
+Size: 6568
+MD5sum: 658337452c9cdb681e5bae905a14b5f6
+SHA1: 3723fc9511bf57dc88c423d7e5c210a4f4b4af78
+SHA256: 91cccd28af00767792382fc566daaad18520099dff153d34e8b1fce8001a82fe
+
+Package: libtommath-static
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: @termux
+Version: 1.3.0-1
+Homepage: https://www.libtom.net/LibTomMath/
+Depends: libtommath (= 1.3.0-1)
+Description: Static libraries for libtommath
+Filename: ./libtommath-static_1.3.0-1_aarch64.deb
+Size: 43252
+MD5sum: 986b17f162174a5eda01dfdf2b9d7b2c
+SHA1: 6c7a901293e8796a8ce17fcebab59496a0c6b83f
+SHA256: ea6bd3c6be292c9c0d13f1e7c6a151e9691505b6a781f6849eac3552967af68b
+
+Package: libtommath
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 1.3.0-1
+Homepage: https://www.libtom.net/LibTomMath/
+Description: A free open source portable number theoretic multiple-precision integer library
+Filename: ./libtommath_1.3.0-1_aarch64.deb
+Size: 10824
+MD5sum: 2f0cd87ac97257f0955f40ce135b0915
+SHA1: 7f6a35e87a31c27e74867e00e89d02dac91a4b8a
+SHA256: e3cf4b4a91cdacdcadcca07c696b5f15217154af357a190197ff99820be86206
+
+Package: libtorrent-rasterbar
+Architecture: aarch64
+Installed-Size: 17032
+Maintainer: @termux
+Version: 2.1.2-2
+Homepage: https://libtorrent.org/
+Depends: boost, libc++, openssl, python
+Description: A feature complete C++ bittorrent implementation focusing on efficiency and scalability
+Filename: ./libtorrent-rasterbar_2.1.2-2_aarch64.deb
+Size: 3164140
+MD5sum: b41db1fa8967b25d65b2a98a28b9ac52
+SHA1: 9a1e40a84ed5459206cfc4eddf64534a1530408d
+SHA256: aa6539ac3c369acfe71b2eeb32003ff57f11b548662188f7bf4d6e809d93e0d0
+
+Package: libtorrent-static
+Architecture: aarch64
+Installed-Size: 54632
+Maintainer: Krishna Kanhaiya @kcubeterm
+Version: 0.16.27-1
+Homepage: https://github.com/rakshasa/rtorrent/wiki
+Depends: libtorrent (= 0.16.27-1)
+Description: Static libraries for libtorrent
+Filename: ./libtorrent-static_0.16.27-1_aarch64.deb
+Size: 6351352
+MD5sum: b2aeed70bf4e7ef6c3cb6b5427bf397b
+SHA1: e4d1d566eee9f5a671ae19f5d49db46908e0fcd6
+SHA256: 2ddeb902a7313fd61a1104ce12fbf375094bf16761771dfba03de2ff41e5dbab
+
+Package: libtorrent
+Architecture: aarch64
+Installed-Size: 2216
+Maintainer: Krishna Kanhaiya @kcubeterm
+Version: 0.16.27-1
+Homepage: https://github.com/rakshasa/rtorrent/wiki
+Depends: libandroid-spawn, libc++, libcurl, openssl, resolv-conf, zlib
+Description: Libtorrent BitTorrent library
+Filename: ./libtorrent_0.16.27-1_aarch64.deb
+Size: 480340
+MD5sum: 55cdffb036cc58ab072659648ba10c40
+SHA1: 1450764f6b480385fd3a4210927f3c912df7fa97
+SHA256: a89ac5c79c18cbee1d953b0082516c2ca1d57e3bb5998d38bebd9a2ad042d160
+
+Package: libtpms-static
+Architecture: aarch64
+Installed-Size: 2080
+Maintainer: @termux
+Version: 0.10.2-1
+Homepage: https://github.com/stefanberger/libtpms
+Depends: libtpms (= 0.10.2-1)
+Description: Static libraries for libtpms
+Filename: ./libtpms-static_0.10.2-1_aarch64.deb
+Size: 376400
+MD5sum: 6428e888dc30f35f271ad134ea45f36c
+SHA1: a590953634f3d6b94e1c92a1daf87764f6c82e00
+SHA256: 7facb4f583c35248e0b5c35696693b37e926c0f9874edabba8600ab8b6c11620
+
+Package: libtpms
+Architecture: aarch64
+Installed-Size: 1304
+Maintainer: @termux
+Version: 0.10.2-1
+Homepage: https://github.com/stefanberger/libtpms
+Depends: openssl
+Description: Provides software emulation of a Trusted Platform Module (TPM 1.2 and TPM 2.0)
+Filename: ./libtpms_0.10.2-1_aarch64.deb
+Size: 364444
+MD5sum: c7565e8f32a03e317643a5af2ec3e79b
+SHA1: 1d070e3c0633604831c574617622e54670280746
+SHA256: eb2248fb5d579825c3be4879c53041a08efa5299d571e0ac0b16c88faf171da1
+
+Package: libtree-ldd
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @flosnvjx
+Version: 3.1.1-3
+Homepage: https://github.com/haampie/libtree
+Depends: libandroid-glob
+Description: Like ldd(1), but prints a tree(1) like output
+Filename: ./libtree-ldd_3.1.1-3_aarch64.deb
+Size: 11220
+MD5sum: 3528baceaee625e0087dcdbc5a320d2c
+SHA1: d6c2df13c34edea7649ee09b519f3398067986c3
+SHA256: a929a6928f83f0e6a21a5cb01e9a72544b1251b586ccd84336ac4d514d57eef4
+
+Package: libtvision
+Architecture: aarch64
+Installed-Size: 1504
+Maintainer: @termux
+Version: 2025.10.31-1
+Homepage: https://github.com/magiblot/tvision
+Depends: libc++, ncurses
+Description: A modern port of Turbo Vision 2.0 with Unicode support
+Filename: ./libtvision_2025.10.31-1_aarch64.deb
+Size: 286160
+MD5sum: a54a2548ce9a85738370850de99f5321
+SHA1: fc791bb40b76bc017156d05dc028832d7692a25a
+SHA256: 5c0e446b1825df9cfb423820590cbbb375cb535ebf63ddb86f62dd1ba2905649
+
+Package: libuber-h3
+Architecture: aarch64
+Installed-Size: 508
+Maintainer: @termux
+Version: 4.5.0-1
+Homepage: https://h3geo.org/
+Description: A hexagonal hierarchical geospatial indexing system
+Filename: ./libuber-h3_4.5.0-1_aarch64.deb
+Size: 92636
+MD5sum: 20d5bfc6df2069dc077e79e9115aecc4
+SHA1: 3a82d66787f83045226eb29ce97123d6da0ced30
+SHA256: b76a1197da094e15bbea3ebcb0e52a21fe0360cfe4909f508131098cb72a59ce
 
 Package: libuchardet-static
 Architecture: aarch64
@@ -3608,6 +3844,60 @@ MD5sum: 48c424f5e41977a78714b4e196255ea0
 SHA1: 51f26eb1dc4439a8e2cbfd59eba643af68a0fd01
 SHA256: 392e19aaa2a6293379a386c192c8de63ccf727c70b2d42408f717add3443469c
 
+Package: libucontext-static
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: @termux
+Version: 1.5.2-1
+Homepage: https://github.com/kaniini/libucontext
+Depends: libucontext (= 1.5.2-1)
+Description: Static libraries for libucontext
+Filename: ./libucontext-static_1.5.2-1_aarch64.deb
+Size: 2212
+MD5sum: 348442897b7f1a7c0bca531efff15f8f
+SHA1: 28ca941f094c65aba1b05d43d25123e84a919bd1
+SHA256: 0575790a53583226fb16b72e9d9bab710b8d41a8f82fdcb6cf6ee4a081c1dbf3
+
+Package: libucontext
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 1.5.2-1
+Homepage: https://github.com/kaniini/libucontext
+Description: A library which provides the ucontext.h C API
+Filename: ./libucontext_1.5.2-1_aarch64.deb
+Size: 3308
+MD5sum: 1c13d4c9b1890667ed1b72e85e883b20
+SHA1: 80a8286b0891b15e3013828934e3a3c298539841
+SHA256: 7dd1c5fd7b27ae7b4b546b8c76288ee25e782d149b2aef7a4404aae02c688be9
+
+Package: libunibreak-static
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: @termux
+Version: 8.0-1
+Homepage: https://github.com/adah1972/libunibreak
+Depends: libunibreak (= 8.0-1)
+Description: Static libraries for libunibreak
+Filename: ./libunibreak-static_8.0-1_aarch64.deb
+Size: 20288
+MD5sum: 12c75217b20ca6f5684db2522d66795e
+SHA1: e21a02fe56f28b1e9a4e4f3104411fe06e9b47af
+SHA256: af8f8f14cf8153fd4626d598d59ebe9f1f4f4db9fa0be174f501704152203ffc
+
+Package: libunibreak
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: @termux
+Version: 8.0-1
+Homepage: https://github.com/adah1972/libunibreak
+Description: Unicode line-breaking library
+Filename: ./libunibreak_8.0-1_aarch64.deb
+Size: 21032
+MD5sum: 62db50ca15b67f51995c3da0dbcc35df
+SHA1: df0f07978776a5a3a3ab82b4fb6c7b7dae262a90
+SHA256: f4a811deb98ed07e737d68f923bc9cf2cf0f00852d32b661141167215a16822d
+
 Package: libunistring-static
 Architecture: aarch64
 Installed-Size: 3024
@@ -3621,6 +3911,117 @@ Size: 481764
 MD5sum: 815256060d1732732303dd8c1065f6fe
 SHA1: a84d62d0c39d10fc63a1683bd1fbeae196d7bce8
 SHA256: 455f13db09620d8e5a2e0d1beb67906aa9e83c871b5cc7c9b5bbb52871a8e5aa
+
+Package: libunqlite
+Architecture: aarch64
+Installed-Size: 812
+Maintainer: @termux
+Version: 1.2.1-1
+Homepage: https://unqlite.org/
+Description: Transactional embedded database engine
+Filename: ./libunqlite_1.2.1-1_aarch64.deb
+Size: 186736
+MD5sum: 9fee284d68105567a526f00ae3c2d7ff
+SHA1: 61d24842a18a5fa73f28b8814ed17ac24b15198a
+SHA256: f17ef27255d1d58124801079dcddab79244a3b2fff80c13b055e8d450af5f776
+
+Package: libusbredir
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: @termux
+Version: 0.15.0-1
+Homepage: https://www.spice-space.org/
+Depends: glib, libusb
+Description: network protocol for sending USB device traffic over a network connection
+Filename: ./libusbredir_0.15.0-1_aarch64.deb
+Size: 35884
+MD5sum: bd7cf581e80ca71cc616d0c06f7bc661
+SHA1: b6e1988e0aef94f9d58da9fad4e2272340506e9f
+SHA256: 7a022906de09991b51aa5b3336bc0ee9c471acdef9b5cc6df6da046a34163635
+
+Package: libvips
+Architecture: aarch64
+Installed-Size: 3456
+Maintainer: @termux
+Version: 8.18.7-3
+Homepage: https://libvips.github.io/libvips/
+Depends: cfitsio, cgif, fftw, fontconfig, glib, highway, imagemagick, imath, libc++, libcairo, libexif, libexpat, libheif, libimagequant, libjpeg-turbo, libjxl, libpng, librsvg, libtiff, libwebp, littlecms, openexr, openjpeg, pango, poppler, zlib
+Description: A fast image processing library with low memory needs
+Filename: ./libvips_8.18.7-3_aarch64.deb
+Size: 1100068
+MD5sum: 46f6b6929bc2938be4eba8f248cfaf19
+SHA1: 0f77628d705577b358bc990cea86d9462eae488a
+SHA256: f4347a12917c0c851464baa21ffd8ece988bf4f58a1c17c6c4ba35c62eabb5bb
+
+Package: libvisio-static
+Architecture: aarch64
+Installed-Size: 4172
+Maintainer: @termux
+Version: 0.1.11-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
+Depends: libvisio (= 0.1.11-1)
+Description: Static libraries for libvisio
+Filename: ./libvisio-static_0.1.11-1_aarch64.deb
+Size: 368772
+MD5sum: dd038ab33a7b36d486c195d948bd6d00
+SHA1: 626cb79ddc10e51f07632db0c1b6d8d7a2422050
+SHA256: 212058520086b075592c2217cee33278c31cee9cbd967c2336305fb4d97fa12c
+
+Package: libvisio
+Architecture: aarch64
+Installed-Size: 892
+Maintainer: @termux
+Version: 0.1.11-1
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
+Depends: libxml2, libicu, librevenge
+Description: Library providing ability to interpret and import visio diagrams
+Filename: ./libvisio_0.1.11-1_aarch64.deb
+Size: 178984
+MD5sum: 308a3cef23b844f26bbb688bc2d6c217
+SHA1: e0d8c892d412432796983a30c8575ec28a50f748
+SHA256: 0c2f2e27ab6e645f7051b809a08a8d4be45c35f3f1a985fa3eacc3239ebc267f
+
+Package: libvoikko-static
+Architecture: aarch64
+Installed-Size: 1720
+Maintainer: @termux
+Version: 4.3.3-3
+Homepage: http://voikko.sourceforge.net
+Depends: libvoikko (= 4.3.3-3)
+Description: Static libraries for libvoikko
+Filename: ./libvoikko-static_4.3.3-3_aarch64.deb
+Size: 178036
+MD5sum: b60332e913424a961264dc6a3d6312cf
+SHA1: ce9a2411c58b07a6db0a0be03cdf390fb8c9b77a
+SHA256: 6c4a54ffdcf049a546c0ebfa092ca952990bc548021c52de4bd351013cf37c0b
+
+Package: libvoikko
+Architecture: aarch64
+Installed-Size: 620
+Maintainer: @termux
+Version: 4.3.3-3
+Homepage: http://voikko.sourceforge.net
+Depends: libc++
+Description: A spelling and grammar checker, hyphenator and collection of related linguistic data for Finnish language
+Filename: ./libvoikko_4.3.3-3_aarch64.deb
+Size: 122912
+MD5sum: 5eaf56ba32e0f8c1922c20b776e1aa3b
+SHA1: f6124e66f4a1f9203112d496f10504ccb3b5b7e5
+SHA256: 7d8a1682d7f54dc7f4ba498ee200e1d2394d68fdd71b08b30d942db33c462a92
+
+Package: libxcfun
+Architecture: aarch64
+Installed-Size: 6280
+Maintainer: @termux
+Version: 2.1.1-3
+Homepage: https://github.com/dftlibs/xcfun
+Depends: libc++
+Description: A library of exchange-correlation functionals with arbitrary-order derivatives
+Filename: ./libxcfun_2.1.1-3_aarch64.deb
+Size: 2022004
+MD5sum: 8d03223bb0dc55362fb24906dbf54f5c
+SHA1: 65e7b0100cb96cf548c364b9e07c7b5ad0bf58cd
+SHA256: 2bf41949d3098ebdd5650f7b3be8f9b30bbaaec62644ffdaf1dc0fc57b237889
 
 Package: libxcomposite-static
 Architecture: aarch64
@@ -3678,6 +4079,46 @@ MD5sum: 7cf87487e0bdd7ec4d8ae17d2c20d499
 SHA1: b2952cc9a39a82788d70d912a3af22fd7ff78653
 SHA256: abb13db8938f2151c62e7f9be0226e0adea8491a387e4b7ce16f1740d66cf8b6
 
+Package: libxdg-basedir-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 1.2.3-3
+Homepage: https://github.com/devnev/libxdg-basedir
+Depends: libxdg-basedir (= 1.2.3-3)
+Description: Static libraries for libxdg-basedir
+Filename: ./libxdg-basedir-static_1.2.3-3_aarch64.deb
+Size: 4824
+MD5sum: 6790ccf88db161bdcec0e379cf9fa968
+SHA1: a9d6d8b4d1b7e53de1910ef4716310f648b50ade
+SHA256: a3e3e186b860b53e79ddb58bcd33c3d7dea437d4e25cce72072a3698f51932d0
+
+Package: libxdg-basedir
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 1.2.3-3
+Homepage: https://github.com/devnev/libxdg-basedir
+Description: An implementation of the XDG Base Directory specifications
+Filename: ./libxdg-basedir_1.2.3-3_aarch64.deb
+Size: 7492
+MD5sum: c728bc22789d66ce79b1136960a541ad
+SHA1: 4b21915107c9a7db7c0ed9a7836872c1a13599d0
+SHA256: 9998a38149ac84fc6293bdcc9aef048d7fdc57c22f36b4e78d13f3d885338af0
+
+Package: libxdrfile
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 1.1.4-3
+Homepage: https://userguide.mdanalysis.org/stable/formats/reference/xtc.html
+Description: Library for reading and writing xtc, edr and trr files
+Filename: ./libxdrfile_1.1.4-3_aarch64.deb
+Size: 22900
+MD5sum: 9f734536f529a9c596cd2aacea1fe0fe
+SHA1: 748d843f27440234f1d0bf7186e0ab5cbe4530a4
+SHA256: 639b600a4bc8836ca5dc6aa5c387313200a4a408bb4fdcc3b528123d8412fd4a
+
 Package: libxinerama-static
 Architecture: aarch64
 Installed-Size: 40
@@ -3719,6 +4160,160 @@ Size: 255568
 MD5sum: a0fd019fd8decbc56e19e2f11e380b9b
 SHA1: 048b1620b699aecd75a5078a89c5c3d64edad95d
 SHA256: 06f28632e268b47110edef21dd7985cd7be88413a295ae26ed9ff2cc4a2f448b
+
+Package: libxls-static
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 1.6.4-1
+Homepage: https://github.com/libxls/libxls
+Depends: libxls (= 1.6.4-1)
+Description: Static libraries for libxls
+Filename: ./libxls-static_1.6.4-1_aarch64.deb
+Size: 22432
+MD5sum: bc558b056d17447ee3d13b6cefdfd086
+SHA1: 3a69b8b514326417d2d499942b4f7b65a1b64ea9
+SHA256: 5df20a9b13ea2522b13617c4e1f11bed24c47f1f4d14894f90ba1a6f908ae57e
+
+Package: libxls2csv
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.6.4-1
+Homepage: https://github.com/libxls/libxls
+Depends: libxls (= 1.6.4-1)
+Breaks: xls2csv
+Replaces: xls2csv
+Description: A command-line tool for converting XLS to CSV
+Filename: ./libxls2csv_1.6.4-1_aarch64.deb
+Size: 4708
+MD5sum: 31941c6c33f5df06f97a04946aa69d44
+SHA1: 29b04555e617e66a058370d9786419b261c9b70f
+SHA256: 5e95e3463abc12f56c485068ce56f4a2b460807ee2280c1812990619f861ce71
+
+Package: libxls
+Architecture: aarch64
+Installed-Size: 176
+Maintainer: @termux
+Version: 1.6.4-1
+Homepage: https://github.com/libxls/libxls
+Description: A C library for reading Excel files in the nasty old binary OLE format
+Filename: ./libxls_1.6.4-1_aarch64.deb
+Size: 28816
+MD5sum: 210dabd0a132007c473b66e514865804
+SHA1: 178071d9b17e7434306f76485b5294c7a78fbed8
+SHA256: 904c8d85cb893f7f3a62ca04b2ab94e1a64717a9d5bb9a99ca28acff9377096b
+
+Package: libxlsxwriter
+Architecture: aarch64
+Installed-Size: 1084
+Maintainer: @termux
+Version: 1.2.4-1
+Homepage: https://libxlsxwriter.github.io/
+Depends: libminizip
+Description: A C library for creating Excel XLSX files
+Filename: ./libxlsxwriter_1.2.4-1_aarch64.deb
+Size: 202456
+MD5sum: 78496841a4b5c748a019d09780a2a8f0
+SHA1: 09e4bee8b804c4574a8fd0ad769fde4aff474b74
+SHA256: 8c1d3a84674458755aa93c3cd7fe8274315432c285adb23ecb3390b2c1240f02
+
+Package: libxmlrpc-static
+Architecture: aarch64
+Installed-Size: 7360
+Maintainer: @termux
+Version: 1.64.04-2
+Homepage: https://xmlrpc-c.sourceforge.io/
+Depends: libxmlrpc (= 1.64.04-2)
+Description: Static libraries for libxmlrpc
+Filename: ./libxmlrpc-static_1.64.04-2_aarch64.deb
+Size: 1092860
+MD5sum: 426d0028527e80d131bb9769746ce5b2
+SHA1: ebaec619d4e37b2cfa599c3343dfc17e0d18aaa2
+SHA256: 7586186b00bd98385c234f124e110f9ea82b5d2a16746641524b353784a5cf72
+
+Package: libxmlrpc
+Architecture: aarch64
+Installed-Size: 1544
+Maintainer: @termux
+Version: 1.64.04-2
+Homepage: https://xmlrpc-c.sourceforge.io/
+Depends: openssl
+Description: XML-RPC for C and C++
+Filename: ./libxmlrpc_1.64.04-2_aarch64.deb
+Size: 275612
+MD5sum: 43647bdd3b972f969b84a41dca595763
+SHA1: 7ec7649d72a5c2848e1e9ce24b05004692014d3b
+SHA256: 83f7e8b70b07772432cd632eb2604940b6d147b332c5eb7928f3e38402c6fd64
+
+Package: libxmp-static
+Architecture: aarch64
+Installed-Size: 1472
+Maintainer: @termux
+Version: 4.7.4-1
+Homepage: https://github.com/libxmp/libxmp
+Depends: libxmp (= 4.7.4-1)
+Description: Static libraries for libxmp
+Filename: ./libxmp-static_4.7.4-1_aarch64.deb
+Size: 334448
+MD5sum: bdc0ce802d0c7c7b19eaa18538accff1
+SHA1: 1cdd34ce62e9bf7ce2882590668128cf24ea7253
+SHA256: 19827453bcb5e0622b000a5c1bdc36b41d87d6335cb2d6bada2577ce39773bf3
+
+Package: libxmp
+Architecture: aarch64
+Installed-Size: 896
+Maintainer: @termux
+Version: 4.7.4-1
+Homepage: https://github.com/libxmp/libxmp
+Description: Extended Module Player C Library that renders tracker and module music (MOD, S3M, IT, XM etc.)
+Filename: ./libxmp_4.7.4-1_aarch64.deb
+Size: 303140
+MD5sum: e12864cdafd9dc4ad24cc054834473c1
+SHA1: 93fac69e1fac1b67c2891f11a75ca036b75033a9
+SHA256: c4ac3ee77f4ade60b7afd0072676595664938d76609e620c68c17df913d4fee8
+
+Package: libzita-convolver
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 4.0.3-3
+Homepage: https://kokkinizita.linuxaudio.org/linuxaudio/
+Depends: libc++, fftw
+Description: A real-time C++ convolution library
+Filename: ./libzita-convolver_4.0.3-3_aarch64.deb
+Size: 21912
+MD5sum: 2c7da43ea650356c974841f927cf8644
+SHA1: 4b69544b9b8e0d7056d99b98dc9e312099ec8a83
+SHA256: 14e72cbc61c7c6136fb8d40bc227ad6de98dd0ef81294600743b5f3813b49c88
+
+Package: libzmf-static
+Architecture: aarch64
+Installed-Size: 840
+Maintainer: @termux
+Version: 0.0.2-6
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libzmf
+Depends: libzmf (= 0.0.2-6)
+Description: Static libraries for libzmf
+Filename: ./libzmf-static_0.0.2-6_aarch64.deb
+Size: 93412
+MD5sum: fe5cd017c889d5053b18da948dd58098
+SHA1: 2e1c0411cec18295e2d16f5129d71fcc1988cc7a
+SHA256: 47c6163ba75df29f019d8173f2aa758684d7795aecd1c3db98a759dedeb66297
+
+Package: libzmf
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 0.0.2-6
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libzmf
+Depends: libicu, libpng, librevenge, zlib
+Description: a library for import of Zoner drawing and bitmap files
+Filename: ./libzmf_0.0.2-6_aarch64.deb
+Size: 65696
+MD5sum: 56824534a57bebcbb6ba43a137fd7147
+SHA1: 6146915639f46539a950b6f8c391d4c1b028acfe
+SHA256: 605c3ddab46ba8f12cb9c7bc478b09eb941f6f5fc02eaea20560223499b32952
 
 Package: lsof-static
 Architecture: aarch64
