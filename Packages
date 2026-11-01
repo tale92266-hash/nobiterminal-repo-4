@@ -3613,10 +3613,10 @@ Homepage: https://github.com/nfc-tools/libnfc
 Depends: libnfc (= 1.8.0-3)
 Description: Static libraries for libnfc
 Filename: ./libnfc-static_1.8.0-3_aarch64.deb
-Size: 51236
-MD5sum: 03a50cebb27f803fa8892f64ce1105bd
-SHA1: 6ae05827ed2ca638f264de8d4d01158d5420080a
-SHA256: 44d66e2c22985a15c85f530bdfb77079987dc9a7a700176c97faa86e3a9f9c92
+Size: 51252
+MD5sum: b1e1ad44566eb910e00eeb9f0d866f9d
+SHA1: 2c8eb5cb0f699662d4261d3af304853c38c31a1b
+SHA256: 907402425960b5c4596aa76e2c4bafb453a2871c9153b42ccbf7d57c01c2e0b4
 
 Package: libnfc
 Architecture: aarch64
@@ -3626,10 +3626,10 @@ Version: 1.8.0-3
 Homepage: https://github.com/nfc-tools/libnfc
 Description: Free/Libre Near Field Communication (NFC) library
 Filename: ./libnfc_1.8.0-3_aarch64.deb
-Size: 103028
-MD5sum: 49e53939a8516cbd4a240d61eb4e04b9
-SHA1: 241a74af06a5bc8320ea080e646240149d5fb5e7
-SHA256: faa24f17e650e8425c159ea809e21227d0df6e50c5d1df8d3e7a89d2daf8d0b3
+Size: 102804
+MD5sum: a88b464e97196230052b34390ed13b7a
+SHA1: 16ae38e4f80f20b752a6e913ea3b3c6eff5f32bc
+SHA256: b9f246dc93fd01dd4fc682d84f873184421fd5cc5200c56df59f59cdc5844a23
 
 Package: libnfs
 Architecture: aarch64
@@ -5237,6 +5237,261 @@ MD5sum: adf36edb32e225c8a5848e31d75eddfb
 SHA1: 1f952092e85df5f649e5842d8cbcccc3e7ba0e11
 SHA256: a289f04272217da78b2d8c2a3128f9f6896ee9fece325d2b0265359a721e6f21
 
+Package: matplotlib
+Architecture: aarch64
+Installed-Size: 21348
+Maintainer: @termux
+Version: 3.11.2-3
+Homepage: https://matplotlib.org/
+Depends: freetype, libc++, libraqm, patchelf, qhull, ninja, python, python-contourpy, python-kiwisolver, python-numpy, python-pillow, python-pip
+Description: A comprehensive library for creating static, animated, and interactive visualizations in Python
+Filename: ./matplotlib_3.11.2-3_aarch64.deb
+Size: 4919676
+MD5sum: 7e058b779032ce9d58edf6b09b0bbedb
+SHA1: 7f1bb6e1188ca7e5c8214e1aaacc334c0e58d407
+SHA256: 05ad0f7149eb9266f5de539ab97fbd6fe12b9acb5293bce1ab27d5d9b88a23b2
+
+Package: matterbridge
+Architecture: aarch64
+Installed-Size: 63488
+Maintainer: @termux
+Version: 1.26.0-6
+Homepage: https://github.com/42wim/matterbridge
+Depends: libc++
+Description: A simple chat bridge
+Filename: ./matterbridge_1.26.0-6_aarch64.deb
+Size: 11200668
+MD5sum: e6d3b0e0969412c40640513cd09d5384
+SHA1: 4808f6c911e78099b85f5cbe7c7e41ab6b9543d0
+SHA256: e8a9e431dc5702a50c43b4484b4538ced98e132a0a7ecd46a0f2331ce58e05ef
+
+Package: matterircd
+Architecture: aarch64
+Installed-Size: 29576
+Maintainer: @termux
+Version: 0.33.0-2
+Homepage: https://github.com/42wim/matterircd
+Description: Connect to your mattermost or slack using your IRC-client of choice
+Filename: ./matterircd_0.33.0-2_aarch64.deb
+Size: 6893440
+MD5sum: 6c88403b69775a00fbf236c7ae654f7b
+SHA1: 83f91cbdf65c1b681c7cc6f0564dfe8011c9bc11
+SHA256: 991a94d580877d5a90953a6caa113da66b6cc466db5e1e884e2724b2efc22b80
+
+Package: matugen
+Architecture: aarch64
+Installed-Size: 7952
+Maintainer: @termux
+Version: 4.2.0-1
+Homepage: https://github.com/InioX/matugen
+Description: A material you color generation tool with templates
+Filename: ./matugen_4.2.0-1_aarch64.deb
+Size: 2287660
+MD5sum: 82c431229a2b6962b1c17ddc924fd26d
+SHA1: ac4e4f4397a6c5f4991d442b2eb5ec3cb15adf80
+SHA256: 5c2dc51ef9cc6de848f31887b327a77d8a5717814efda7cb4502919214efd503
+
+Package: mautrix-whatsapp
+Architecture: aarch64
+Installed-Size: 33856
+Maintainer: @termux
+Version: 26.10-2
+Homepage: https://maunium.net/go/mautrix-whatsapp/
+Depends: libolm
+Description: A Matrix-WhatsApp puppeting bridge
+Filename: ./mautrix-whatsapp_26.10-2_aarch64.deb
+Size: 7793628
+MD5sum: 1a916fbfc5c3abe3d67637bd3fb62d6c
+SHA1: d5d4960964fb5d9c75914257592b092ba954fcc4
+SHA256: f601c3c7010dedd6541c2f6c48619bd7ae08eaa343dbf155afecfcea11e09c11
+
+Package: maxcso
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: @termux
+Version: 1.13.0-2
+Homepage: https://github.com/unknownbrackets/maxcso
+Depends: libc++, liblz4, libuv, zlib
+Description: A fast ISO to CSO compression program for use with PSP and PS2 emulators
+Filename: ./maxcso_1.13.0-2_aarch64.deb
+Size: 91172
+MD5sum: d57786b5c9aa40bf4e02f5a19d4f5716
+SHA1: 045d7a6935e241b3b9d9f115d4905a9b05ab4976
+SHA256: 5af3813a13a9ade8d4f68e983b111352b1eeb8d54b4e3e0b0717a1db13989a1e
+
+Package: mazter
+Architecture: aarch64
+Installed-Size: 1168
+Maintainer: @termux
+Version: 2022.08.13-2
+Homepage: https://github.com/Canop/mazter
+Description: Mazes in your terminal
+Filename: ./mazter_2022.08.13-2_aarch64.deb
+Size: 405616
+MD5sum: c4c9bcccdc66eac7b3f91a607e06440f
+SHA1: 4e7057dc474f5b2036de29030e309e2322c7ed29
+SHA256: a498390e2d9798c642061b477c4b04016d14d6bd44edb496f2c9c7f4c5d2c2ee
+
+Package: mdbook-mermaid
+Architecture: aarch64
+Installed-Size: 5968
+Maintainer: @termux
+Version: 0.17.1-1
+Homepage: https://github.com/badboy/mdbook-mermaid
+Description: A preprocessor for mdbook to add mermaid support
+Filename: ./mdbook-mermaid_0.17.1-1_aarch64.deb
+Size: 1486412
+MD5sum: 8a336fe27d07622dce7379363d937cec
+SHA1: ff0fc9151f052527ad5131f0a6df65393dadd542
+SHA256: 0b359fe65bd83049d1804e5962326d49ca6ba4ae1276a35b9a357211fe5200f7
+
+Package: mdbook-open-on-gh
+Architecture: aarch64
+Installed-Size: 2588
+Maintainer: @termux
+Version: 3.0.0-1
+Homepage: https://github.com/badboy/mdbook-open-on-gh
+Description: A preprocessor for mdbook to add a open-on-github link on every page
+Filename: ./mdbook-open-on-gh_3.0.0-1_aarch64.deb
+Size: 700660
+MD5sum: 7bd212785e526f12b5cf4fa73a172e6c
+SHA1: 3c7fd63b5b07ae323c4c72c64e6f5d46896d88a4
+SHA256: 2d4803fbe53faca02af2c73ecf51e23c87735acd8b03fcac9e70f330bd6919f2
+
+Package: mdbook-pikchr
+Architecture: aarch64
+Installed-Size: 3100
+Maintainer: @termux
+Version: 0.2.0-1
+Homepage: https://github.com/podsvirov/mdbook-pikchr
+Description: A mdbook preprocessor to render pikchr code blocks as images in your book
+Filename: ./mdbook-pikchr_0.2.0-1_aarch64.deb
+Size: 825104
+MD5sum: 2a34026e8aa86614753c46286af3bb93
+SHA1: 5e26c3c237c0d332aae6cdd0f4a0b0d7aa3f0fe0
+SHA256: 0fd2302f5c3907b928455b2c72000d3bea7240894807de1b5f3abc7b642f84aa
+
+Package: mdbook-plantuml
+Architecture: aarch64
+Installed-Size: 4252
+Maintainer: @termux
+Version: 2.0.0-1
+Homepage: https://github.com/sytsereitsma/mdbook-plantuml
+Depends: openssl
+Description: mdBook preprocessor to render PlantUML code blocks as images in your book
+Filename: ./mdbook-plantuml_2.0.0-1_aarch64.deb
+Size: 1453372
+MD5sum: 6cefbd6593d3562fe5d2bf19d5d18980
+SHA1: d6e67107b612872ceb482ec9c9fe47970da6c8db
+SHA256: 693b37235187af4c17406769756a12b306eb3560bb67e47c85e5eb10fe032890
+
+Package: mdbook-presentation-preprocessor
+Architecture: aarch64
+Installed-Size: 2176
+Maintainer: @termux
+Version: 0.3.1-3
+Homepage: https://github.com/FreeMasen/mdbook-presentation-preprocessor
+Description: A preprocessor for utilizing an MDBook as slides for a presentation
+Filename: ./mdbook-presentation-preprocessor_0.3.1-3_aarch64.deb
+Size: 579000
+MD5sum: 76fc2968a57a58da57e41aafe5f9c8a7
+SHA1: ed953d659400c802b7323a84f2583ac0acedcf55
+SHA256: 280b3fe076c23716c2fd334581b95b87e89bdffc10ed9af15dd1135768f7a762
+
+Package: mdbook-svgbob2
+Architecture: aarch64
+Installed-Size: 2072
+Maintainer: @termux
+Version: 0.3.0-2
+Homepage: https://github.com/matthiasbeyer/mdbook-svgbob2
+Description: Alternative mdbook preprocessor for svgbob
+Filename: ./mdbook-svgbob2_0.3.0-2_aarch64.deb
+Size: 628684
+MD5sum: 509914803b4e78c7572f29f3d635d774
+SHA1: 910883f12e6fe6a28ce3079dbc10901eb73c51ce
+SHA256: 2e3a703a9890b88c384b69212cfa1d9c1ba6da8b26d5c0d2a55c894c45d92c59
+
+Package: mdbook-svgbob
+Architecture: aarch64
+Installed-Size: 3752
+Maintainer: @termux
+Version: 0.3.1-1
+Homepage: https://github.com/boozook/mdbook-svgbob
+Description: SvgBob mdbook preprocessor which swaps code-blocks with neat SVG
+Filename: ./mdbook-svgbob_0.3.1-1_aarch64.deb
+Size: 1003664
+MD5sum: bc92d616dc095d7a6cb6ffed61e7ae0b
+SHA1: 5da09112dedaadccf4d1678ad5c2646ad3a15c99
+SHA256: 27262f86faf7f657873633d9b32c0570b66d29975af04abfc2724d5e02dc91ad
+
+Package: mdbook-tera
+Architecture: aarch64
+Installed-Size: 6368
+Maintainer: @termux
+Version: 0.5.1-2
+Homepage: https://github.com/avitex/mdbook-tera
+Description: Tera preprocessor for mdBook
+Filename: ./mdbook-tera_0.5.1-2_aarch64.deb
+Size: 1140192
+MD5sum: 06122cf346fe1a24ebd9e3390d72d5d6
+SHA1: f75d131da0610dd1e509037ec9df677074cd7cdd
+SHA256: fc4fa59aaa02f687522138c3c7ac35112a6f89135161d748eba03e4a58deb0fc
+
+Package: mdbook-toc
+Architecture: aarch64
+Installed-Size: 1404
+Maintainer: @termux
+Version: 0.15.4-1
+Homepage: https://github.com/badboy/mdbook-toc
+Description: A preprocessor for mdbook to add inline Table of Contents support
+Filename: ./mdbook-toc_0.15.4-1_aarch64.deb
+Size: 440168
+MD5sum: 24ccd696fb6045a0adbead91cd62dd70
+SHA1: 8f450d2fce25c12e9a9c001c7f394512d81fa20c
+SHA256: 6585e3217ca097b9297cf3a8a2344b4321e8673a2e78fcc7385486ec76ac1c9d
+
+Package: mdbtools-static
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 1.0.1-2
+Homepage: https://github.com/mdbtools/mdbtools
+Depends: mdbtools (= 1.0.1-2)
+Description: Static libraries for mdbtools
+Filename: ./mdbtools-static_1.0.1-2_aarch64.deb
+Size: 64892
+MD5sum: 7552cb3effa01d3e7b8e81a7de29459f
+SHA1: 0f354cde048be7f48cf41bde0c6a2c2d19bcb9b3
+SHA256: c2682f9a3a2ff8d3fa7101ae42edd8fab661878934d677d0b83987b2b0314b23
+
+Package: mdbtools
+Architecture: aarch64
+Installed-Size: 556
+Maintainer: @termux
+Version: 1.0.1-2
+Homepage: https://github.com/mdbtools/mdbtools
+Depends: glib, libiconv, readline, libiodbc
+Description: A set of programs to help you extract data from Microsoft Access files in various settings
+Filename: ./mdbtools_1.0.1-2_aarch64.deb
+Size: 104932
+MD5sum: c4ca3021e6fbfb30f9fca4da2ac9e3e2
+SHA1: 335a7765e185c071529f16f24989813d908e6e12
+SHA256: f939662ab087f00600663a6c05b2f4eace4aa516c6a22cd4fdc1d64c03318c4a
+
+Package: mdcat
+Architecture: aarch64
+Installed-Size: 86656
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.19.0-1
+Homepage: https://github.com/BIRSAx2/mdcat
+Depends: libcurl
+Description: Fancy cat for Markdown: syntax highlighting, images, math, and Mermaid diagrams in your terminal
+Filename: ./mdcat_2.19.0-1_aarch64.deb
+Size: 25750868
+MD5sum: ff0a74646db0923708e83a8fae3bc219
+SHA1: 471398c9ee84f4b0f78d35697c7417028238b655
+SHA256: 8b3349e2d6d3e610f9ee687d44716bd99937a54f1537322b2ae89d02c7ea4003
+
 Package: mdds
 Architecture: all
 Installed-Size: 1272
@@ -5249,6 +5504,429 @@ Size: 126604
 MD5sum: eb93e6900a78a1f6a26815d995eca9a7
 SHA1: 6e568439c3a61eb9b3b41f7e975f5cea1d0c1118
 SHA256: edc9695e21b0b028fe6754dc6dd326f2594aa34aab4cf0ffc558c0f457eb9994
+
+Package: mdf2iso
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 0.3.1-1
+Homepage: https://salsa.debian.org/debian/mdf2iso
+Description: Small utility that converts MDF images to ISO format
+Filename: ./mdf2iso_0.3.1-1_aarch64.deb
+Size: 4716
+MD5sum: 6f20542cc5543ca2bf3d67e72eafba80
+SHA1: 6f8f1611219effdc8b3b5b30698266d48c601474
+SHA256: 927912e45f0d0355be66bffa65983312ee26188713a1c485615efbe3285ca0f0
+
+Package: mdns-scan
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 0.5-4
+Homepage: https://github.com/alteholz/mdns-scan
+Description: A tool for scanning for mDNS/DNS-SD services published on the local network
+Filename: ./mdns-scan_0.5-4_aarch64.deb
+Size: 7772
+MD5sum: 9cebe71e9f8655c8fb622fd72af56484
+SHA1: 85e2dcc51b2d153c05028a3ea864a5fc05fa961f
+SHA256: 5f3ce40ef2cb96762cdbfabf19b2ebbf1db195663daf876614d42e3fcb108f70
+
+Package: mdp
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.0.19-1
+Homepage: https://github.com/visit1985/mdp
+Depends: libandroid-support, ncurses
+Description: Command-line based markdown presentation tool
+Filename: ./mdp_1.0.19-1_aarch64.deb
+Size: 18500
+MD5sum: 885c414563936bbca87afeb31952cc20
+SHA1: 1828c47bf0d1d8c5df137eef21b1ff1a4fcce376
+SHA256: bedf0c348ba67ea27635fe11ddad49e22c2ff5e3b2795460e247297b7fea5f5c
+
+Package: mediainfo
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 26.10-1
+Homepage: https://mediaarea.net/en/MediaInfo
+Depends: libandroid-support, libc++, libmediainfo, libzen
+Description: Command-line utility for reading information from media files
+Filename: ./mediainfo_26.10-1_aarch64.deb
+Size: 29176
+MD5sum: 49d3e163cb4d9131e32d31d8febbedb6
+SHA1: bbab69b9fcc8996480463310a7f67fdc48d8d28d
+SHA256: cff1b05ed6637fd35ebe0416b0dc5a2a655a92d92ca2300f0d1f3bdda519dd8a
+
+Package: mediamtx
+Architecture: aarch64
+Installed-Size: 53176
+Maintainer: @termux
+Version: 1.21.3-1
+Homepage: https://github.com/bluenviron/mediamtx
+Description: Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy
+Filename: ./mediamtx_1.21.3-1_aarch64.deb
+Size: 12269904
+MD5sum: 243f7904c5a27842461b9bd8587390da
+SHA1: 0c02641e529d3444406530875ede6d3f7a88f4c4
+SHA256: 7fabf23ed5c755f3c4967d2ceca320094a1b5d80aa15b93a57590da2ad0c7e91
+
+Package: megatools
+Architecture: aarch64
+Installed-Size: 248
+Maintainer: @termux
+Version: 1.11.5.20250706-2
+Homepage: https://xff.cz/megatools/
+Depends: glib, libandroid-support, libcurl, openssl
+Description: Open-source command line tools and C library (libmega) for accessing Mega.co.nz cloud storage
+Filename: ./megatools_1.11.5.20250706-2_aarch64.deb
+Size: 71440
+MD5sum: 4223fc611a021a94c0992685e7ceff42
+SHA1: f84be08b5734dd487e0ba9441d66c440f36a6966
+SHA256: c8a15d7b9b5f53a1687ee41aab2f48e7bba05e2da16f16141952e79af54e4a44
+
+Package: memcached
+Architecture: aarch64
+Installed-Size: 512
+Maintainer: @termux
+Version: 1.6.45-1
+Homepage: https://memcached.org/
+Breaks: memcached-dev
+Depends: libevent, libsasl
+Replaces: memcached-dev
+Description: Free & open source, high-performance, distributed memory object caching system
+Filename: ./memcached_1.6.45-1_aarch64.deb
+Size: 141768
+MD5sum: cadcfafdad18aa74590eb8f6c4db21c7
+SHA1: 49a43bd53248935be7a1df8bd0431919d3285ed4
+SHA256: 0f12ca653a848c627dc7e2f76dfd8183a04a1b3c1fedfd9b3b051080ed8b05b5
+
+Package: mercury-static
+Architecture: aarch64
+Installed-Size: 60260
+Maintainer: @termux
+Version: 22.01.9-1
+Homepage: https://www.mercurylang.org/
+Depends: mercury (= 22.01.9-1)
+Description: Static libraries for mercury
+Filename: ./mercury-static_22.01.9-1_aarch64.deb
+Size: 7153696
+MD5sum: 67ef3ad11a260d1233cd9ff137e252a9
+SHA1: a5ff2948cc3ac13ab268d0c3a003418985e435c4
+SHA256: 2b32b4d8a5c9c35d4a30c341ba2b15e1a64031ba58e5ccfc16b32788b5fbab07
+
+Package: mercury
+Architecture: aarch64
+Installed-Size: 127684
+Maintainer: @termux
+Version: 22.01.9-1
+Homepage: https://www.mercurylang.org/
+Depends: libandroid-sysv-semaphore-static
+Description: A logic/functional programming language
+Filename: ./mercury_22.01.9-1_aarch64.deb
+Size: 11011596
+MD5sum: a17bcd10a24e32c5806b96ba70012dbe
+SHA1: dcf390d3074c622a5cb4d84ce36c33b44dffe343
+SHA256: 375b6109de4bde76064f1e9a7667f16776a5170c046755ef616dc73c0cd55024
+
+Package: mfcuk
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 2018.07.14-2
+Homepage: https://github.com/nfc-tools/mfcuk
+Depends: libnfc
+Description: MiFare Classic Universal toolKit (MFCUK)
+Filename: ./mfcuk_2018.07.14-2_aarch64.deb
+Size: 16980
+MD5sum: 3a4b3449b5f95821de64217598b9e174
+SHA1: eae430970144a2432f13af6c533fe0546937a8e4
+SHA256: 3647c982d7ce83cd868f7797cea9ab5357b4f45ab0f94d663a2142da58cd79bb
+
+Package: mg
+Architecture: aarch64
+Installed-Size: 248
+Maintainer: @termux
+Version: 20260719-2
+Homepage: https://github.com/hboetes/mg
+Depends: libbsd, ncurses
+Description: microscopic GNU Emacs-style editor
+Filename: ./mg_20260719-2_aarch64.deb
+Size: 80080
+MD5sum: 8a0312c69eabddcda8e12ad5cfdbd3a4
+SHA1: 9c38e323e0432dc4af6e0c07a0f544bf2adedd6f
+SHA256: 62f3a965bee8d90881e325cf2572109c6d75b684ac8f9ac1ce9b5532128dae14
+
+Package: micro
+Architecture: aarch64
+Installed-Size: 14144
+Maintainer: @termux
+Version: 2.0.15-4
+Homepage: https://micro-editor.github.io/
+Description: Modern and intuitive terminal-based text editor
+Filename: ./micro_2.0.15-4_aarch64.deb
+Size: 3855332
+MD5sum: b6007a40e72c6af8ebcb3b9bd9fdbba9
+SHA1: 39b0df159cd3277e2a416d04c548cc877fb24325
+SHA256: e874cd4e966559bddf033b13a4c7210f915cafe5b0c7efb91e1922fc315f774d
+
+Package: microsocks
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 1:1.0.5-2
+Homepage: https://github.com/rofl0r/microsocks
+Description: tiny, portable SOCKS5 server with very moderate resource usage
+Filename: ./microsocks_1:1.0.5-2_aarch64.deb
+Size: 6988
+MD5sum: 84184932812e69922d87b5f7f3f3b3f8
+SHA1: c43f2eb2607207a73a244f0d17250872fb20bbd7
+SHA256: 36c618a19e36a13a5d0c8a8fcb3d37552e799b4403603b543d215a069e357e20
+
+Package: miller
+Architecture: aarch64
+Installed-Size: 18372
+Maintainer: @termux
+Version: 6.22.0-2
+Homepage: https://miller.readthedocs.io/
+Description: Like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
+Filename: ./miller_6.22.0-2_aarch64.deb
+Size: 4190872
+MD5sum: 575b8a303f13bca6c6d23d9bd20f5b27
+SHA1: a94be50664f10f6aba0399bdf328d830dc8a0109
+SHA256: e678813dd67d0182a19757404c5872f2fd08c8360ce42155f0c3a0ef2f904065
+
+Package: mimetic-static
+Architecture: aarch64
+Installed-Size: 1680
+Maintainer: @termux
+Version: 0.9.8-3
+Homepage: https://www.codesink.org/mimetic_mime_library.html
+Depends: mimetic (= 0.9.8-3)
+Description: Static libraries for mimetic
+Filename: ./mimetic-static_0.9.8-3_aarch64.deb
+Size: 153228
+MD5sum: 3908e1627507cdd0232fc337340417aa
+SHA1: e0a5c31b5c6219814547a100ca83a41aaa766bd7
+SHA256: 5077283c708831524e1fdd8e62433eb66ae94e1247edc3e2c3ef694454e75209
+
+Package: mimetic
+Architecture: aarch64
+Installed-Size: 628
+Maintainer: @termux
+Version: 0.9.8-3
+Homepage: https://www.codesink.org/mimetic_mime_library.html
+Depends: libc++
+Description: A C++ Email library (MIME)
+Filename: ./mimetic_0.9.8-3_aarch64.deb
+Size: 96672
+MD5sum: 55be016c0e178adbbe53166fda176666
+SHA1: d73de6d6116660f8cbafcab0a99d1745da3684ca
+SHA256: 230570a5caa3d254d4ae69b4831a2b1654834030c7f0f6d351b72a6c63be195b
+
+Package: minesweeper
+Architecture: aarch64
+Installed-Size: 5820
+Maintainer: @termux
+Version: 0.3.1-6
+Homepage: https://github.com/benhsm/minesweeper
+Description: A simple terminal-based implementation of Minesweeper
+Filename: ./minesweeper_0.3.1-6_aarch64.deb
+Size: 1673464
+MD5sum: 0d1031a7e2f061bf1c6a6b55b1905ff5
+SHA1: bf05d5c9a144dc1d455959eead7ed71828a85db8
+SHA256: 08757597b46bdfd35a0b4f606eae76f99f9c88224840b10556de10b373837661
+
+Package: minicom
+Architecture: aarch64
+Installed-Size: 304
+Maintainer: @termux
+Version: 2.11.1-1
+Homepage: https://salsa.debian.org/minicom-team/minicom
+Depends: libiconv, ncurses
+Description: Friendly menu driven serial communication program
+Filename: ./minicom_2.11.1-1_aarch64.deb
+Size: 93192
+MD5sum: 31bb11599e7b228e508d12bfce6a5b22
+SHA1: 62a18ccaaf575c33108325fdb4e7e17e9e924e25
+SHA256: b33c0d6a75dfbeb4d7c5e5871a1fd8f9f96ea2a3acddea64c3ede87217183c9c
+
+Package: miniflux
+Architecture: aarch64
+Installed-Size: 23880
+Maintainer: @termux
+Version: 2.3.4-2
+Homepage: https://miniflux.app/
+Description: A minimalist and opinionated feed reader
+Filename: ./miniflux_2.3.4-2_aarch64.deb
+Size: 6456160
+MD5sum: 963717ba7f9f6a17a509fc2435375293
+SHA1: f78367bb857a3aa8e181de60003e8e6681ee57e7
+SHA256: 5f1c4b249e8f29d98a9207bf39ee27c6b8b055de8b990f7e6b51e155ac34a1fb
+
+Package: miniserve
+Architecture: aarch64
+Installed-Size: 6744
+Maintainer: @termux
+Version: 0.35.0-1
+Homepage: https://github.com/svenstaro/miniserve
+Description: Tool to serve files and dirs over HTTP
+Filename: ./miniserve_0.35.0-1_aarch64.deb
+Size: 2285196
+MD5sum: 1e1c74e854291f22d7bf8bfa99ab7acb
+SHA1: 4ac7c4dd95afeda5608cd20aa983dfc4cfa5b905
+SHA256: e7c16bd570944844104baa81930759fd5b903278697f781a8144a3426400a85b
+
+Package: minisign
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 0.12-2
+Homepage: https://jedisct1.github.io/minisign/
+Depends: libsodium
+Description: A dead simple tool to sign files and verify signatures
+Filename: ./minisign_0.12-2_aarch64.deb
+Size: 11920
+MD5sum: ac94db146bc029b2e9121830a70d70a8
+SHA1: 1374a4922546b4638f81d3d18b9cfe13b5318c2b
+SHA256: 16e15d9f54a34cc875d9ef27b9fd0adb9f6b6a2b9784ee2227b9c22f379c4518
+
+Package: ministream
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 0.99.1-1
+Homepage: https://gitlab.gnome.org/GNOME/ministream
+Depends: glib
+Description: Lightweight alternative to AppStream
+Filename: ./ministream_0.99.1-1_aarch64.deb
+Size: 12872
+MD5sum: 6743a8c2a95684c558cf7ce5fabd52dc
+SHA1: baf94adff89e82ba2d8f6db413f397bc8d027c59
+SHA256: 081a2f5e1b1d901f40d7d612fb9cb62e295ce5702f0c0429c24be2954dee4767
+
+Package: miniz
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: @termux
+Version: 3.1.2-1
+Homepage: https://github.com/richgel999/miniz
+Description: Single C source file zlib-replacement library
+Filename: ./miniz_3.1.2-1_aarch64.deb
+Size: 59408
+MD5sum: 98b4f2691c4dc367ea93f8094c7171e6
+SHA1: 98ad7f1d43cb9be7a7f81e445cd60772365c1311
+SHA256: e0eeaa39c1c6764c28a6f5104c7fbcc8d8c2a8b269db01d91bcaa73faa78462a
+
+Package: minizinc-static
+Architecture: aarch64
+Installed-Size: 17172
+Maintainer: @termux
+Version: 2.10.1-1
+Homepage: https://github.com/MiniZinc/libminizinc
+Depends: minizinc (= 2.10.1-1)
+Description: Static libraries for minizinc
+Filename: ./minizinc-static_2.10.1-1_aarch64.deb
+Size: 2145196
+MD5sum: adea09dbdd203c76563902ded62cd2e0
+SHA1: cad76bbeaa65d2b9c8ff59472d32fe547e085373
+SHA256: 6d19f1b8e00ce2fce4937a81bc6fbf2d97af0078c397ce0a310222abd06312d3
+
+Package: minizinc
+Architecture: aarch64
+Installed-Size: 14684
+Maintainer: @termux
+Version: 2.10.1-1
+Homepage: https://github.com/MiniZinc/libminizinc
+Depends: libandroid-spawn, libc++, zlib, gecode
+Description: A medium-level constraint modelling language
+Filename: ./minizinc_2.10.1-1_aarch64.deb
+Size: 2070912
+MD5sum: 1b97227d54c6e3b55a3e52546ea0232d
+SHA1: dbfa50c61f222681ef7e2a7fe2f551ac07b7b424
+SHA256: b0d5cba71a61bb1a85ced461286403edbdf7cb5556ce013f814b52d5c3183acb
+
+Package: mkbootimg
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 2022.11.09-2
+Homepage: https://github.com/osm0sis/mkbootimg
+Description: Maintained fork with android's mkbootimg and unpackbootimg
+Filename: ./mkbootimg_2022.11.09-2_aarch64.deb
+Size: 12256
+MD5sum: 77acaba4cb9661bdb8586037a84b64e0
+SHA1: 3cf47a36a864649dfef2c967978d5b5ec7c38561
+SHA256: cdf78438d6eac2e507f2a39500b5b5a8ebf93a28367645e012e91839f394096c
+
+Package: mkcert
+Architecture: aarch64
+Installed-Size: 4628
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.4.4-2
+Homepage: https://github.com/FiloSottile/mkcert
+Suggests: nss-utils
+Description: A simple zero-config tool to make locally trusted development certificates
+Filename: ./mkcert_1.4.4-2_aarch64.deb
+Size: 1386624
+MD5sum: 984198ca069540725e903e4a97d2baf7
+SHA1: 1adc280e334e964ebef522df413f7f8d24ab4396
+SHA256: 9233c880afe452f2429afe41db9e6ea44aee6a5dd8ae1128c1666089a49ffe86
+
+Package: mkp224o
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 1.7.0-2
+Homepage: https://github.com/cathugger/mkp224o
+Depends: libsodium
+Description: Generate vanity ed25519 (hidden service version 3) onion addresses
+Filename: ./mkp224o_1.7.0-2_aarch64.deb
+Size: 57780
+MD5sum: 62de424e0db7621a7f7ea1f5c23f85bb
+SHA1: cfea78185c32913696e18ffdee9f2e7a908720a0
+SHA256: 9df9f3fbb205e5a630c89f003dcda765ce977ae7ae4598e1a2cc39b1df3f42cd
+
+Package: mksh
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: @termux
+Version: 59c-6
+Homepage: http://www.mirbsd.org/mksh.htm
+Description: The MirBSD Korn Shell - an enhanced version of the public domain ksh
+Filename: ./mksh_59c-6_aarch64.deb
+Size: 170668
+MD5sum: cc5ff3fb947ccfc598f0ef368328953e
+SHA1: 304247cf2ea809ceb94130eef4f9b2e65e6d46c6
+SHA256: 438a631f5d5c352e7da694b76f366018f67eeaaac845a16af5ebebebd4248a00
+
+Package: mktorrent
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 1.1-p20210130-2
+Homepage: https://github.com/Rudde/mktorrent
+Description: command line utility to create BitTorrent metainfo files
+Filename: ./mktorrent_1.1-p20210130-2_aarch64.deb
+Size: 11744
+MD5sum: 1e9781714b2c8bd3f9f315c7a0f3c00d
+SHA1: 7aa1d5c7c67bc0052fa7b0001a77c263611ba5b7
+SHA256: ba8a5b71205ee510cf33812624aa60e50c97976225b39a293959a0bc3afc1692
+
+Package: mold
+Architecture: aarch64
+Installed-Size: 36984
+Maintainer: @termux
+Version: 3.0.0-1
+Homepage: https://github.com/rui314/mold
+Depends: zlib
+Description: mold: A Modern Linker
+Filename: ./mold_3.0.0-1_aarch64.deb
+Size: 4374388
+MD5sum: b44120f3a961c05bc9fca70e15e2dc61
+SHA1: 2463f6f9aba3c80fac0208a4da070a80ee08ace9
+SHA256: cec98e5d81834bf9f977873cd699b12919804b44e0d23175ebb8c78135c5b182
 
 Package: nlopt
 Architecture: aarch64
@@ -5291,6 +5969,20 @@ MD5sum: dedf25cb9ffc0640141dd65c01927869
 SHA1: e3ec931709096cc40f070774293aabcd436ffe53
 SHA256: f38f9126fc8bd0e4495e857d531d39109a97e9f025cb955bed9166b211e17b57
 
+Package: patchelf
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @termux
+Version: 0.19.2-1
+Homepage: https://nixos.org/patchelf.html
+Depends: libc++
+Description: Utility to modify the dynamic linker and RPATH of ELF executables
+Filename: ./patchelf_0.19.2-1_aarch64.deb
+Size: 82936
+MD5sum: 9ee4be282f3010e5eb5ff4ed36367637
+SHA1: 077beaa14a324102a9d66de263703ab03931d53a
+SHA256: 1586c565493a9c34427aed817ab938e578b41442161ef1d190e18231a9d1cac5
+
 Package: procps-static
 Architecture: aarch64
 Installed-Size: 348
@@ -5320,6 +6012,48 @@ MD5sum: a9979ab15d31cab6e57c19b535b55ce5
 SHA1: b31da6c0f12b31e1887546bb9a8b8d35c58d55e6
 SHA256: 20d2df1a1099d8dd62d28dfc8d7ea92876331a7f9ffc3e039090f5e9b86b8538
 
+Package: python-contourpy
+Architecture: aarch64
+Installed-Size: 824
+Maintainer: @termux
+Version: 1.4.0-2
+Homepage: https://contourpy.readthedocs.io/
+Depends: python, python-numpy, python-pip
+Description: Python library for calculating contours in 2D quadrilateral grids
+Filename: ./python-contourpy_1.4.0-2_aarch64.deb
+Size: 168328
+MD5sum: e2e6feb5b417bec2cb470c22624ef94a
+SHA1: 5ec22c6f7f568f169d5eb8d1ab227c6bde6bfbac
+SHA256: 03b30a90fac421ef67593026f5706a038beaae3c57fa4c2c65e87334a83c07b5
+
+Package: python-kiwisolver
+Architecture: aarch64
+Installed-Size: 340
+Maintainer: @termux
+Version: 1.5.1-1
+Homepage: https://github.com/nucleic/kiwi
+Depends: libc++, python
+Description: An efficient C++ implementation of the Cassowary constraint solving algorithm
+Filename: ./python-kiwisolver_1.5.1-1_aarch64.deb
+Size: 57532
+MD5sum: d1bbce8a5d8e940871a852bc5c97ce4f
+SHA1: 807858b781d6d1debde6fea046c89936ee37df2e
+SHA256: 997e69e35cee0ea7c42d6d6d46bb2f4f4ca84dbcd674a7404dd529373646a383
+
+Package: python-pillow
+Architecture: aarch64
+Installed-Size: 2040
+Maintainer: @termux
+Version: 13.0.0-1
+Homepage: https://python-pillow.org/
+Depends: freetype, libavif, libimagequant, libjpeg-turbo, libraqm, libtiff, libwebp, libxcb, littlecms, openjpeg, python, python-pip, zlib
+Description: Python Imaging Library
+Filename: ./python-pillow_13.0.0-1_aarch64.deb
+Size: 410588
+MD5sum: 8e1abc377980e751a8ea381180928f01
+SHA1: 8dd4e87615f811ce3bf29b5e6761e6fff18d5409
+SHA256: 235d8f314e76632a56d6f85b8be5bbbd8b0af266499ce02b5e729aafa0586aa5
+
 Package: python-pyarrow
 Architecture: aarch64
 Installed-Size: 25408
@@ -5333,6 +6067,33 @@ Size: 3447476
 MD5sum: 4687779bee531021ecc8fc9f2d088595
 SHA1: ffc675f943ec567d8298596a2b887afad67bff88
 SHA256: 943539fd5a73da5fd8f28ba2fc737432c9af5d38c39b3bb23fb8ffb474438038
+
+Package: qhull-static
+Architecture: aarch64
+Installed-Size: 1836
+Maintainer: @termux
+Version: 8.1-alpha3-3
+Homepage: http://www.qhull.org
+Depends: qhull (= 8.1-alpha3-3)
+Description: Static libraries for qhull
+Filename: ./qhull-static_8.1-alpha3-3_aarch64.deb
+Size: 337116
+MD5sum: 3e369b3a6fbfe3c818f73b752b3b33bf
+SHA1: 20c6feff6c187b5d19d2d9e570a0936f6f965b7e
+SHA256: 14dd6f02887e9442ce73aebe82bfd19dfe11022bf585f5a723755c6c03e85081
+
+Package: qhull
+Architecture: aarch64
+Installed-Size: 4636
+Maintainer: @termux
+Version: 8.1-alpha3-3
+Homepage: http://www.qhull.org
+Description: Calculate convex hulls and related structures
+Filename: ./qhull_8.1-alpha3-3_aarch64.deb
+Size: 645768
+MD5sum: 59bf8cd1d9bcc3322d823b226ff7e5c4
+SHA1: 517bbfa7cca04894fe30e596408064c894c260e3
+SHA256: 8d3cb0e4dd7bb89145d05036a6a81827d6975e1b13ed6aaf7b7889bc676557d0
 
 Package: qt6-qt5compat-cross-tools
 Architecture: all
