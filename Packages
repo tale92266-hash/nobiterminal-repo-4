@@ -39,6 +39,20 @@ MD5sum: e55e9e282f1f82c22e8751bd54cf0321
 SHA1: bedddc9921455264fd4d7a236b0c861562166242
 SHA256: 16dfaa69346ca7e8c8054a9d0793699541b55dcab68b6ed70edf99ab19b744e8
 
+Package: alembic
+Architecture: aarch64
+Installed-Size: 3748
+Maintainer: @termux
+Version: 1.8.12-1
+Homepage: https://alembic.io
+Depends: imath, libc++
+Description: A framework for sharing scene data that includes a C++ lib, a file format and client plugin
+Filename: ./alembic_1.8.12-1_aarch64.deb
+Size: 590516
+MD5sum: a79522e3e48ff5b6adce3ed2f83d2c68
+SHA1: 9404dc95291ae4cdc47b8e37632102ec2e1f32b7
+SHA256: 5acb8dce264b561794c173d528a7072a9c5b1d9d8608abb5eefa6a10bc47d49a
+
 Package: apache-orc
 Architecture: aarch64
 Installed-Size: 2016
@@ -52,6 +66,213 @@ Size: 407612
 MD5sum: ef321c8b54e657729578967d8411610b
 SHA1: f32772b3c55a51cbc2968de27438f7fa98ac85c7
 SHA256: 15570203e01355a691b975c70493774d196a406b3bb6ae373883b8f2f31e4ea4
+
+Package: appstream
+Architecture: aarch64
+Installed-Size: 2480
+Maintainer: @termux
+Version: 1.2.2-1
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Depends: curl, glib, libfyaml, libxml2, libxmlb, zstd
+Description: Provides a standard for creating app stores across distributions
+Filename: ./appstream_1.2.2-1_aarch64.deb
+Size: 361656
+MD5sum: 7532644e7b13e7476a024c51f16184b3
+SHA1: a2e10941e95b259e189ac62d908ddb7be387bd34
+SHA256: 3058fd7527b4b6fb76dd6fff1aeb9f157154254170be63bd82129cceab81ef4c
+
+Package: artalk
+Architecture: aarch64
+Installed-Size: 55384
+Maintainer: Moraxyc <termux@qaq.li>
+Version: 2.10.1-1
+Homepage: https://artalk.js.org/
+Description: A self-hosted comment system
+Filename: ./artalk_2.10.1-1_aarch64.deb
+Size: 11957636
+MD5sum: ae8357b45e6b92a92f11341a38ce85b0
+SHA1: 76c22093234744c7036e41de0e1b6f13c30e7e82
+SHA256: 681031a09073f74ca7e94a5897b5cac97efe25b9a4b9b4bd093f68f70f147aba
+
+Package: ascii
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 3.33-1
+Homepage: http://www.catb.org/~esr/ascii/
+Description: List ASCII idiomatic names and octal/decimal code-point forms
+Filename: ./ascii_3.33-1_aarch64.deb
+Size: 14428
+MD5sum: c2438dd8c5128ee3434a9c666810dc5c
+SHA1: 03cec737548ace66a2ebe9517a74abbfb9fcf721
+SHA256: 83ac2cda467467bfb45f43be47fafe87a7317d2fb358d5ef533520e3aafcc849
+
+Package: aspell-static
+Architecture: aarch64
+Installed-Size: 3188
+Maintainer: @termux
+Version: 0.60.8.3-1
+Homepage: http://aspell.net
+Depends: aspell (= 0.60.8.3-1)
+Description: Static libraries for aspell
+Filename: ./aspell-static_0.60.8.3-1_aarch64.deb
+Size: 327840
+MD5sum: a9ef1639abbbb86ed12f348e045a687f
+SHA1: d64800426ba3341fc8d8890412bc85b44477b4f3
+SHA256: 14e9f50dda98be4b69a767a321bcf6bbb8501b6beb0d333af6bcaa23e3c83a34
+
+Package: aspell
+Architecture: aarch64
+Installed-Size: 2632
+Maintainer: @termux
+Version: 0.60.8.3-1
+Homepage: http://aspell.net
+Depends: libc++
+Description: A free and open source spell checker designed to replace Ispell
+Filename: ./aspell_0.60.8.3-1_aarch64.deb
+Size: 353184
+MD5sum: cb30b61bfd34f691a1ed4dd639e37545
+SHA1: abd3a968fbf6e2bdd3bb0ad642874135a5bea2ec
+SHA256: 9af7caa6fd53cf9fd19a049e2dbe8df6bdc2bf42d69772753995ba86cf673da4
+
+Package: astyle
+Architecture: aarch64
+Installed-Size: 1020
+Maintainer: @termux
+Version: 3.6.20-1
+Homepage: https://astyle.sourceforge.net/
+Description: Source code formatter for C-like programming languages
+Filename: ./astyle_3.6.20-1_aarch64.deb
+Size: 210728
+MD5sum: ba60d262ccfcb9a15c2d64c1b72e0d04
+SHA1: 5edfc065eafad0a140af937cd5903e466d19fb19
+SHA256: 02c21f83ede30ecceb03fa4bd3969e685e45c97525cd7357e8650e809340d7a1
+
+Package: azure-cli
+Architecture: aarch64
+Installed-Size: 115804
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.91.0-1
+Homepage: https://learn.microsoft.com/en-us/cli/azure/
+Depends: python, python-pip, python-cryptography, python-psutil, python-bcrypt, python-pynacl
+Description: Microsoft's command-line tool for managing Azure cloud resources
+Filename: ./azure-cli_2.91.0-1_aarch64.deb
+Size: 3358252
+MD5sum: 1479bbb22a1050dd7680bf0a4647910a
+SHA1: e98ac609071d6c259c7385dcaff3ac17ec1bf25d
+SHA256: 6817d26bd01076ef317e96643a9b068572f09c64b5f8cca8609759e8297ca14b
+
+Package: azure-dev-cli
+Architecture: aarch64
+Installed-Size: 61304
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.37.2-1
+Homepage: https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/
+Description: Developer-centric CLI for creating, provisioning and deploying Azure applications (azd)
+Filename: ./azure-dev-cli_1.37.2-1_aarch64.deb
+Size: 12641572
+MD5sum: 571a5d0ef0cb8af587a42d085227f8b9
+SHA1: 8c148a91da4ec903ae34186962864983ad76c09c
+SHA256: 5fe634ff70c4e161f284c625cbafe7d4fb336a739f6c93ee7c392efa48137476
+
+Package: bed
+Architecture: aarch64
+Installed-Size: 3980
+Maintainer: @termux
+Version: 0.2.9-1
+Homepage: https://github.com/itchyny/bed
+Description: Binary editor written in GO
+Filename: ./bed_0.2.9-1_aarch64.deb
+Size: 1016124
+MD5sum: c615bf3cab6b1c32a5e78ef2dfc4f6af
+SHA1: 897bfb042134484a58d8ed04cec0ab5daa110c82
+SHA256: 5bcd4e90c6557da9bc63c213570ba4755ceaa5a5eb94f4e9661d516a72bfe897
+
+Package: bitcoin
+Architecture: aarch64
+Installed-Size: 43960
+Maintainer: @termux
+Version: 32.1-1
+Homepage: https://bitcoincore.org/
+Depends: capnproto, libc++, libevent
+Description: Bitcoin Core
+Filename: ./bitcoin_32.1-1_aarch64.deb
+Size: 13091796
+MD5sum: 8a5149f894e54ae9b95d851c6759c93c
+SHA1: 072c4a4acd28ea958e5faba0ec15abfb8039c3c5
+SHA256: a37d1a8240b3bad30006e0ab16675a4fea8f4edfbd7f7495a24b0058a82f7bc6
+
+Package: boost-headers
+Architecture: all
+Installed-Size: 193960
+Maintainer: @termux
+Version: 1:1.92.0-1
+Homepage: https://boost.org
+Depends: boost (= 1:1.92.0-1)
+Description: Boost header files
+Filename: ./boost-headers_1:1.92.0-1_all.deb
+Size: 11143732
+MD5sum: b00bef832d6281962224aebec9a98a38
+SHA1: 130bafee14fcb79eb6b4d06098f2eca303b04d56
+SHA256: aa7eff1fd0b2d4210a8ac13403b1409d51334f50b3c8dde57d90f57b427d5ba9
+
+Package: boost-static
+Architecture: aarch64
+Installed-Size: 40572
+Maintainer: @termux
+Version: 1:1.92.0-1
+Homepage: https://boost.org
+Depends: boost (= 1:1.92.0-1)
+Description: Static libraries for boost
+Filename: ./boost-static_1:1.92.0-1_aarch64.deb
+Size: 2957592
+MD5sum: f168556118d862e4690eb715c21eda00
+SHA1: 14da1372dd267542c85db2578ab2d5adbf630abe
+SHA256: 2bc7217e021fe6982360f8e0503132f90b06de30e2d6b28c7f8a204c6f65c31d
+
+Package: boost
+Architecture: aarch64
+Installed-Size: 8336
+Maintainer: @termux
+Version: 1:1.92.0-1
+Homepage: https://boost.org
+Breaks: libboost-python (<= 1.65.1-2), boost-dev
+Depends: libc++, libbz2, libiconv, liblzma, zlib, libandroid-wordexp
+Replaces: libboost-python (<= 1.65.1-2), boost-dev
+Description: Free peer-reviewed portable C++ source libraries
+Filename: ./boost_1:1.92.0-1_aarch64.deb
+Size: 1411648
+MD5sum: 3af2d39959d0550c80891097b5cfd91c
+SHA1: 85d39f1c2366d62e175c0c8feb3100a188702f4a
+SHA256: 38fc345b217933569b8025131ed7c25f7bf3602b18289eff18a841376c4c129b
+
+Package: btrfs-progs
+Architecture: aarch64
+Installed-Size: 5612
+Maintainer: @termux
+Version: 7.3-1
+Homepage: https://btrfs.readthedocs.io/en/latest/
+Depends: e2fsprogs, liblzo, libuuid, util-linux, zlib, zstd
+Description: Utilities for Btrfs filesystem
+Filename: ./btrfs-progs_7.3-1_aarch64.deb
+Size: 998144
+MD5sum: 42643ffda89cb5cf96927db037081dfe
+SHA1: 93b7a13b12e5f315c8b22b579bec5222586c813b
+SHA256: 7e60123e5a41ae415721c1664900d366a85e18624fce8d9e4a39e90acdda5f30
+
+Package: bun
+Architecture: aarch64
+Installed-Size: 86904
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.4.4-3
+Homepage: https://bun.com
+Depends: libicu
+Description: Incredibly fast JavaScript runtime, bundler, test runner, and package manager
+Filename: ./bun_1.4.4-3_aarch64.deb
+Size: 25607832
+MD5sum: 5ae0716a1695e350444a94572e586b45
+SHA1: 3be7a68612566f9580fc693b57f8f6224ed9e5e4
+SHA256: 155c1d4455e422cd59587e036466982773ff7d9c9994db278b44e354e56bafca
 
 Package: cargo-audit
 Architecture: aarch64
@@ -219,6 +440,20 @@ MD5sum: 13ec8cbf7d3cbf6f6c776dfddf11af9c
 SHA1: 9fc9a9a96e6dd1b514434348f65dc5ebfdeff762
 SHA256: f360b67cea676371d089c3ce5eaed54d8bd0a33748635d84eb4738327a417bc5
 
+Package: ctranslate2
+Architecture: aarch64
+Installed-Size: 4400
+Maintainer: @termux
+Version: 4.8.4-1
+Homepage: https://github.com/OpenNMT/CTranslate2
+Depends: libandroid-posix-semaphore, libopenblas, libc++, python
+Description: A fast inference engine for Transformer models
+Filename: ./ctranslate2_4.8.4-1_aarch64.deb
+Size: 803932
+MD5sum: c511cf2489e06e25e7660390ec259b8a
+SHA1: f7e352468127b3e7d02830bdde30e059ec72f976
+SHA256: 57c95b7aa5450a32637c82649291a6dd88c6e8c991f8b2e56fb9cd4b998e9d18
+
 Package: dasm
 Architecture: aarch64
 Installed-Size: 268
@@ -231,6 +466,20 @@ Size: 39568
 MD5sum: ff2a1f4d0aef56628104f99536eab3cb
 SHA1: f4f2b93845308eab34edce303635773a477caa53
 SHA256: 09c74153d767124238866e675b8b7942e73eb6d60f33d99db11940980c527a68
+
+Package: dbus-python
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: @termux
+Version: 1.5.1-1
+Homepage: https://dbus.freedesktop.org/doc/dbus-python/
+Depends: dbus, glib, python
+Description: Python bindings for D-Bus
+Filename: ./dbus-python_1.5.1-1_aarch64.deb
+Size: 69212
+MD5sum: 75a1d948369199e557eed2225234ca7d
+SHA1: 0900e428942515b1f114ab866c01de246be0b98a
+SHA256: 242642e33d62dde34fda1f3cb9e69dfeba66caa39c630f64a70c709f06abef87
 
 Package: dcraw
 Architecture: aarch64
@@ -1878,6 +2127,21 @@ MD5sum: a2c319eac1977830c543f232e3c96cf1
 SHA1: 35ff91138d27bd32ff2132bb0714d58a7bcc115e
 SHA256: 0dcb3af72927aec149824470066f86ea5a9b57edd79fe5b8d6f1c98946a3aaed
 
+Package: keychain
+Architecture: all
+Installed-Size: 156
+Maintainer: @termux
+Version: 3.0.8-1
+Homepage: https://kernel-seeds.org/projects/keychain/
+Depends: python
+Suggests: gnupg, openssh
+Description: Keychain manager for ssh-agent and gpg-agent
+Filename: ./keychain_3.0.8-1_all.deb
+Size: 116856
+MD5sum: e1d13abd7655f4ff3949a9923ab1d4e8
+SHA1: 34b94796e327aba12b347a4fbfa53358c9adb022
+SHA256: 88a71a60fcccf8b7015aa13e187c6f433550729d363d7ee816f71e4218fb3176
+
 Package: knockd
 Architecture: aarch64
 Installed-Size: 164
@@ -3103,6 +3367,34 @@ MD5sum: af2c3dc870a7e258aa414a0658438b2e
 SHA1: 5ae413a052f7ea9f9ce3b7d129cad4ef22e79935
 SHA256: 07a76ab40442961721dd4769357c129a3a96933b391cd3caaec7611105e4f66a
 
+Package: libheif-progs
+Architecture: aarch64
+Installed-Size: 632
+Maintainer: @termux
+Version: 1.23.7-1
+Homepage: https://github.com/strukturag/libheif
+Depends: libjpeg-turbo, libpng, libheif (= 1.23.7-1)
+Description: Programs for manipulating HEIF (HEIC/AVIF) image files
+Filename: ./libheif-progs_1.23.7-1_aarch64.deb
+Size: 155196
+MD5sum: 8f9ce7b3d2332b02ac1071957609f970
+SHA1: 113dc40184740110b8f1f17b269a591318325f9e
+SHA256: 3444124bf5a1282a7c5f5e22c2aebd2bcecbe713d24e0378c9ee0d3fffe50017
+
+Package: libheif
+Architecture: aarch64
+Installed-Size: 2472
+Maintainer: @termux
+Version: 1.23.7-1
+Homepage: https://github.com/strukturag/libheif
+Depends: gdk-pixbuf, glib, libaom, libc++, libdav1d, libde265, librav1e, libx264, libx265
+Description: HEIF (HEIC/AVIF) image encoding and decoding library
+Filename: ./libheif_1.23.7-1_aarch64.deb
+Size: 608820
+MD5sum: b81fe281b865f7b0f1f4ffb93ed7b77f
+SHA1: 64c0196d3809de062c6aa0c10eb932d2a33ee2a6
+SHA256: 84fd5efc88003ca8596c4986ac2d094658f1f20980fb527fc2b67fc50a8fa7d3
+
 Package: libhtmlcxx-static
 Architecture: aarch64
 Installed-Size: 472
@@ -3172,6 +3464,20 @@ Size: 284504
 MD5sum: 76563a5564fa6cae5c979633ff37db3d
 SHA1: 5ade7293a8da89f31b9bf65307bef58d9d8a45e7
 SHA256: 9d7f3139c25c5b1434de883de8f6a9ef2321704b0fccfde659c661d331d70ea7
+
+Package: libjpeg-turbo-progs
+Architecture: aarch64
+Installed-Size: 636
+Maintainer: @termux
+Version: 3.2.1-1
+Homepage: https://libjpeg-turbo.virtualgl.org
+Depends: libjpeg-turbo (= 3.2.1-1)
+Description: Programs for manipulating JPEG files
+Filename: ./libjpeg-turbo-progs_3.2.1-1_aarch64.deb
+Size: 165708
+MD5sum: e7e55d9678a0e083c04a4628fcc067aa
+SHA1: 0fdc1e44080a31a468ed14f4f02868fc97a4d52c
+SHA256: 265fb45e4527bcd0b120e545c1517c75fba17f85e2e0cbaa418c54a65ae72d84
 
 Package: libkeyfinder
 Architecture: aarch64
@@ -4141,6 +4447,19 @@ Size: 24444
 MD5sum: ad47a37bc776bacfc7ae6e5b29d6ab73
 SHA1: 8fc2ba92670d211e86cd906ac201ce5ab161c8a9
 SHA256: 37ac84305f04f2e072014313bb7b48dbb882a1db2ca0d529fcc41a8b13a6ddaa
+
+Package: libsimdutf
+Architecture: aarch64
+Installed-Size: 1168
+Maintainer: @termux
+Version: 9.3.3-1
+Homepage: https://simdutf.github.io/simdutf/
+Description: Unicode validation and transcoding at billions of characters per second
+Filename: ./libsimdutf_9.3.3-1_aarch64.deb
+Size: 133900
+MD5sum: 5ecaa405b6fa6366887b53a7d4624499
+SHA1: f882af9572345e9d8f2ace2d52a9e03e1e2ba3cc
+SHA256: e8d0c34bec91057d8a03dc13c015af0c5409bb98265680fa4516babff487136f
 
 Package: libsixel
 Architecture: aarch64
@@ -5267,6 +5586,21 @@ MD5sum: 44f014db77d77273e0b55e9853065d70
 SHA1: d757061c4576ca28a3cbeb3919a9b84d3f1542f8
 SHA256: bf2f0b252aaf1333fa8a9276d66b5b0b5ccd60b0e0517723b20f8312d24a94cd
 
+Package: lwjgl3
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.4.3-2
+Homepage: https://www.lwjgl.org/
+Depends: lwjgl3-3.2.1, lwjgl3-3.2.2, lwjgl3-3.3.1, lwjgl3-3.3.2, lwjgl3-3.3.3, lwjgl3-3.3.6, lwjgl3-3.4.1, lwjgl3-3.4.2, lwjgl3-3.4.3
+Recommends: openal-soft
+Description: Lightweight Java Game Library 3 (LWJGL 3), all versions required by launchers
+Filename: ./lwjgl3_3.4.3-2_aarch64.deb
+Size: 1748
+MD5sum: 3abf73b188b4f9a97126b21a3a4e3555
+SHA1: 62c97dbbfa703c295878f9f39eb81e1e602f4076
+SHA256: a7562013dfde0135f6bd24301259d89b9f2f05f58e279e71ebe613895b9673d1
+
 Package: mailutils
 Architecture: aarch64
 Installed-Size: 7540
@@ -6226,6 +6560,36 @@ Size: 4374388
 MD5sum: b44120f3a961c05bc9fca70e15e2dc61
 SHA1: 2463f6f9aba3c80fac0208a4da070a80ee08ace9
 SHA256: cec98e5d81834bf9f977873cd699b12919804b44e0d23175ebb8c78135c5b182
+
+Package: mosh-perl
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 1.4.0-20
+Homepage: https://mosh.org
+Depends: perl, mosh (= 1.4.0-20)
+Conflicts: mosh (<< 1.3.2-37)
+Replaces: mosh (<< 1.3.2-37)
+Description: The mosh Perl script
+Filename: ./mosh-perl_1.4.0-20_aarch64.deb
+Size: 6628
+MD5sum: 7c59c1c3d999ffbd5e968c70d1a18026
+SHA1: 8d668f66a5b6afda1543a9ad1d4a1cd5856231e8
+SHA256: 48a13ac7eebd213359ba1571dbeadd81421d0feb00031bb00cbbbd1bfb08f9fe
+
+Package: mp3cat
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 0.5-3
+Homepage: https://tomclegg.ca/mp3cat
+Conflicts: mp3cat-go
+Description: Copies a byte stream, skipping everything except mp3 frames with valid headers
+Filename: ./mp3cat_0.5-3_aarch64.deb
+Size: 6560
+MD5sum: 3a8aba6d42daf64538c4a1db7396ccf7
+SHA1: bee757fc7bf0980e80b104a4de90586826d2b374
+SHA256: 863c3b3828174ed4161ac0abb172e6eb372b76b3850635b64b1495bfb3d34304
 
 Package: netcdf-c-static
 Architecture: aarch64
