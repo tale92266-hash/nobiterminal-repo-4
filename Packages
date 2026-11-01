@@ -5281,6 +5281,37 @@ MD5sum: d4db93ccf634c24ed055ff905d680ef6
 SHA1: 1a4f1d948a87274adf4ce602e6774a284d747c42
 SHA256: 02fcfb006f48ab7d1dc3266f2a5ad8b3917a44e507d64fa97aacb4add42407a1
 
+Package: make-guile
+Architecture: aarch64
+Installed-Size: 944
+Maintainer: @termux
+Version: 4.4.1-3
+Homepage: https://www.gnu.org/software/make/
+Breaks: make-dev
+Depends: guile
+Conflicts: make
+Replaces: make-dev
+Provides: make
+Description: Tool to control the generation of non-source files from source files
+Filename: ./make-guile_4.4.1-3_aarch64.deb
+Size: 239712
+MD5sum: 2c03a5b7575d5151d18954a5dbba0dae
+SHA1: 85e7790e18005be5f3d0f5da70b9eed5ce66174a
+SHA256: fcafd37155e734a45326743acfc38377c9da1db0e7320fbaf8ea93c4900cd2e8
+
+Package: mangal
+Architecture: aarch64
+Installed-Size: 27700
+Maintainer: @termux
+Version: 4.0.6-5
+Homepage: https://github.com/metafates/mangal
+Description: Cli manga downloader
+Filename: ./mangal_4.0.6-5_aarch64.deb
+Size: 8035928
+MD5sum: e3f17118cb77f4b8b51fce52f748414b
+SHA1: aa8a6d4ce67fcf63180c42bc7092d5d044ca9eb2
+SHA256: 03790f749e70b47fbd521cfbb5cefbc45b734d79dd28523fb647c62f910380c3
+
 Package: manpages
 Architecture: all
 Installed-Size: 18820
