@@ -5237,6 +5237,48 @@ MD5sum: adf36edb32e225c8a5848e31d75eddfb
 SHA1: 1f952092e85df5f649e5842d8cbcccc3e7ba0e11
 SHA256: a289f04272217da78b2d8c2a3128f9f6896ee9fece325d2b0265359a721e6f21
 
+Package: lua-lgi
+Architecture: aarch64
+Installed-Size: 432
+Maintainer: @termux
+Version: 0.9.2+p20260728-1
+Homepage: https://github.com/lgi-devs/lgi
+Depends: glib, gobject-introspection, libcairo, libffi, lua54
+Description: Dynamic Lua binding to GObject libraries using GObject-Introspection
+Filename: ./lua-lgi_0.9.2+p20260728-1_aarch64.deb
+Size: 74680
+MD5sum: 44f014db77d77273e0b55e9853065d70
+SHA1: d757061c4576ca28a3cbeb3919a9b84d3f1542f8
+SHA256: bf2f0b252aaf1333fa8a9276d66b5b0b5ccd60b0e0517723b20f8312d24a94cd
+
+Package: mailutils
+Architecture: aarch64
+Installed-Size: 7540
+Maintainer: @termux
+Version: 3.21-1
+Homepage: https://mailutils.org/
+Depends: gdbm, libandroid-glob, libcrypt, libiconv, libltdl, libunistring, ncurses, readline
+Description: Mailutils is a swiss army knife of electronic mail handling. 
+Filename: ./mailutils_3.21-1_aarch64.deb
+Size: 1150924
+MD5sum: d4db93ccf634c24ed055ff905d680ef6
+SHA1: 1a4f1d948a87274adf4ce602e6774a284d747c42
+SHA256: 02fcfb006f48ab7d1dc3266f2a5ad8b3917a44e507d64fa97aacb4add42407a1
+
+Package: mathomatic
+Architecture: aarch64
+Installed-Size: 1016
+Maintainer: @termux
+Version: 16.0.5-8
+Homepage: https://en.wikipedia.org/wiki/Mathomatic
+Depends: readline
+Description: Simple CAS and symbolic calculator
+Filename: ./mathomatic_16.0.5-8_aarch64.deb
+Size: 213500
+MD5sum: ce560c4d6048d1877d07b4e4a72f1fa0
+SHA1: 75aebf59245a195a57ad9aa4b1d56977d223d06f
+SHA256: 34c48a4137a1efd681629e7fec7a2b292acd4238159526be5a2d50ca7a484542
+
 Package: matplotlib
 Architecture: aarch64
 Installed-Size: 21348
@@ -5331,6 +5373,59 @@ Size: 405616
 MD5sum: c4c9bcccdc66eac7b3f91a607e06440f
 SHA1: 4e7057dc474f5b2036de29030e309e2322c7ed29
 SHA256: a498390e2d9798c642061b477c4b04016d14d6bd44edb496f2c9c7f4c5d2c2ee
+
+Package: mc
+Architecture: aarch64
+Installed-Size: 3176
+Maintainer: @termux
+Version: 4.8.33-3
+Homepage: https://midnight-commander.org
+Depends: glib, libandroid-support, libssh2, ncurses, which
+Description: Midnight Commander - a powerful file manager
+Filename: ./mc_4.8.33-3_aarch64.deb
+Size: 614540
+MD5sum: 73a070909f709b350ddda7a1208aa815
+SHA1: 422675c515b46b4aa86d06df9057936a75e537c7
+SHA256: 7eb95df67b4ea9f69f457c56df582350a86d359a34c3aee8cea550cde731c8ec
+
+Package: mcfly
+Architecture: aarch64
+Installed-Size: 3564
+Maintainer: @termux
+Version: 0.9.4-1
+Homepage: https://github.com/cantino/mcfly
+Description: Replaces your default ctrl-r shell history search with an intelligent search engine
+Filename: ./mcfly_0.9.4-1_aarch64.deb
+Size: 1347412
+MD5sum: 254c1bffcf03c5482aa39332463b965c
+SHA1: 7551ddf43881eef2e831b37a03013014c5bbf1d9
+SHA256: 3d5ff1d0861d620e1dbf2d9ecc69f0d4980db0517f5bf524d277452cda3bdb33
+
+Package: md4c
+Architecture: aarch64
+Installed-Size: 344
+Maintainer: @termux
+Version: 0.6.0-1
+Homepage: https://github.com/mity/md4c
+Description: C Markdown parser
+Filename: ./md4c_0.6.0-1_aarch64.deb
+Size: 70792
+MD5sum: 535c8c1a1571610f2165c7c9d3e855da
+SHA1: 24af4449e99919a2b851fccbee69a976bebff574
+SHA256: d63a0d9c1220e1a9580a160311e7e0e1d6ba2bc2d6dd308cd5322279c50c99b2
+
+Package: mdbook-auto-gen-summary
+Architecture: aarch64
+Installed-Size: 7060
+Maintainer: @termux
+Version: 0.1.10-1
+Homepage: https://github.com/cococolanosugar/mdbook-auto-gen-summary
+Description: A preprocessor and cli tool for mdbook to auto generate summary
+Filename: ./mdbook-auto-gen-summary_0.1.10-1_aarch64.deb
+Size: 2253696
+MD5sum: 2209041816faf21662ed87670bf33f67
+SHA1: 18b9c913e4b89dc8d792f81fe48489ecb478cc46
+SHA256: f91fd55b7594d80d76dbfd8b2464d42694799b3b0a88704575dd0a3ca7d0ecb2
 
 Package: mdbook-mermaid
 Architecture: aarch64
@@ -5449,6 +5544,19 @@ Size: 440168
 MD5sum: 24ccd696fb6045a0adbead91cd62dd70
 SHA1: 8f450d2fce25c12e9a9c001c7f394512d81fa20c
 SHA256: 6585e3217ca097b9297cf3a8a2344b4321e8673a2e78fcc7385486ec76ac1c9d
+
+Package: mdbook
+Architecture: aarch64
+Installed-Size: 11572
+Maintainer: @termux
+Version: 0.5.4-1
+Homepage: https://rust-lang.github.io/mdBook/
+Description: Creates book from markdown files
+Filename: ./mdbook_0.5.4-1_aarch64.deb
+Size: 3195512
+MD5sum: 7da46d873e14d873099e2873a3a396c0
+SHA1: 774f79e26d48def492772706f483ab4e12cf101e
+SHA256: 6db1c23101e61442c13fdaa10e5dea7787b5129c9e56e5d8fc69b7ae7e0ac412
 
 Package: mdbtools-static
 Architecture: aarch64
@@ -6257,6 +6365,33 @@ MD5sum: d09d9c5a2ee6e9d3027caadf4f9755f6
 SHA1: 00f228aacbdc88f56dc914c80f5b6e99d4e70221
 SHA256: fa22f386dc3e13d73c52f9d849c38eb3cefc5905fffa1852e464b7f0ec47e753
 
+Package: runit-static
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: Henrik Grimler @Grimler91
+Version: 2.3.1-1
+Homepage: http://smarden.org/runit
+Depends: runit (= 2.3.1-1)
+Description: Static libraries for runit
+Filename: ./runit-static_2.3.1-1_aarch64.deb
+Size: 15920
+MD5sum: ff5271091b8e12b94b7ade405c48859b
+SHA1: ca352fd4bb3f3c0d03b2a27d9c233e4ca0b6b98a
+SHA256: b28003dde781f9bb97574f6eab4bcf58b3b21d0ea7dbf8c3726368f739cbfeaa
+
+Package: runit
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: Henrik Grimler @Grimler91
+Version: 2.3.1-1
+Homepage: http://smarden.org/runit
+Description: Tools to provide service supervision and to manage services
+Filename: ./runit_2.3.1-1_aarch64.deb
+Size: 54504
+MD5sum: e1ffbe610d67f1b9e92516a080e31edc
+SHA1: fa7ccd35c031fdd66ef511b10eb4a2487f8da401
+SHA256: 6531097c155ed0d7d5932523719ad63bcc527cb5c54ce51264d8bead7552af23
+
 Package: shared-mime-info
 Architecture: aarch64
 Installed-Size: 3272
@@ -6298,6 +6433,20 @@ Size: 10576
 MD5sum: 515b91760748f803babbbef336b5ed11
 SHA1: 95d3b57eea05cf6b2bbec025c2d4a8e91527d8d0
 SHA256: 086e0ad54b96dca8f5551f21ff45d7586b09050bade958ff85e2323ab82e9388
+
+Package: termux-services
+Architecture: all
+Installed-Size: 84
+Maintainer: Henrik Grimler @Grimler91
+Version: 0.13-2
+Homepage: https://github.com/termux/termux-services/
+Depends: coreutils, dpkg, runit
+Description: Service daemon for Termux
+Filename: ./termux-services_0.13-2_all.deb
+Size: 1940
+MD5sum: d165c9124e69aa3f26c5b0c1d18b8f7a
+SHA1: 1785af630d5243a16dd68fb7f80db1f1d16d5ea6
+SHA256: 7aedc089dec2e0f1c3a5e842b63d8fb0b3c32115530b4cb3420bc9763b659b0a
 
 Package: thrift
 Architecture: aarch64
