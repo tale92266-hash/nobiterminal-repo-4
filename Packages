@@ -664,6 +664,22 @@ MD5sum: cc0b933dbd1a72edb8cac7901328cc17
 SHA1: e35cb64c9a917fb5c784581a6bf57e835e1393ba
 SHA256: 30c2718c5a275aa56d8dd1601edb2587d658124fd11dac9735a97d1a1974ec35
 
+Package: gdal
+Architecture: aarch64
+Installed-Size: 38764
+Maintainer: @termux
+Version: 3.13.3-2
+Homepage: https://gdal.org
+Breaks: gdal-dev
+Depends: cfitsio, giflib, imath, json-c, libc++, libcurl, libexpat, libfreexl, libgeos, libiconv, libjpeg-turbo, libjxl, liblzma, libpng, libspatialite, libsqlite, libwebp, libxml2, netcdf-c (>= 4.9.3), openexr, openjpeg, openssl, postgresql, proj, xerces-c, zlib, zstd
+Replaces: gdal-dev
+Description: A translator library for raster and vector geospatial data formats
+Filename: ./gdal_3.13.3-2_aarch64.deb
+Size: 9615280
+MD5sum: 71edb44510f67158732b7b9834cf2cb1
+SHA1: da15cc16bfb4bde31fbe9c80187ecffca8e609d6
+SHA256: 7aac18ac7e3f4d97f6268b5a2aaf15c73aa5393ee7744be5c7adc1a4928cd1bc
+
 Package: geth
 Architecture: aarch64
 Installed-Size: 65072
@@ -5265,6 +5281,83 @@ MD5sum: d4db93ccf634c24ed055ff905d680ef6
 SHA1: 1a4f1d948a87274adf4ce602e6774a284d747c42
 SHA256: 02fcfb006f48ab7d1dc3266f2a5ad8b3917a44e507d64fa97aacb4add42407a1
 
+Package: manpages
+Architecture: all
+Installed-Size: 18820
+Maintainer: @termux
+Version: 6.20-1
+Homepage: https://www.kernel.org/doc/man-pages/
+Depends: mandoc
+Conflicts: linux-man-pages
+Replaces: linux-man-pages
+Provides: linux-man-pages
+Description: Man pages for linux kernel and C library interfaces
+Filename: ./manpages_6.20-1_all.deb
+Size: 5742056
+MD5sum: ea0e524c2fd07392ea8a55c8138d882d
+SHA1: c092da5c23df673438d613dec62e5ef5edd1f327
+SHA256: 9c72f4327e45dd15e903fdd397a32fbc3663f87081894954c9c6d0601642ad45
+
+Package: mapserver
+Architecture: aarch64
+Installed-Size: 7972
+Maintainer: @termux
+Version: 8.6.6-1
+Homepage: https://mapserver.org/
+Breaks: mapserver-dev
+Depends: freetype, gdal, libc++, libcairo, libcurl, libgeos, libiconv, libjpeg-turbo, libpng, libprotobuf-c, libxml2, proj
+Replaces: mapserver-dev
+Description: MapServer is CGI-based platform for publishing spatial data and interactive mapping applications to the web
+Filename: ./mapserver_8.6.6-1_aarch64.deb
+Size: 1551684
+MD5sum: fc5aa6643775042596eadf0f89e1a3f2
+SHA1: 5c134c041bf622e1cac3ea0b3a6f9b86ff33d47e
+SHA256: 62971852bff25e6327adde88506aad2238e8a3ad4ed6595122eece375d3872c9
+
+Package: mariadb-static
+Architecture: aarch64
+Installed-Size: 588
+Maintainer: @termux
+Version: 2:13.0.2-1
+Homepage: https://mariadb.org
+Depends: mariadb (= 2:13.0.2-1)
+Description: Static libraries for mariadb
+Filename: ./mariadb-static_2:13.0.2-1_aarch64.deb
+Size: 110264
+MD5sum: a2a349592f91e94920c006ab9e5cd8fe
+SHA1: 06e821531a82a7bf520187381fb704646c4d9b8d
+SHA256: 2a750e51429b3de7996ee7bc32b3c13608c1a5dbf14ec758636439996b5ce3be
+
+Package: mariadb
+Architecture: aarch64
+Installed-Size: 202076
+Maintainer: @termux
+Version: 2:13.0.2-1
+Homepage: https://mariadb.org
+Breaks: mariadb-dev
+Depends: libandroid-support, libbz2, libc++, libcrypt, libedit, liblz4, libxml2, liblzma, ncurses, openssl, pcre2, zlib, zstd
+Conflicts: mysql
+Replaces: mariadb-dev
+Description: A drop-in replacement for mysql server
+Filename: ./mariadb_2:13.0.2-1_aarch64.deb
+Size: 16135592
+MD5sum: 7ce889e8a87f794762877c5b3f64da29
+SHA1: 7889cb1f2e42dd24b5ba6a5906af593dac6848db
+SHA256: cbebc5b895980394f8a6e14f2dc66527deb00af4a167c2cfbabb7d228847ffc1
+
+Package: markdown-flashcards
+Architecture: aarch64
+Installed-Size: 3320
+Maintainer: @termux
+Version: 2.0.1-2
+Homepage: https://github.com/bttger/markdown-flashcards
+Description: Small CLI app to learn with flashcards and spaced repetition
+Filename: ./markdown-flashcards_2.0.1-2_aarch64.deb
+Size: 972872
+MD5sum: 91bf99252c96c987945c56403eb65e81
+SHA1: 2e86c2e9c7426f125b9eb50cda29aeea930d67a8
+SHA256: 63c74667461052bf53cdd9bb0acc077fdcf54878f53aff9e1c233b807b7102c5
+
 Package: mathomatic
 Architecture: aarch64
 Installed-Size: 1016
@@ -5426,6 +5519,73 @@ Size: 2253696
 MD5sum: 2209041816faf21662ed87670bf33f67
 SHA1: 18b9c913e4b89dc8d792f81fe48489ecb478cc46
 SHA256: f91fd55b7594d80d76dbfd8b2464d42694799b3b0a88704575dd0a3ca7d0ecb2
+
+Package: mdbook-cat-prep
+Architecture: aarch64
+Installed-Size: 1464
+Maintainer: @termux
+Version: 1.0.9-4
+Homepage: https://github.com/gjk-cat/cat-prep
+Description: A preprocessor for mdbook which provides teacher, subject, material and tag functionality
+Filename: ./mdbook-cat-prep_1.0.9-4_aarch64.deb
+Size: 474480
+MD5sum: ad9312b3cae26cbea53ed3b5d10503e6
+SHA1: 862453858e12d4958126aa675867e6db968e1f8a
+SHA256: 3290fa845e098a586baf993ef709b2ba05205c8cd861e5152b45492b0adff562
+
+Package: mdbook-epub
+Architecture: aarch64
+Installed-Size: 11416
+Maintainer: @termux
+Version: 0.5.4-1
+Homepage: https://github.com/Michael-F-Bryan/mdbook-epub
+Description: An EPUB renderer for mdbook
+Filename: ./mdbook-epub_0.5.4-1_aarch64.deb
+Size: 3572564
+MD5sum: 2b35d20a49661c2f926a6a9fa65d6ef9
+SHA1: 807c8d1b77e2eca2b80966897cd44cd70ab08a5d
+SHA256: b77901bf0400eb3f16195b43b2127b5c06640d0b3833339141c4ed90dd4b973d
+
+Package: mdbook-graphviz
+Architecture: aarch64
+Installed-Size: 3392
+Maintainer: @termux
+Version: 0.3.1-1
+Homepage: https://github.com/dylanowen/mdbook-graphviz
+Depends: graphviz
+Description: mdbook preprocessor to add graphviz support
+Filename: ./mdbook-graphviz_0.3.1-1_aarch64.deb
+Size: 905188
+MD5sum: 2ad11d73adcbd8905988218e51904d1f
+SHA1: 503e69662173d5a9f5c8eb706464d0200c525fd0
+SHA256: 25bf612a3c1a3da0a61223f42bb21ba4f869cc7db675cbecb0649431bea9e24d
+
+Package: mdbook-katex
+Architecture: aarch64
+Installed-Size: 2636
+Maintainer: @termux
+Version: 0.10.0-1
+Homepage: https://github.com/lzanini/mdbook-katex
+Description: A preprocessor for mdBook, pre-rendering LaTex equations to HTML at build time
+Filename: ./mdbook-katex_0.10.0-1_aarch64.deb
+Size: 862352
+MD5sum: fa5a6c15901e7b429947aeb9371a7fda
+SHA1: f7de865661e0c27aee6ad19a6678c6d4a5998214
+SHA256: 17e8f4cbd512c2704d2017c8893d59a935d0c848416012f6758eb3376e828538
+
+Package: mdbook-linkcheck
+Architecture: aarch64
+Installed-Size: 8452
+Maintainer: @termux
+Version: 0.7.7-3
+Homepage: https://michael-f-bryan.github.io/mdbook-linkcheck/
+Depends: openssl
+Description: A backend for mdbook which will check your links for you
+Filename: ./mdbook-linkcheck_0.7.7-3_aarch64.deb
+Size: 2669076
+MD5sum: 189b5e30a2ee0ad1d514cd9598ee4805
+SHA1: de223d2122dda89170a0e94fec2c1967d8c36894
+SHA256: e69b94155bd1cd787d274c217537ffd937f2bb28a6e13fdf6058e54e3ae5f548
 
 Package: mdbook-mermaid
 Architecture: aarch64
@@ -6035,6 +6195,36 @@ Size: 4374388
 MD5sum: b44120f3a961c05bc9fca70e15e2dc61
 SHA1: 2463f6f9aba3c80fac0208a4da070a80ee08ace9
 SHA256: cec98e5d81834bf9f977873cd699b12919804b44e0d23175ebb8c78135c5b182
+
+Package: netcdf-c-static
+Architecture: aarch64
+Installed-Size: 2040
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.10.1-2
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Depends: netcdf-c (= 4.10.1-2)
+Description: Static libraries for netcdf-c
+Filename: ./netcdf-c-static_4.10.1-2_aarch64.deb
+Size: 372564
+MD5sum: ca122a96d617d530c0f8cbb28a343930
+SHA1: 894b66066ccfde8f1dc77f196792fcedbc159e84
+SHA256: 9a3fd85924858343e3a12654d6ce9b4d59d18b4dbbd0173cbc64d0111a7f9631
+
+Package: netcdf-c
+Architecture: aarch64
+Installed-Size: 2136
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.10.1-2
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Breaks: gdal (<= 3.10.2), monetdb (<= 11.51.7)
+Depends: libandroid-execinfo, libcurl, zlib
+Replaces: netcdf-c-dev
+Description: NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data
+Filename: ./netcdf-c_4.10.1-2_aarch64.deb
+Size: 546748
+MD5sum: cf2a85472221b7948fa7bb51970b6cfa
+SHA1: 657b70442cf5458fe9fd1bbb19b11ddd5934f73f
+SHA256: fbeba584748ddc24c6cd7e9bbc9864f9b252c79a834e757dfb9870dd40e1be44
 
 Package: nlopt
 Architecture: aarch64
